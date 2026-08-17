@@ -1572,15 +1572,28 @@ body.editor-active .hero-media-actions {
 
 .footer-legal {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--space-l);
 }
 
-.footer-legal a {
+.footer-legal a,
+.footer-legal .footer-login-btn {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-legal a:hover {
+.footer-legal a:hover,
+.footer-legal .footer-login-btn:hover {
   color: var(--c-orange);
+}
+
+.footer-legal .footer-login-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  cursor: pointer;
 }
 
 /* Service pages
@@ -3063,6 +3076,19 @@ body.lightbox-open {
 
   .process-steps {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* The floating Edit Mode pill collides with the cookie banner, which
+     spans nearly the full width on narrow screens. Hide it for regular
+     visitors; the footer Login link is the mobile entry point instead.
+     Once editing is active, bring it back so the Editing…/Reset controls
+     are still reachable. */
+  .editor-toggle {
+    display: none;
+  }
+
+  body.editor-active .editor-toggle {
+    display: flex;
   }
 }
 

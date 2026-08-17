@@ -480,11 +480,22 @@ document.querySelectorAll('.approach').forEach((section) => {
   document.body.appendChild(fileInput);
   let pendingTarget = null;
 
+  const footerLegal = document.querySelector('.footer-legal');
+  let footerLoginBtn = null;
+  if (footerLegal) {
+    footerLoginBtn = document.createElement('button');
+    footerLoginBtn.type = 'button';
+    footerLoginBtn.className = 'footer-login-btn';
+    footerLoginBtn.textContent = 'Login';
+    footerLegal.appendChild(footerLoginBtn);
+  }
+
   function setEditMode(on) {
     editMode = on;
     document.body.classList.toggle('editor-active', on);
     toggle.classList.toggle('is-active', on);
     label.textContent = on ? 'Editing…' : 'Edit Mode';
+    if (footerLoginBtn) footerLoginBtn.textContent = on ? 'Exit Edit Mode' : 'Login';
     textEls.forEach((el) => el.setAttribute('contenteditable', on ? 'true' : 'false'));
   }
 
@@ -496,7 +507,9 @@ document.querySelectorAll('.approach').forEach((section) => {
   const EDITOR_PASSWORD = 'monufact2026';
   const EDITOR_AUTH_KEY = 'monufact_editor_authorized';
 
-  switchBtn.addEventListener('click', () => {
+  // Shared by both entry points: the floating Edit Mode switch and the
+  // Login link in the footer.
+  function handleEditorLoginClick() {
     if (editMode) {
       setEditMode(false);
       return;
@@ -513,7 +526,10 @@ document.querySelectorAll('.approach').forEach((section) => {
     } else {
       alert('Incorrect password.');
     }
-  });
+  }
+
+  switchBtn.addEventListener('click', handleEditorLoginClick);
+  if (footerLoginBtn) footerLoginBtn.addEventListener('click', handleEditorLoginClick);
 
   resetBtn.addEventListener('click', () => {
     if (confirm('Reset all edits on this page?')) {
