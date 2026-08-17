@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monufact - Digital Solutions for the Steel Industry</title>
+  <meta name="description" content="Monufact is a digital marketing agency based in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="icon" type="image/svg+xml" href="images/monufact-favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo"><img src="images/monufact-logo.svg" alt="Monufact" class="logo-img"></a>
+      <nav class="main-nav" id="mainNav">
+        <div class="nav-item">
+          <a href="#">Company</a>
+          <div class="mega-menu">
+            <div class="container mega-menu-inner">
+              <div class="mega-menu-intro">
+                <h3>The Team Behind the Work.</h3>
+              </div>
+              <div class="mega-menu-links">
+                <ul>
+                  <li><a href="company/about.html">About</a></li>
+                  <li><a href="company/contact.html">Contact</a></li>
+                  <li><a href="company/become-a-customer.html">Become a Customer</a></li>
+                </ul>
+              </div>
+              <div class="mega-menu-media" style="background-image:url('images/services/performance-marketing.jpg')">
+                <a href="company/contact.html" class="btn btn-dark mega-cta">Contact Us
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="#solutions">Services</a>
+          <div class="mega-menu">
+            <div class="container mega-menu-inner">
+              <div class="mega-menu-intro">
+                <h3>Everything It Takes to Get Chosen.</h3>
+              </div>
+              <div class="mega-menu-links">
+                <ul>
+                  <li><a href="services/brand-strategy-positioning.html">Brand Strategy &amp; Positioning</a></li>
+                  <li><a href="services/performance-marketing.html">Performance Marketing</a></li>
+                  <li><a href="services/digital-sales-assets.html">Digital Sales Assets</a></li>
+                </ul>
+                <ul>
+                  <li><a href="services/print-marketing-sales-collateral.html">Print Marketing &amp; Sales Collateral</a></li>
+                  <li><a href="services/trade-show-event-materials.html">Trade Show &amp; Event Materials</a></li>
+                  <li><a href="services/content-technical-communication.html">Content &amp; Technical Communication</a></li>
+                </ul>
+                <ul>
+                  <li><a href="services/digital-marketing.html">Digital Marketing</a></li>
+                  <li><a href="services/website-design-development.html">Website Design &amp; Development</a></li>
+                </ul>
+              </div>
+              <div class="mega-menu-media" style="background-image:url('images/services/trade-show-event-materials.jpg')">
+                <a href="company/become-a-customer.html" class="btn btn-dark mega-cta">Become a Customer
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="news.html">News</a>
+        <a href="company/faq.html">FAQ</a>
+      </nav>
+      <div class="header-actions">
+        <a href="company/become-a-customer.html" class="btn btn-dark">Become a Customer</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-eyebrow">
+        <span class="eyebrow">/ Lorem Ipsum &amp; Infrastructure</span>
+      </div>
+      <div class="hero-title">
+        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+      </div>
+    </div>
+    <div class="hero-media" id="heroMedia">
+      <video id="heroImage" autoplay muted loop playsinline>
+        <source src="videos/monufact-hero-02.mp4" type="video/mp4">
+      </video>
+      <div class="hero-video" id="heroVideo">
+        <iframe id="heroVideoFrame" src="" title="Hero video" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="hero-upload" id="heroUpload">
+        <video id="heroUploadVideo" muted loop playsinline autoplay></video>
+        <img id="heroUploadGif" alt="Hero upload">
+      </div>
+      <div class="hero-media-actions">
+        <button type="button" class="hero-video-btn" id="heroVideoBtn">Add YouTube Video</button>
+        <button type="button" class="hero-video-btn" id="heroUploadBtn">Upload GIF/Video</button>
+        <input type="file" id="heroUploadInput" accept=".gif,image/gif,video/mp4,video/webm,video/ogg" hidden>
+      </div>
+      <div class="hero-cta-group">
+        <a href="#" class="hero-cta btn btn-dark">Learn more
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <div class="hero-cta-accent"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="hero-video-modal" id="heroVideoModal" hidden>
+    <div class="hero-video-modal-backdrop" id="heroVideoModalBackdrop"></div>
+    <div class="hero-video-modal-box" role="dialog" aria-modal="true" aria-labelledby="heroVideoModalTitle">
+      <h4 id="heroVideoModalTitle">Add YouTube Video</h4>
+      <p>Paste a YouTube video link below.</p>
+      <input type="text" id="heroVideoInput" placeholder="https://www.youtube.com/watch?v=...">
+      <p class="hero-video-modal-error" id="heroVideoModalError" hidden>Couldn't find a valid YouTube video in that link. Please check it and try again.</p>
+      <div class="hero-video-modal-actions">
+        <button type="button" class="hero-video-modal-cancel" id="heroVideoModalCancel">Cancel</button>
+        <button type="button" class="btn btn-dark" id="heroVideoModalSave">Add Video</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cookie banner -->
+  <div class="cookie-banner" id="cookieBanner">
+    <h4>We value your privacy</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+    <div class="cookie-links">
+      <button class="link-btn" id="cookieCustomize">Customize</button>
+      <button class="link-btn" id="cookieReject">Reject All</button>
+    </div>
+    <button class="btn btn-accept" id="cookieAccept">Accept All</button>
+  </div>
+
+  <!-- Stats -->
+  <section class="stats section">
+    <div class="container grid-3 divided">
+      <div class="stat-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">100%</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do.</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">90%</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature cards (hidden until service pages are ready to link publicly)
+  <section class="feature-cards section">
+    <div class="container grid-3">
+      <div class="feature-col">
+        <span class="eyebrow">/ Capabilities</span>
+        <div class="card card-image" style="background-image:url('https://picsum.photos/seed/monufact-feature-a/600/700')">
+          <div class="card-glow"></div>
+          <div class="card-overlay">
+            <p>Supporting the businesses that build our world</p>
+            <span class="arrow">→</span>
+          </div>
+        </div>
+      </div>
+      <div class="feature-col">
+        <span class="eyebrow">/ Approach</span>
+        <div class="card card-image" style="background-image:url('https://picsum.photos/seed/monufact-steel/600/700')">
+          <div class="card-glow"></div>
+          <div class="card-overlay">
+            <p>Built around your business goals</p>
+            <span class="arrow">→</span>
+          </div>
+        </div>
+      </div>
+      <div class="feature-col">
+        <span class="eyebrow">/ Who We Are</span>
+        <div class="card card-image" style="background-image:url('https://picsum.photos/seed/monufact-feature-c/600/700')">
+          <div class="card-glow"></div>
+          <div class="card-overlay">
+            <p>Marketing built for the companies that build everything else</p>
+            <span class="arrow">→</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <!-- Intro split -->
+  <section class="intro-split section">
+    <div class="container grid-3">
+      <div>
+        <h2>Lorem Ipsum for the Dolor Industry</h2>
+      </div>
+      <div></div>
+      <div class="intro-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.</p>
+        <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image banner -->
+  <section class="image-banner">
+    <img src="https://picsum.photos/seed/monufact-energy/1600/700" alt="Monufact sustainability visual">
+    <span class="eyebrow overlay-label">/ Lorem Ipsum</span>
+    <a href="#contact" class="btn btn-dark overlay-cta">Contact us
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </section>
+
+  <!-- Industries -->
+  <section class="industries section" id="industries">
+    <div class="container">
+      <span class="eyebrow">/ Industries</span>
+      <h2>Industries We Serve</h2>
+      <p class="industries-subhead">We build marketing for manufacturers and industrial companies across steel fabrication, construction, architecture and engineering, building products, industrial supply, energy and infrastructure, and industrial automation.</p>
+      <div class="grid-3 industries-grid">
+        <ul>
+          <li>Manufacturing &amp; Industrial Production</li>
+          <li>Steel &amp; Metal Fabrication</li>
+          <li>Construction &amp; Contracting</li>
+        </ul>
+        <ul>
+          <li>Architecture &amp; Engineering</li>
+          <li>Building Products &amp; Materials</li>
+          <li>Industrial Supply &amp; Distribution</li>
+        </ul>
+        <ul>
+          <li>Energy &amp; Infrastructure</li>
+          <li>Automation &amp; Industrial Technology</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client logos -->
+  <section class="client-logos section">
+    <div class="container client-logos-row">
+      <h3>Trusted By</h3>
+      <div class="logo-carousel">
+        <div class="logo-carousel-track">
+          <img class="logo-item-img" src="images/clients/kao.svg" alt="Kao">
+          <img class="logo-item-img" src="images/clients/pachon.svg" alt="Pachon">
+          <img class="logo-item-img" src="images/clients/carter-ai.svg" alt="Carter AI">
+          <img class="logo-item-img" src="images/clients/mgb.svg" alt="MGB">
+          <img class="logo-item-img" src="images/clients/Crossman-Group-Primary-Field-Poppy-Accent.png" alt="Crossman Group">
+        </div>
+        <div class="logo-carousel-track" aria-hidden="true">
+          <img class="logo-item-img" src="images/clients/kao.svg" alt="">
+          <img class="logo-item-img" src="images/clients/pachon.svg" alt="">
+          <img class="logo-item-img" src="images/clients/carter-ai.svg" alt="">
+          <img class="logo-item-img" src="images/clients/mgb.svg" alt="">
+          <img class="logo-item-img" src="images/clients/Crossman-Group-Primary-Field-Poppy-Accent.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dark accordion -->
+  <section class="dark-section section">
+    <div class="container dark-section-grid">
+      <div class="dark-content">
+        <span class="eyebrow">/ Industrial Innovation</span>
+        <h2>Modernizing How Industry Buys, Sells &amp; Communicates</h2>
+        <a href="#solutions" class="btn btn-outline-light">Learn more
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <div class="accordion">
+          <div class="accordion-item is-open">
+            <button class="accordion-trigger">Product Marketing <span class="plus"></span></button>
+            <div class="accordion-panel"><p>Building clear, buyer-focused product narratives that support procurement, specification, and competitive differentiation.</p></div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger">Technical Content Enablement <span class="plus"></span></button>
+            <div class="accordion-panel"><p>Transforming complex data, certifications, and engineering details into accessible digital content for buyers, specifiers, and distributors.</p></div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger">Digital Sales Support <span class="plus"></span></button>
+            <div class="accordion-panel"><p>Equipping sales teams with the tools, assets, and platforms they need to sell more effectively in modern industrial markets.</p></div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger">Customer Experience Design <span class="plus"></span></button>
+            <div class="accordion-panel"><p>Improving digital touchpoints across the entire customer lifecycle, from research and quoting to onboarding, support, and retention.</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="dark-media">
+        <img src="images/industrial-innovation.svg" alt="Industrial innovation visual" class="rotate-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Solutions -->
+  <section class="solutions section" id="solutions">
+    <div class="container">
+      <div class="solutions-header">
+        <span class="eyebrow">/ Services</span>
+        <h2>Sustainable solutions for a stronger tomorrow.</h2>
+      </div>
+      <div class="solutions-grid divided">
+        <div class="solutions-col">
+          <a class="solution-item" href="services/brand-strategy-positioning.html">
+            <div class="solution-media">
+              <img src="https://picsum.photos/seed/monufact-metal/500/360" alt="Brand Strategy &amp; Positioning">
+              <span class="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </div>
+            <h3>Brand Strategy &amp; Positioning</h3>
+            <p>Most manufacturers don't struggle with capability. They struggle with proving it to buyers who've never set foot in the plant. We build the positioning that closes that gap.</p>
+          </a>
+          <a class="solution-item" href="services/print-marketing-sales-collateral.html">
+            <div class="solution-media">
+              <img src="images/services/print-marketing-sales-collateral.jpg" alt="Print Marketing &amp; Sales Collateral">
+              <span class="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </div>
+            <h3>Print Marketing &amp; Sales Collateral</h3>
+            <p>A spec sheet either gets read or gets tossed. We design print collateral built to survive the field, and close the deal once it gets there.</p>
+          </a>
+          <a class="solution-item" href="services/digital-marketing.html">
+            <div class="solution-media">
+              <img src="https://picsum.photos/seed/monufact-digital/500/360" alt="Digital Marketing">
+              <span class="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </div>
+            <h3>Digital Marketing</h3>
+            <p>Impressions don't fill a pipeline. Qualified leads do. We build SEO, paid media, and automation around the buyers already searching for what you make.</p>
+          </a>
+        </div>
+        <div class="solutions-col solutions-col-lead">
+          <a class="solution-item" href="services/performance-marketing.html">
+            <div class="solution-media">
+              <img src="images/services/performance-marketing.jpg" alt="Performance Marketing">
+              <span class="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </div>
+            <h3>Performance Marketing</h3>
+            <p>Most industrial budget gets spent finding an audience that was never going to buy. We start with the buyers already looking for you.</p>
+          </a>
+          <a class="solution-item" href="services/trade-show-event-materials.html">
+            <div class="solution-media">
+              <img src="images/services/trade-show-event-materials.jpg" alt="Trade Show &amp; Event Materials">
+              <span class="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </div>
+            <h3>Trade Show &amp; Event Materials</h3>
+            <p>A booth either starts conversations or gets walked past. We design trade show materials built to do the former.</p>
+          </a>
+        </div>
+        <div class="solutions-col">
+          <a class="solution-item" href="services/digital-sales-assets.html">
+            <div class="solution-media">
+              <img src="images/services/digital-sales-assets.jpg" alt="Digital Sales Assets">
+              <span class="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </div>
+            <h3>Digital Sales Assets</h3>
+            <p>Most sales decks get built once and used for years after they stop working. We build assets that keep pace with what you actually sell.</p>
+          </a>
+          <a class="solution-item" href="services/content-technical-communication.html">
+            <div class="solution-media">
+              <img src="images/services/content-technical-communications.jpg" alt="Content &amp; Technical Communication">
+              <span class="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </div>
+            <h3>Content &amp; Technical Communication</h3>
+            <p>Complexity doesn't close deals. Clarity does. We turn technical specifications into content engineers actually trust.</p>
+          </a>
+          <a class="solution-item" href="services/website-design-development.html">
+            <div class="solution-media">
+              <img src="images/services/website-design-development.jpg" alt="Website Design &amp; Development">
+              <span class="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            </div>
+            <h3>Website Design &amp; Development</h3>
+            <p>A website either builds credibility or costs it. We design and build sites technical buyers trust enough to fill out the form.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Split CTA -->
+  <section class="split-cta">
+    <div class="split-cta-left" style="background-image:url('https://picsum.photos/seed/monufact-warehouse/900/900')">
+      <div class="split-icon">⬡</div>
+      <div class="split-caption">
+        <h4>Lorem Ipsum Supports</h4>
+        <p>For all types of equipment.</p>
+      </div>
+    </div>
+    <div class="split-cta-right" id="contact">
+      <span class="eyebrow">/ Get to know us</span>
+      <div>
+        <h2>The Digital Partner for Industrial Business.</h2>
+        <p>Monufact is a digital marketing agency based in London, Ontario, specializing in supporting manufacturers and industrial companies as they adapt to a digital-first market.</p>
+      </div>
+      <a href="company/about.html" class="btn btn-dark">Learn more about us
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Newsroom -->
+  <section class="newsroom section">
+    <div class="container">
+      <h2>Newsroom</h2>
+      <div class="grid-3 news-grid divided">
+        <article class="news-card">
+          <div class="news-card-media">
+            <a href="news/trade-show-success.html">
+              <img src="images/blog/trade-show-success.jpg" alt="Trade Show Success for Canadian Manufacturers">
+            </a>
+            <a href="news/trade-show-success.html" class="news-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+          <a href="news/category-product-innovation.html" class="tag">Product Innovation</a>
+          <a href="news/trade-show-success.html"><h4>Trade Show Success for Canadian Manufacturers: How to Turn Events Into Real Business</h4></a>
+          <p>For many Canadian manufacturers, trade shows are still one of the most powerful ways to generate leads, build relationships, and grow market share. But showing up isn't enough.</p>
+        </article>
+        <article class="news-card">
+          <div class="news-card-media">
+            <a href="news/sustainability-marketing-advantage.html">
+              <img src="images/blog/marketing-sustainability.jpg" alt="Why Sustainability Is Becoming a Marketing Advantage in Manufacturing">
+            </a>
+            <a href="news/sustainability-marketing-advantage.html" class="news-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+          <a href="news/category-press-release.html" class="tag">Press Release</a>
+          <a href="news/sustainability-marketing-advantage.html"><h4>Why Sustainability Is Becoming a Marketing Advantage in Manufacturing</h4></a>
+          <p>Sustainability used to be something that lived behind the scenes. Today, it has moved to the forefront of decision-making for manufacturers and the clients they serve.</p>
+        </article>
+        <article class="news-card">
+          <div class="news-card-media">
+            <a href="news/on-grid-solar-energy.html">
+              <img src="images/blog/on-grid-solar.jpg" alt="On-Grid System: The New Face of Solar Energy">
+            </a>
+            <a href="news/on-grid-solar-energy.html" class="news-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+          <span class="tag">News</span>
+          <h4>On-Grid System: The New Face of Solar Energy</h4>
+          <p>How on-grid solar systems and other sustainability investments are helping manufacturers reduce costs while meeting rising environmental expectations.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo"><img src="images/monufact-logo-white.svg" alt="Monufact" class="logo-img"></a>
+        <p>London, Ontario, Canada</p>
+        <p>monufact.marketing@gmail.com</p>
+        <p>+1 226 977 2064</p>
+        <div class="social-icons">
+          <a href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8.25h4.52V23H.24V8.25zM8.35 8.25h4.34v2.01h.06c.6-1.14 2.07-2.34 4.26-2.34 4.55 0 5.39 3 5.39 6.9V23h-4.52v-6.98c0-1.67-.03-3.81-2.32-3.81-2.33 0-2.69 1.82-2.69 3.7V23H8.35V8.25z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.849.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.204-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.265.058-1.644.069-4.849.069-3.204 0-3.584-.012-4.849-.069-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.332.014 7.052.072c-4.358.2-6.78 2.618-6.98 6.98C.014 8.332 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.332 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="services/brand-strategy-positioning.html">Brand Strategy &amp; Positioning</a></li>
+          <li><a href="services/performance-marketing.html">Performance Marketing</a></li>
+          <li><a href="services/digital-sales-assets.html">Digital Sales Assets</a></li>
+          <li><a href="services/print-marketing-sales-collateral.html">Print Marketing &amp; Sales Collateral</a></li>
+          <li><a href="services/trade-show-event-materials.html">Trade Show &amp; Event Materials</a></li>
+          <li><a href="services/content-technical-communication.html">Content &amp; Technical Communication</a></li>
+          <li><a href="services/digital-marketing.html">Digital Marketing</a></li>
+          <li><a href="services/website-design-development.html">Website Design &amp; Development</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="company/about.html">About</a></li>
+          <li><a href="company/contact.html">Contact</a></li>
+          <li><a href="company/become-a-customer.html">Become a Customer</a></li>
+          <li><a href="company/faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Media</h5>
+        <ul>
+          <li><a href="news.html">News</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>© 2026 Monufact. All rights reserved.</p>
+      <div class="footer-badge">
+        <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50,60 Q65,43 50,26 Q35,43 50,60 Z M50,60 Q45.7,39.9 25.4,42.8 Q29.7,62.9 50,60 Z M50,60 Q70.3,62.9 74.6,42.8 Q54.3,39.9 50,60 Z M47,61 L50,90 L53,61 Z"/></svg>
+        <span>Canadian Business, Building Canadians.</span>
+      </div>
+      <div class="footer-legal">
+        <a href="company/terms-conditions.html">Terms &amp; Conditions</a>
+        <a href="company/privacy-policy.html">Privacy Policy</a>
+        <a href="company/accessibility.html">Accessibility</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
