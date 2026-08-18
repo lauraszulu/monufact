@@ -3018,6 +3018,11 @@ body.lightbox-open {
     grid-template-columns: 1fr;
   }
 
+  .faq-split {
+    grid-template-columns: 1fr;
+    gap: var(--space-l);
+  }
+
   .form-row {
     grid-template-columns: 1fr;
   }
