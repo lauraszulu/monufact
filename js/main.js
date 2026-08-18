@@ -296,6 +296,16 @@ document.querySelectorAll('.approach').forEach((section) => {
 
 // Inline editor — click-to-edit text, click-to-replace images, saved per page in the browser
 (function () {
+  // Edit Mode is a local content-editing tool, not a live-site feature. The
+  // floating switch, the footer Login link, and everything they unlock only
+  // exist when working locally (VS Code's preview, a local file, or
+  // localhost). On the published site there's no Edit Mode UI at all — no
+  // button for anyone, including Laura, to see or click.
+  const isLocalEnv = location.protocol === 'file:' ||
+    ['localhost', '127.0.0.1', '::1', ''].indexOf(location.hostname) !== -1 ||
+    location.hostname.endsWith('.local');
+  if (!isLocalEnv) return;
+
   const STORAGE_KEY = 'monufact_edits_' + location.pathname;
   const TEXT_SELECTOR = 'h1, h2, h3, h4, h5, p, li, blockquote, span.eyebrow, figcaption';
   const EXCLUDE_ANCESTORS = 'nav, .btn, button, .accordion-trigger, .approach-tab, .mega-menu-links, .header-actions, .social-icons, .site-footer';
@@ -507,6 +517,57 @@ document.querySelectorAll('.approach').forEach((section) => {
   const EDITOR_PASSWORD = 'monufact2026';
   const EDITOR_AUTH_KEY = 'monufact_editor_authorized';
 
+  // A real on-page dialog instead of window.prompt() — embedded webviews
+  // (e.g. VS Code's built-in preview) block native prompt()/confirm()
+  // dialogs outright, which made the login silently do nothing there.
+  const loginModal = document.createElement('div');
+  loginModal.className = 'editor-login-modal';
+  loginModal.hidden = true;
+  loginModal.innerHTML =
+    '<div class="editor-login-modal-backdrop"></div>' +
+    '<div class="editor-login-modal-box" role="dialog" aria-modal="true" aria-labelledby="editorLoginTitle">' +
+      '<h4 id="editorLoginTitle">Enter the password to edit this site</h4>' +
+      '<input type="password" class="editor-login-modal-input" autocomplete="off">' +
+      '<p class="editor-login-modal-error" hidden>Incorrect password.</p>' +
+      '<div class="editor-login-modal-actions">' +
+        '<button type="button" class="editor-login-modal-cancel">Cancel</button>' +
+        '<button type="button" class="btn btn-dark editor-login-modal-submit">Unlock</button>' +
+      '</div>' +
+    '</div>';
+  document.body.appendChild(loginModal);
+
+  const loginBackdrop = loginModal.querySelector('.editor-login-modal-backdrop');
+  const loginInput = loginModal.querySelector('.editor-login-modal-input');
+  const loginError = loginModal.querySelector('.editor-login-modal-error');
+  const loginCancel = loginModal.querySelector('.editor-login-modal-cancel');
+  const loginSubmit = loginModal.querySelector('.editor-login-modal-submit');
+
+  function openLoginModal() {
+    loginError.hidden = true;
+    loginInput.value = '';
+    loginModal.hidden = false;
+    loginInput.focus();
+  }
+  function closeLoginModal() {
+    loginModal.hidden = true;
+  }
+  function attemptLogin() {
+    if (loginInput.value === EDITOR_PASSWORD) {
+      localStorage.setItem(EDITOR_AUTH_KEY, 'true');
+      closeLoginModal();
+      setEditMode(true);
+    } else {
+      loginError.hidden = false;
+    }
+  }
+  loginBackdrop.addEventListener('click', closeLoginModal);
+  loginCancel.addEventListener('click', closeLoginModal);
+  loginSubmit.addEventListener('click', attemptLogin);
+  loginInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') attemptLogin();
+    if (e.key === 'Escape') closeLoginModal();
+  });
+
   // Shared by both entry points: the floating Edit Mode switch and the
   // Login link in the footer.
   function handleEditorLoginClick() {
@@ -518,14 +579,7 @@ document.querySelectorAll('.approach').forEach((section) => {
       setEditMode(true);
       return;
     }
-    const entered = window.prompt('Enter the password to edit this site:');
-    if (entered === null) return;
-    if (entered === EDITOR_PASSWORD) {
-      localStorage.setItem(EDITOR_AUTH_KEY, 'true');
-      setEditMode(true);
-    } else {
-      alert('Incorrect password.');
-    }
+    openLoginModal();
   }
 
   switchBtn.addEventListener('click', handleEditorLoginClick);

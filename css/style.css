@@ -3236,6 +3236,84 @@ body.lightbox-open {
 /* Inline editor
    ========================================================================== */
 
+.editor-login-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.editor-login-modal[hidden] {
+  display: none;
+}
+
+.editor-login-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(25, 24, 23, 0.7);
+}
+
+.editor-login-modal-box {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+  margin: var(--space-l);
+  background: var(--c-white);
+  color: var(--c-black);
+  padding: var(--space-l);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.editor-login-modal-box h4 {
+  text-transform: none;
+  margin-bottom: var(--space-s);
+}
+
+.editor-login-modal-input {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--c-border);
+  font-family: var(--font-primary);
+  font-size: 0.9rem;
+  margin-bottom: var(--space-s);
+}
+
+.editor-login-modal-input:focus {
+  outline: 2px solid var(--c-orange);
+  outline-offset: -1px;
+}
+
+.editor-login-modal-error {
+  color: var(--c-orange);
+  font-size: 0.8rem;
+}
+
+.editor-login-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: var(--space-m);
+  margin-top: var(--space-s);
+}
+
+.editor-login-modal-cancel {
+  background: none;
+  border: none;
+  font-family: var(--font-primary);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: var(--c-black);
+}
+
+.editor-login-modal-cancel:hover {
+  color: var(--c-orange);
+}
+
 .editor-toggle {
   position: fixed;
   bottom: var(--space-l);
