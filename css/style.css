@@ -3097,6 +3097,16 @@ body.lightbox-open {
   }
 }
 
+/* Below tablet, two columns of 160px-tall cells crop real photography down
+   to near-square slivers and cut off the parts that matter (logos, card
+   text). Phones get a single column with a much taller cell instead. */
+@media (max-width: 600px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 260px;
+  }
+}
+
 /* Refer a Client page
    ========================================================================== */
 
