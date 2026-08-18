@@ -864,9 +864,13 @@ body.editor-active .hero-media-actions {
 
 .image-banner img.parallax-img,
 .image-banner video.parallax-img {
-  height: 130%;
+  /* Just enough headroom for the ±40px scroll parallax (see main.js) to
+     never reveal empty space at the edges — 130%/-15% was scaling (and
+     therefore cropping, via object-fit: cover) far more than that needed,
+     making non-panoramic photos look zoomed in tight on this banner. */
+  height: 120%;
   position: relative;
-  top: -15%;
+  top: -10%;
   will-change: transform;
 }
 
@@ -3268,6 +3272,12 @@ body.lightbox-open {
 
 .editor-login-modal-box h4 {
   text-transform: none;
+  margin-bottom: var(--space-s);
+}
+
+.editor-login-modal-hint {
+  font-size: 0.85rem;
+  color: var(--c-text-muted);
   margin-bottom: var(--space-s);
 }
 

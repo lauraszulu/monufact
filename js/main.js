@@ -585,11 +585,32 @@ document.querySelectorAll('.approach').forEach((section) => {
   switchBtn.addEventListener('click', handleEditorLoginClick);
   if (footerLoginBtn) footerLoginBtn.addEventListener('click', handleEditorLoginClick);
 
+  // Same reasoning as the login modal above: window.confirm() is blocked in
+  // embedded webviews like VS Code's preview, which made this button look
+  // broken there too.
+  const resetModal = document.createElement('div');
+  resetModal.className = 'editor-login-modal';
+  resetModal.hidden = true;
+  resetModal.innerHTML =
+    '<div class="editor-login-modal-backdrop"></div>' +
+    '<div class="editor-login-modal-box" role="dialog" aria-modal="true" aria-labelledby="editorResetTitle">' +
+      '<h4 id="editorResetTitle">Reset all edits on this page?</h4>' +
+      '<p class="editor-login-modal-hint">This clears any saved text, image, and gallery changes for this page only. It can\'t be undone.</p>' +
+      '<div class="editor-login-modal-actions">' +
+        '<button type="button" class="editor-login-modal-cancel">Cancel</button>' +
+        '<button type="button" class="btn btn-dark editor-reset-confirm">Reset page</button>' +
+      '</div>' +
+    '</div>';
+  document.body.appendChild(resetModal);
+  resetModal.querySelector('.editor-login-modal-backdrop').addEventListener('click', () => { resetModal.hidden = true; });
+  resetModal.querySelector('.editor-login-modal-cancel').addEventListener('click', () => { resetModal.hidden = true; });
+  resetModal.querySelector('.editor-reset-confirm').addEventListener('click', () => {
+    localStorage.removeItem(STORAGE_KEY);
+    location.reload();
+  });
+
   resetBtn.addEventListener('click', () => {
-    if (confirm('Reset all edits on this page?')) {
-      localStorage.removeItem(STORAGE_KEY);
-      location.reload();
-    }
+    resetModal.hidden = false;
   });
 
   textEls.forEach((el) => {
