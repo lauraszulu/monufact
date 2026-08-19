@@ -1734,6 +1734,7 @@ body.editor-active .hero-media-actions {
   max-width: calc(var(--max-width) - var(--space-l) * 2);
   height: 560px;
   margin: 0;
+  object-fit: cover;
 }
 
 .dedicated-to + .spec-columns {
