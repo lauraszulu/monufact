@@ -2232,7 +2232,19 @@ body.lightbox-open {
 .about-banner {
   width: 100%;
   height: clamp(220px, 30vw, 420px);
-  object-fit: cover;
+  background: var(--c-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-xl);
+  box-sizing: border-box;
+}
+
+.about-banner img {
+  width: auto;
+  height: auto;
+  max-width: 320px;
+  max-height: 60%;
   display: block;
 }
 
@@ -2721,6 +2733,10 @@ body.lightbox-open {
 /* Become a Customer page
    ========================================================================== */
 
+.process-heading {
+  margin-bottom: var(--space-l);
+}
+
 .process-steps {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -2740,6 +2756,10 @@ body.lightbox-open {
   letter-spacing: 0.04em;
   color: var(--c-orange);
   margin-bottom: var(--space-m);
+}
+
+.process-step h4 {
+  margin-bottom: var(--space-s);
 }
 
 .process-step p {
