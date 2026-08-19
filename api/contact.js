@@ -75,10 +75,15 @@ module.exports = async (req, res) => {
   }
 
   try {
+    // Port 465 uses implicit TLS from the start of the connection; port 587
+    // (and anything else) uses STARTTLS instead — using the wrong mode for
+    // a given port can surface as a misleading "invalid login" rejection
+    // even when the credentials themselves are correct.
+    const port = Number(process.env.SMTP_PORT || 465);
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT || 465),
-      secure: true,
+      port,
+      secure: port === 465,
       auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASS,
