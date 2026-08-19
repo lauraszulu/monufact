@@ -77,33 +77,83 @@ if (newsletterForm) {
   });
 }
 
-// Contact form (placeholder submission)
+// Forms below submit to a small serverless relay (api/contact.js) that
+// emails the entry to info@monufact.com — see that file for details.
+const EMAIL_ENDPOINT = 'https://monufact.vercel.app/api/contact';
+
+// Collapses a form into a plain object. Repeated same-name fields (the
+// "services" checkboxes on the Become a Customer form) are joined into
+// one comma-separated string rather than only keeping the last value.
+function formToPayload(form, formKey) {
+  const data = new FormData(form);
+  const payload = { form: formKey };
+  for (const [key, value] of data.entries()) {
+    if (key in payload) {
+      payload[key] = payload[key] + ', ' + value;
+    } else {
+      payload[key] = value;
+    }
+  }
+  return payload;
+}
+
+async function submitToRelay(form, formKey) {
+  const res = await fetch(EMAIL_ENDPOINT, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(formToPayload(form, formKey)),
+  });
+  if (!res.ok) throw new Error('relay responded ' + res.status);
+}
+
+// Contact form
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
   contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    contactForm.reset();
-    document.getElementById('contactFormNote').textContent = "Thanks, we'll be in touch shortly.";
+    const note = document.getElementById('contactFormNote');
+    submitToRelay(contactForm, 'contact')
+      .then(() => {
+        contactForm.reset();
+        note.textContent = "Thanks, we'll be in touch shortly.";
+      })
+      .catch(() => {
+        note.textContent = "Something went wrong sending that — please email info@monufact.com directly.";
+      });
   });
 }
 
-// Get started form (placeholder submission)
+// Get started form
 const startForm = document.getElementById('startForm');
 if (startForm) {
   startForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    startForm.reset();
-    document.getElementById('startFormNote').textContent = "Thanks, we'll review your project details and be in touch shortly.";
+    const note = document.getElementById('startFormNote');
+    submitToRelay(startForm, 'become_a_customer')
+      .then(() => {
+        startForm.reset();
+        note.textContent = "Thanks, we'll review your project details and be in touch shortly.";
+      })
+      .catch(() => {
+        note.textContent = "Something went wrong sending that — please email info@monufact.com directly.";
+      });
   });
 }
 
-// Referral form (placeholder submission)
+// Referral form
 const referralForm = document.getElementById('referralForm');
 if (referralForm) {
   referralForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    referralForm.reset();
-    document.getElementById('referralFormNote').textContent = "Thanks for the referral, we'll reach out to them shortly and keep you posted.";
+    const note = document.getElementById('referralFormNote');
+    submitToRelay(referralForm, 'refer_a_client')
+      .then(() => {
+        referralForm.reset();
+        note.textContent = "Thanks for the referral, we'll reach out to them shortly and keep you posted.";
+      })
+      .catch(() => {
+        note.textContent = "Something went wrong sending that — please email info@monufact.com directly.";
+      });
   });
 }
 

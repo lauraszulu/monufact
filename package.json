@@ -1,0 +1,9 @@
+{
+  "name": "monufact-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Serverless functions supporting monufact.com (form-to-email relay). The site itself is static and served by GitHub Pages — this only powers /api.",
+  "dependencies": {
+    "nodemailer": "^6.9.14"
+  }
+}
