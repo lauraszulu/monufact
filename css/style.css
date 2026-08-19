@@ -412,14 +412,14 @@ p {
    ========================================================================== */
 
 .hero {
-  padding-top: var(--space-2xl);
+  padding-top: var(--space-3xl);
 }
 
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: var(--space-l);
-  padding-bottom: var(--space-2xl);
+  padding-bottom: var(--space-3xl);
   border-bottom: 1px solid var(--c-border);
   margin-bottom: 0;
 }
@@ -851,7 +851,7 @@ body.editor-active .hero-media-actions {
 .image-banner {
   position: relative;
   width: 100%;
-  height: 480px;
+  height: 600px;
   overflow: hidden;
 }
 
@@ -1607,8 +1607,8 @@ body.editor-active .hero-media-actions {
    ========================================================================== */
 
 .service-hero {
-  padding-top: var(--space-2xl);
-  padding-bottom: var(--space-2xl);
+  padding-top: var(--space-3xl);
+  padding-bottom: var(--space-3xl);
   border-bottom: 1px solid var(--c-border);
 }
 
