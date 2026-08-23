@@ -1,9 +1,18 @@
 {
-  "name": "monufact-api",
+  "name": "monufact",
   "version": "1.0.0",
   "private": true,
-  "description": "Serverless functions supporting monufact.com (form-to-email relay). The site itself is static and served by GitHub Pages — this only powers /api.",
+  "description": "monufact.com — Next.js site, deployed on Vercel.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
+    "next": "^15.5.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "nodemailer": "^6.9.14"
   }
 }
