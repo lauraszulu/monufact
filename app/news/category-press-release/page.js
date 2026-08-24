@@ -6,7 +6,7 @@ export const metadata = {
     description: "Official press releases and announcements from Monufact for the manufacturing and industrial sectors.",
     url: "/news/category-press-release",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Press Releases - Monufact Newsroom",
     description: "Official press releases and announcements from Monufact for the manufacturing and industrial sectors.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -41,7 +41,7 @@ export default function Page() {
           <div className="container news-list">
             <article className="news-list-item">
               <a href="/news/sustainability-marketing-advantage" className="news-list-media">
-                <img loading="lazy" src="/images/blog/marketing-sustainability.jpg" alt="Why Sustainability Is Becoming a Marketing Advantage in Manufacturing"/>
+                <img loading="lazy" src="/images/blog/marketing-sustainability.webp" alt="Why Sustainability Is Becoming a Marketing Advantage in Manufacturing"/>
               </a>
               <div>
                 <div className="news-list-tags">

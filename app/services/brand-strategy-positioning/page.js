@@ -6,7 +6,7 @@ export const metadata = {
     description: "Build a clear, credible brand identity that resonates with engineers, buyers, and distributors in competitive industrial markets.",
     url: "/services/brand-strategy-positioning",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Brand Strategy & Positioning for Manufacturers - Monufact",
     description: "Build a clear, credible brand identity that resonates with engineers, buyers, and distributors in competitive industrial markets.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
 
         {/* Image banner */}
         <section className="image-banner">
-          <img loading="lazy" className="parallax-img" src="/images/services/0458e783-9481-4d64-9c44-5b07896eef9b.jpg" alt="Brand Strategy & Positioning"/>
+          <img loading="lazy" className="parallax-img" src="/images/services/0458e783-9481-4d64-9c44-5b07896eef9b.webp" alt="Brand Strategy & Positioning"/>
           <span className="eyebrow overlay-label">/ Brand Strategy</span>
           <div className="overlay-cta-group">
             <a href="/company/contact" className="btn btn-dark overlay-cta">Contact us
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Dedicated to Getting You Chosen</h2>
             <p>Positioning work only matters if it changes what happens in the room when a buyer is deciding between you and a competitor. We build brand strategy around that moment, not a mood board.</p>
           </div>
-          <img loading="lazy" src="/images/services/pachon-brandguide.jpg" alt="Brand strategy and positioning"/>
+          <img loading="lazy" src="/images/services/pachon-brandguide.webp" alt="Brand strategy and positioning"/>
         </section>
 
         {/* Spec columns */}
@@ -194,7 +194,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/services/pachon-brandguide.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/services/pachon-brandguide.webp')"}}>
           </div>
           <div className="split-cta-right">
             <span className="eyebrow">/ Get to know us</span>

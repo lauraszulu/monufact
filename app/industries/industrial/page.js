@@ -6,7 +6,7 @@ export const metadata = {
     description: "Digital marketing built for manufacturers: brand strategy, sales enablement, and content that speaks to engineers, buyers, and distributors.",
     url: "/industries/industrial",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Manufacturing & Industrial Production Marketing - Monufact",
     description: "Digital marketing built for manufacturers: brand strategy, sales enablement, and content that speaks to engineers, buyers, and distributors.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Manufacturers compete on more than price and lead time today. Buyers research online long before they ever call a sales rep. We build the brand, content, and digital presence that help industrial producers get found, get understood, and get chosen.</p>
-              <img loading="lazy" src="/images/industries/industrial-1.jpg" alt="Manufacturing facility"/>
+              <img loading="lazy" src="/images/industries/industrial-1.webp" alt="Manufacturing facility"/>
             </div>
           </div>
         </section>
@@ -50,10 +50,10 @@ export default function Page() {
             </div>
             </div>
             <div className="industry-sector-col industry-sector-col-1">
-              <img loading="lazy" src="/images/industries/shared-factory-floor.jpg" alt="Industrial production line"/>
+              <img loading="lazy" src="/images/industries/shared-factory-floor.webp" alt="Industrial production line"/>
             </div>
             <div className="industry-sector-col industry-sector-col-2">
-              <img loading="lazy" src="/images/industries/shared-quality-testing.jpg" alt="Manufacturing equipment"/>
+              <img loading="lazy" src="/images/industries/shared-quality-testing.webp" alt="Manufacturing equipment"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Built Around Your Production Reality</h2>
             <p>We work closely with manufacturing teams to understand capacity, capability, and competitive position before a single asset gets built. That means marketing that reflects what your plant can actually deliver and communicates it with the credibility technical buyers expect.</p>
           </div>
-          <img loading="lazy" src="/images/industries/industrial-1.jpg" alt="Industrial production facility"/>
+          <img loading="lazy" src="/images/industries/industrial-1.webp" alt="Industrial production facility"/>
         </section>
 
         {/* Industry details */}
@@ -92,7 +92,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

@@ -6,7 +6,7 @@ export const metadata = {
     description: "Monufact is a digital marketing agency in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.",
     url: "/company/about",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "About Monufact - Digital Marketing for Manufacturers",
     description: "Monufact is a digital marketing agency in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -56,7 +56,7 @@ export default function Page() {
 
         {/* Image banner with stat overlay */}
         <section className="image-banner">
-          <img loading="lazy" src="/images/services/monufact-about-hero.jpg" alt="Monufact"/>
+          <img loading="lazy" src="/images/services/monufact-about-hero.webp" alt="Monufact"/>
           <div className="stat-overlay-card">
             <span className="eyebrow">/ Experience. Transparency. Results.</span>
             <span className="stat-number">20+</span>
@@ -115,7 +115,7 @@ export default function Page() {
             <h2>The Person Behind Monufact</h2>
           </div>
           <div className="container quote-photo">
-            <img loading="lazy" src="/images/about/monufact-laura.jpg" alt="Laura Zuluaga, Founder of Monufact"/>
+            <img loading="lazy" src="/images/about/monufact-laura.webp" alt="Laura Zuluaga, Founder of Monufact"/>
             <div className="founder-bio">
               <blockquote className="quote-block">
                 “I craft brands and websites for companies that are ready to grow, but need the right design support to get there.”

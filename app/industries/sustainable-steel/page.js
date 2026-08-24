@@ -6,7 +6,7 @@ export const metadata = {
     description: "Marketing and sales content for steel and metal fabrication companies, built to communicate technical capability and win industrial buyers.",
     url: "/industries/sustainable-steel",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Steel & Metal Fabrication Marketing - Monufact",
     description: "Marketing and sales content for steel and metal fabrication companies, built to communicate technical capability and win industrial buyers.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Steel and metal fabrication is a relationship-driven, technically demanding business, and buyers expect suppliers to prove capability before they'll trust them with a project. We build the marketing that makes that trust easier to earn.</p>
-              <img loading="lazy" src="/images/industries/sustainable-steel-1.jpg" alt="Steel fabrication shop"/>
+              <img loading="lazy" src="/images/industries/sustainable-steel-1.webp" alt="Steel fabrication shop"/>
             </div>
           </div>
         </section>
@@ -50,10 +50,10 @@ export default function Page() {
             </div>
             </div>
             <div className="industry-sector-col industry-sector-col-1">
-              <img loading="lazy" src="/images/industries/shared-factory-floor.jpg" alt="Steel fabrication equipment"/>
+              <img loading="lazy" src="/images/industries/shared-factory-floor.webp" alt="Steel fabrication equipment"/>
             </div>
             <div className="industry-sector-col industry-sector-col-2">
-              <img loading="lazy" src="/images/industries/shared-quality-testing.jpg" alt="Metal fabrication welding"/>
+              <img loading="lazy" src="/images/industries/shared-quality-testing.webp" alt="Metal fabrication welding"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Precision Work Deserves Precise Marketing</h2>
             <p>We take the time to understand your shop's capabilities, certifications, and specialties before building a single piece of content, so every asset accurately represents what you can deliver and helps you win the projects you actually want.</p>
           </div>
-          <img loading="lazy" src="/images/industries/sustainable-steel-1.jpg" alt="Steel fabrication facility"/>
+          <img loading="lazy" src="/images/industries/sustainable-steel-1.webp" alt="Steel fabrication facility"/>
         </section>
 
         {/* Industry details */}
@@ -92,7 +92,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

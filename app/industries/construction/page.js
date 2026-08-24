@@ -6,7 +6,7 @@ export const metadata = {
     description: "Digital marketing for construction and contracting companies, from brand positioning to sales materials that support every bid and project.",
     url: "/industries/construction",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Construction & Contracting Marketing - Monufact",
     description: "Digital marketing for construction and contracting companies, from brand positioning to sales materials that support every bid and project.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Construction and contracting decisions are won on trust, timelines, and proof of past work. We help contractors and builders tell that story clearly, so the right clients and partners find you before the bid even goes out.</p>
-              <img loading="lazy" src="/images/industries/construction-1.jpg" alt="Construction site"/>
+              <img loading="lazy" src="/images/industries/construction-1.webp" alt="Construction site"/>
             </div>
           </div>
         </section>
@@ -50,10 +50,10 @@ export default function Page() {
             </div>
             </div>
             <div className="industry-sector-col industry-sector-col-1">
-              <img loading="lazy" src="/images/industries/shared-factory-floor.jpg" alt="Construction crew at work"/>
+              <img loading="lazy" src="/images/industries/shared-factory-floor.webp" alt="Construction crew at work"/>
             </div>
             <div className="industry-sector-col industry-sector-col-2">
-              <img loading="lazy" src="/images/industries/shared-quality-testing.jpg" alt="Building under construction"/>
+              <img loading="lazy" src="/images/industries/shared-quality-testing.webp" alt="Building under construction"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Marketing That Understands the Job Site</h2>
             <p>We work with contractors to understand project types, service areas, and past work before building anything, so your marketing reflects real capability and helps you compete for the projects that fit your business best.</p>
           </div>
-          <img loading="lazy" src="/images/industries/construction-1.jpg" alt="Construction project underway"/>
+          <img loading="lazy" src="/images/industries/construction-1.webp" alt="Construction project underway"/>
         </section>
 
         {/* Industry details */}
@@ -92,7 +92,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

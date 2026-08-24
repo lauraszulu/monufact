@@ -18,7 +18,7 @@ export default function Header() {
                     <li><a href="/company/become-a-customer">Become a Customer</a></li>
                   </ul>
                 </div>
-                <div className="mega-menu-media" style={{ backgroundImage: "url('/images/services/performance-marketing.jpg')" }}>
+                <div className="mega-menu-media" style={{ backgroundImage: "url('/images/services/performance-marketing.webp')" }}>
                   <a href="/company/contact" className="btn btn-dark mega-cta">Contact Us
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
                   </a>
@@ -49,7 +49,7 @@ export default function Header() {
                     <li><a href="/services/website-design-development">Website Design &amp; Development</a></li>
                   </ul>
                 </div>
-                <div className="mega-menu-media" style={{ backgroundImage: "url('/images/services/trade-show-event-materials.jpg')" }}>
+                <div className="mega-menu-media" style={{ backgroundImage: "url('/images/services/trade-show-event-materials.webp')" }}>
                   <a href="/company/become-a-customer" className="btn btn-dark mega-cta">Become a Customer
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
                   </a>

@@ -6,7 +6,7 @@ export const metadata = {
     description: "Monufact's Terms & Conditions for our website and client services.",
     url: "/company/terms-conditions",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Terms & Conditions - Monufact",
     description: "Monufact's Terms & Conditions for our website and client services.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 

@@ -6,7 +6,7 @@ export const metadata = {
     description: "Insights on product innovation, trade shows, and go-to-market strategy for manufacturers, from the Monufact newsroom.",
     url: "/news/category-product-innovation",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Product Innovation - Monufact Newsroom",
     description: "Insights on product innovation, trade shows, and go-to-market strategy for manufacturers, from the Monufact newsroom.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -41,7 +41,7 @@ export default function Page() {
           <div className="container news-list">
             <article className="news-list-item">
               <a href="/news/trade-show-success" className="news-list-media">
-                <img loading="lazy" src="/images/blog/trade-show-success.jpg" alt="Trade Show Success for Canadian Manufacturers"/>
+                <img loading="lazy" src="/images/blog/trade-show-success.webp" alt="Trade Show Success for Canadian Manufacturers"/>
               </a>
               <div>
                 <div className="news-list-tags">

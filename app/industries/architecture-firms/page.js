@@ -6,7 +6,7 @@ export const metadata = {
     description: "Marketing support for architecture and engineering firms, translating technical expertise into content that wins clients and projects.",
     url: "/industries/architecture-firms",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Architecture & Engineering Marketing - Monufact",
     description: "Marketing support for architecture and engineering firms, translating technical expertise into content that wins clients and projects.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Architecture and engineering firms win work through reputation and portfolio as much as pitch decks. We build the digital presence that lets your best projects do the talking, and makes it easy for the right clients to find you.</p>
-              <img loading="lazy" src="/images/industries/construction-1.jpg" alt="Modern architecture building"/>
+              <img loading="lazy" src="/images/industries/construction-1.webp" alt="Modern architecture building"/>
             </div>
           </div>
         </section>
@@ -50,10 +50,10 @@ export default function Page() {
             </div>
             </div>
             <div className="industry-sector-col industry-sector-col-1">
-              <img loading="lazy" src="/images/industries/shared-quality-testing.jpg" alt="Architectural blueprint review"/>
+              <img loading="lazy" src="/images/industries/shared-quality-testing.webp" alt="Architectural blueprint review"/>
             </div>
             <div className="industry-sector-col industry-sector-col-2">
-              <img loading="lazy" src="/images/industries/shared-factory-floor.jpg" alt="Building design detail"/>
+              <img loading="lazy" src="/images/industries/shared-factory-floor.webp" alt="Building design detail"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Design-Led Marketing for Design-Led Firms</h2>
             <p>We take time to understand your firm's portfolio, specialties, and target project types before building anything, so your marketing carries the same attention to detail as the work it represents.</p>
           </div>
-          <img loading="lazy" src="/images/industries/construction-1.jpg" alt="Architectural design studio"/>
+          <img loading="lazy" src="/images/industries/construction-1.webp" alt="Architectural design studio"/>
         </section>
 
         {/* Industry details */}
@@ -92,7 +92,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

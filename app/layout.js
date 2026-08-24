@@ -17,7 +17,7 @@ export const metadata = {
       'Monufact is a digital marketing agency based in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.',
     url: '/',
     siteName: 'Monufact',
-    images: ['/images/about/monufact-about-hero.jpg'],
+    images: ['/images/services/monufact-about-hero.webp'],
     locale: 'en_CA',
     type: 'website',
   },
@@ -26,7 +26,7 @@ export const metadata = {
     title: 'Monufact - Digital Solutions for the Steel Industry',
     description:
       'Monufact is a digital marketing agency based in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.',
-    images: ['/images/about/monufact-about-hero.jpg'],
+    images: ['/images/services/monufact-about-hero.webp'],
   },
 };
 
@@ -42,7 +42,7 @@ const ORGANIZATION_SCHEMA = {
   name: 'Monufact',
   url: 'https://monufact.com',
   logo: 'https://monufact.com/images/monufact-logo.svg',
-  image: 'https://monufact.com/images/about/monufact-about-hero.jpg',
+  image: 'https://monufact.com/images/services/monufact-about-hero.webp',
   description:
     'Monufact is a digital marketing agency based in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.',
   telephone: '+1-226-977-2064',

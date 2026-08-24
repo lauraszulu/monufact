@@ -6,7 +6,7 @@ export const metadata = {
     description: "Marketing for building products and materials manufacturers, built to reach specifiers, distributors, and buyers across the supply chain.",
     url: "/industries/packaging",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Building Products & Materials Marketing - Monufact",
     description: "Marketing for building products and materials manufacturers, built to reach specifiers, distributors, and buyers across the supply chain.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Building products and materials manufacturers sell into a chain of specifiers, distributors, and installers, each with different information needs. We build marketing that speaks clearly to every link in that chain.</p>
-              <img loading="lazy" src="/images/industries/packaging-1.jpg" alt="Building materials warehouse"/>
+              <img loading="lazy" src="/images/industries/packaging-1.webp" alt="Building materials warehouse"/>
             </div>
           </div>
         </section>
@@ -50,10 +50,10 @@ export default function Page() {
             </div>
             </div>
             <div className="industry-sector-col industry-sector-col-1">
-              <img loading="lazy" src="/images/industries/shared-factory-floor.jpg" alt="Building materials production"/>
+              <img loading="lazy" src="/images/industries/shared-factory-floor.webp" alt="Building materials production"/>
             </div>
             <div className="industry-sector-col industry-sector-col-2">
-              <img loading="lazy" src="/images/industries/shared-quality-testing.jpg" alt="Construction materials stacked"/>
+              <img loading="lazy" src="/images/industries/shared-quality-testing.webp" alt="Construction materials stacked"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Built for the Specification Chain</h2>
             <p>We map your product's path from plant to project (architects, distributors, contractors) and build marketing for each stage, so your materials get specified early and stay specified through to the build.</p>
           </div>
-          <img loading="lazy" src="/images/industries/packaging-1.jpg" alt="Building materials manufacturing"/>
+          <img loading="lazy" src="/images/industries/packaging-1.webp" alt="Building materials manufacturing"/>
         </section>
 
         {/* Industry details */}
@@ -92,7 +92,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

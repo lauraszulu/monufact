@@ -6,7 +6,7 @@ export const metadata = {
     description: "Clear technical documentation, case studies, and content that turns complex products into content buyers can actually use.",
     url: "/services/content-technical-communication",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Content & Technical Communication - Monufact",
     description: "Clear technical documentation, case studies, and content that turns complex products into content buyers can actually use.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
 
         {/* Image banner */}
         <section className="image-banner">
-          <img loading="lazy" className="parallax-img" src="/images/services/monufact-carterai.png" alt="Content & Technical Communication"/>
+          <img loading="lazy" className="parallax-img" src="/images/services/monufact-carterai.webp" alt="Content & Technical Communication"/>
           <span className="eyebrow overlay-label">/ Content & Technical Communication</span>
           <div className="overlay-cta-group">
             <a href="/company/contact" className="btn btn-dark overlay-cta">Contact us
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Dedicated to Getting It Right</h2>
             <p>Technical buyers can tell within a paragraph whether a writer understands the product. We build content with your engineering and product teams, so accuracy is never the trade-off for clarity.</p>
           </div>
-          <img loading="lazy" src="/images/services/content-technical-communications.jpg" alt="Content and technical communication"/>
+          <img loading="lazy" src="/images/services/content-technical-communications.webp" alt="Content and technical communication"/>
         </section>
 
         {/* Spec columns */}
@@ -194,7 +194,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/services/monufact-chat.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/services/monufact-chat.webp')"}}>
           </div>
           <div className="split-cta-right">
             <span className="eyebrow">/ Get to know us</span>

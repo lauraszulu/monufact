@@ -6,7 +6,7 @@ export const metadata = {
     description: "How Monufact uses cookies and similar technologies on this website, and how to control them.",
     url: "/company/cookie-policy",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Cookie Policy - Monufact",
     description: "How Monufact uses cookies and similar technologies on this website, and how to control them.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 

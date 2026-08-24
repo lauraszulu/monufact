@@ -6,7 +6,7 @@ export const metadata = {
     description: "Marketing and communications for energy and infrastructure companies, built to support complex sales cycles and technical audiences.",
     url: "/industries/energy",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Energy & Infrastructure Marketing - Monufact",
     description: "Marketing and communications for energy and infrastructure companies, built to support complex sales cycles and technical audiences.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Energy and infrastructure projects move on long timelines and bigger budgets, which means trust, credibility, and technical clarity matter more than ever. We build marketing that holds up under that kind of scrutiny.</p>
-              <img loading="lazy" src="/images/industries/energy-1.jpg" alt="Energy infrastructure facility"/>
+              <img loading="lazy" src="/images/industries/energy-1.webp" alt="Energy infrastructure facility"/>
             </div>
           </div>
         </section>
@@ -50,10 +50,10 @@ export default function Page() {
             </div>
             </div>
             <div className="industry-sector-col industry-sector-col-1">
-              <img loading="lazy" src="/images/industries/shared-factory-floor.jpg" alt="Energy infrastructure project"/>
+              <img loading="lazy" src="/images/industries/shared-factory-floor.webp" alt="Energy infrastructure project"/>
             </div>
             <div className="industry-sector-col industry-sector-col-2">
-              <img loading="lazy" src="/images/industries/shared-quality-testing.jpg" alt="Power infrastructure equipment"/>
+              <img loading="lazy" src="/images/industries/shared-quality-testing.webp" alt="Power infrastructure equipment"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Marketing for the Long Sales Cycle</h2>
             <p>Energy and infrastructure projects are won over months, not days. We build marketing systems that stay in front of decision-makers through every stage of a long, technical, multi-stakeholder sales process.</p>
           </div>
-          <img loading="lazy" src="/images/industries/energy-1.jpg" alt="Energy infrastructure development"/>
+          <img loading="lazy" src="/images/industries/energy-1.webp" alt="Energy infrastructure development"/>
         </section>
 
         {/* Industry details */}
@@ -92,7 +92,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

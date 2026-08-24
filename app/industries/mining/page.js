@@ -6,7 +6,7 @@ export const metadata = {
     description: "Digital marketing and communications services for mining and heavy industrial companies.",
     url: "/industries/mining",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Mining Industry Marketing - Monufact",
     description: "Digital marketing and communications services for mining and heavy industrial companies.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Mining and heavy industrial companies operate in a world of long procurement cycles, strict safety standards, and specialized equipment. We build marketing that reflects that reality and speaks to the buyers who live in it.</p>
-              <img loading="lazy" src="/images/industries/mining-1.jpg" alt="Mining industrial site"/>
+              <img loading="lazy" src="/images/industries/mining-1.webp" alt="Mining industrial site"/>
             </div>
           </div>
         </section>
@@ -50,10 +50,10 @@ export default function Page() {
             </div>
             </div>
             <div className="industry-sector-col industry-sector-col-1">
-              <img loading="lazy" src="/images/industries/shared-factory-floor.jpg" alt="Mining equipment operation"/>
+              <img loading="lazy" src="/images/industries/shared-factory-floor.webp" alt="Mining equipment operation"/>
             </div>
             <div className="industry-sector-col industry-sector-col-2">
-              <img loading="lazy" src="/images/industries/shared-quality-testing.jpg" alt="Heavy industrial site"/>
+              <img loading="lazy" src="/images/industries/shared-quality-testing.webp" alt="Heavy industrial site"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Built for Demanding Environments</h2>
             <p>We understand that mining and heavy industrial buyers evaluate suppliers on durability, safety record, and total cost of ownership. Our marketing is built to communicate exactly that, clearly and credibly.</p>
           </div>
-          <img loading="lazy" src="/images/industries/mining-1.jpg" alt="Mining operations facility"/>
+          <img loading="lazy" src="/images/industries/mining-1.webp" alt="Mining operations facility"/>
         </section>
 
         {/* Industry details */}
@@ -92,7 +92,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

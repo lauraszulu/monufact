@@ -8,7 +8,7 @@ export const metadata = {
     description: "Know a manufacturer or industrial company that needs marketing help? Refer them to Monufact and earn up to $1,500 on signed retainers, or 10% on one-time projects.",
     url: "/company/refer-a-client",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -16,7 +16,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Refer a Client, Get Rewarded - Monufact Referral Program",
     description: "Know a manufacturer or industrial company that needs marketing help? Refer them to Monufact and earn up to $1,500 on signed retainers, or 10% on one-time projects.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
   robots: "noindex, nofollow",
 };

@@ -6,7 +6,7 @@ export const metadata = {
     description: "Custom-designed vehicle wraps, booth graphics, signage, and print materials built for industrial trade shows and events.",
     url: "/services/trade-show-event-materials",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Trade Show & Event Materials Design - Monufact",
     description: "Custom-designed vehicle wraps, booth graphics, signage, and print materials built for industrial trade shows and events.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
 
         {/* Image banner */}
         <section className="image-banner">
-          <img loading="lazy" className="parallax-img" src="/images/services/monufact-tradeshow-displays.jpg" alt="Trade Show & Event Materials"/>
+          <img loading="lazy" className="parallax-img" src="/images/services/monufact-tradeshow-displays.webp" alt="Trade Show & Event Materials"/>
           <span className="eyebrow overlay-label">/ Trade Show & Events</span>
           <div className="overlay-cta-group">
             <a href="/company/contact" className="btn btn-dark overlay-cta">Contact us
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Dedicated to the First Ten Seconds</h2>
             <p>A booth has about ten seconds to earn a second look. We design trade show materials engineered for that window, then built to hold up through a three-day show floor.</p>
           </div>
-          <img loading="lazy" src="/images/services/monufact-ecofoot-tradeshow.jpg" alt="Trade show and event materials"/>
+          <img loading="lazy" src="/images/services/monufact-ecofoot-tradeshow.webp" alt="Trade show and event materials"/>
         </section>
 
         {/* Spec columns */}
@@ -154,12 +154,12 @@ export default function Page() {
             <span className="eyebrow">/ Gallery</span>
             <h2>Trade Show & Event Work</h2>
             <div className="gallery-grid">
-              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/trade-show-event-materials.jpg" alt="Trade show booth"/></div>
-              <div className="gallery-item"><img loading="lazy" src="/images/services/0458e783-9481-4d64-9c44-5b07896eef9b.jpg" alt="Event signage"/></div>
-              <div className="gallery-item"><img loading="lazy" src="/images/services/print-marketing-sales-collateral.jpg" alt="Booth graphics"/></div>
-              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-performnace-03.jpg" alt="Conference display"/></div>
-              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/pachon-business-cards.jpg" alt="Trade show floor"/></div>
-              <div className="gallery-item"><img loading="lazy" src="/images/services/performance-marketing.jpg" alt="Event banners"/></div>
+              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/trade-show-event-materials.webp" alt="Trade show booth"/></div>
+              <div className="gallery-item"><img loading="lazy" src="/images/services/0458e783-9481-4d64-9c44-5b07896eef9b.webp" alt="Event signage"/></div>
+              <div className="gallery-item"><img loading="lazy" src="/images/services/print-marketing-sales-collateral.webp" alt="Booth graphics"/></div>
+              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-performnace-03.webp" alt="Conference display"/></div>
+              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/pachon-business-cards.webp" alt="Trade show floor"/></div>
+              <div className="gallery-item"><img loading="lazy" src="/images/services/performance-marketing.webp" alt="Event banners"/></div>
             </div>
           </div>
         </section>
@@ -210,7 +210,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/services/pachon-brandguide.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/services/pachon-brandguide.webp')"}}>
           </div>
           <div className="split-cta-right">
             <span className="eyebrow">/ Get to know us</span>

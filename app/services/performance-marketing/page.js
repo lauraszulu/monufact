@@ -6,7 +6,7 @@ export const metadata = {
     description: "Targeted digital campaigns that drive industrial demand, expand distributor pipelines, and generate qualified B2B leads.",
     url: "/services/performance-marketing",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Performance Marketing for Industrial Companies - Monufact",
     description: "Targeted digital campaigns that drive industrial demand, expand distributor pipelines, and generate qualified B2B leads.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
 
         {/* Image banner */}
         <section className="image-banner">
-          <img loading="lazy" className="parallax-img" src="/images/services/performance-marketing.jpg" alt="Performance Marketing"/>
+          <img loading="lazy" className="parallax-img" src="/images/services/performance-marketing.webp" alt="Performance Marketing"/>
           <span className="eyebrow overlay-label">/ Performance Marketing</span>
           <div className="overlay-cta-group">
             <a href="/company/contact" className="btn btn-dark overlay-cta">Contact us
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Dedicated to Qualified Pipeline</h2>
             <p>Impressions are easy to buy and hard to turn into revenue. We build performance campaigns around the buyers who are already searching for what you manufacture, not just the ones easiest to reach.</p>
           </div>
-          <img loading="lazy" src="/images/services/monufact-performance.jpg" alt="Performance marketing"/>
+          <img loading="lazy" src="/images/services/monufact-performance.webp" alt="Performance marketing"/>
         </section>
 
         {/* Spec columns */}
@@ -194,7 +194,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/services/monufact-performnace-03.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/services/monufact-performnace-03.webp')"}}>
           </div>
           <div className="split-cta-right">
             <span className="eyebrow">/ Get to know us</span>

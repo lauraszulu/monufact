@@ -6,7 +6,7 @@ export const metadata = {
     description: "Digital marketing and communications services for automotive manufacturers and suppliers.",
     url: "/industries/automotive",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Automotive Industry Marketing - Monufact",
     description: "Digital marketing and communications services for automotive manufacturers and suppliers.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Automotive suppliers operate inside some of the most demanding quality and delivery standards in manufacturing. We build marketing that reflects that discipline and helps you win the OEM and Tier 1 relationships that matter.</p>
-              <img loading="lazy" src="/images/industries/automotive-1.jpg" alt="Automotive manufacturing line"/>
+              <img loading="lazy" src="/images/industries/automotive-1.webp" alt="Automotive manufacturing line"/>
             </div>
           </div>
         </section>
@@ -50,10 +50,10 @@ export default function Page() {
             </div>
             </div>
             <div className="industry-sector-col industry-sector-col-1">
-              <img loading="lazy" src="/images/industries/shared-factory-floor.jpg" alt="Automotive parts production"/>
+              <img loading="lazy" src="/images/industries/shared-factory-floor.webp" alt="Automotive parts production"/>
             </div>
             <div className="industry-sector-col industry-sector-col-2">
-              <img loading="lazy" src="/images/industries/shared-quality-testing.jpg" alt="Automotive quality testing"/>
+              <img loading="lazy" src="/images/industries/shared-quality-testing.webp" alt="Automotive quality testing"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Built for Automotive-Grade Standards</h2>
             <p>We understand the certifications, quality systems, and sourcing processes that define the automotive supply chain, and we build marketing that speaks that language fluently, from first contact through RFQ.</p>
           </div>
-          <img loading="lazy" src="/images/industries/automotive-1.jpg" alt="Automotive manufacturing facility"/>
+          <img loading="lazy" src="/images/industries/automotive-1.webp" alt="Automotive manufacturing facility"/>
         </section>
 
         {/* Industry details */}
@@ -92,7 +92,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

@@ -6,7 +6,7 @@ export const metadata = {
     description: "Full-funnel digital marketing for manufacturers: SEO, paid media, email, and marketing automation built to generate qualified industrial leads.",
     url: "/services/digital-marketing",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Digital Marketing for Manufacturers - Monufact",
     description: "Full-funnel digital marketing for manufacturers: SEO, paid media, email, and marketing automation built to generate qualified industrial leads.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
 
         {/* Image banner */}
         <section className="image-banner">
-          <img loading="lazy" className="parallax-img" src="/images/services/monufact-performnace-01.jpg" alt="Digital Marketing"/>
+          <img loading="lazy" className="parallax-img" src="/images/services/monufact-performnace-01.webp" alt="Digital Marketing"/>
           <span className="eyebrow overlay-label">/ Digital Marketing</span>
           <div className="overlay-cta-group">
             <a href="/company/contact" className="btn btn-dark overlay-cta">Contact us
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Dedicated to Compounding Results</h2>
             <p>SEO, email, and automation don't pay off in week one. We build digital marketing systems designed to keep generating qualified leads long after a campaign budget runs out.</p>
           </div>
-          <img loading="lazy" src="/images/services/monufact-metalcor.jpg" alt="Digital marketing"/>
+          <img loading="lazy" src="/images/services/monufact-metalcor.webp" alt="Digital marketing"/>
         </section>
 
         {/* Spec columns */}
@@ -194,7 +194,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/services/monufact-performance.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/services/monufact-performance.webp')"}}>
           </div>
           <div className="split-cta-right">
             <span className="eyebrow">/ Get to know us</span>

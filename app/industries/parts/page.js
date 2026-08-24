@@ -6,7 +6,7 @@ export const metadata = {
     description: "Digital marketing for industrial suppliers and distributors, built to support sales teams and reach buyers across every channel.",
     url: "/industries/parts",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Industrial Supply & Distribution Marketing - Monufact",
     description: "Digital marketing for industrial suppliers and distributors, built to support sales teams and reach buyers across every channel.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Industrial suppliers and distributors compete on availability, reliability, and how easy they are to do business with. We build the marketing and digital tools that make that easier to prove and easier to find.</p>
-              <img loading="lazy" src="/images/industries/packaging-1.jpg" alt="Industrial supply warehouse"/>
+              <img loading="lazy" src="/images/industries/packaging-1.webp" alt="Industrial supply warehouse"/>
             </div>
           </div>
         </section>
@@ -50,10 +50,10 @@ export default function Page() {
             </div>
             </div>
             <div className="industry-sector-col industry-sector-col-1">
-              <img loading="lazy" src="/images/industries/shared-quality-testing.jpg" alt="Industrial parts inventory"/>
+              <img loading="lazy" src="/images/industries/shared-quality-testing.webp" alt="Industrial parts inventory"/>
             </div>
             <div className="industry-sector-col industry-sector-col-2">
-              <img loading="lazy" src="/images/industries/shared-factory-floor.jpg" alt="Distribution warehouse shelving"/>
+              <img loading="lazy" src="/images/industries/shared-factory-floor.webp" alt="Distribution warehouse shelving"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Built for High-Volume, High-Trust Buying</h2>
             <p>We understand that industrial buyers are creatures of habit. Once they find a supplier they trust, they stay. Our marketing is built to earn that first order and support the relationship that keeps them coming back.</p>
           </div>
-          <img loading="lazy" src="/images/industries/industrial-1.jpg" alt="Industrial supply distribution center"/>
+          <img loading="lazy" src="/images/industries/industrial-1.webp" alt="Industrial supply distribution center"/>
         </section>
 
         {/* Industry details */}
@@ -92,7 +92,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

@@ -6,7 +6,7 @@ export const metadata = {
     description: "The latest company news and industry updates from Monufact, covering sustainability, technology, and manufacturing trends.",
     url: "/news/category-news",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "News - Monufact Newsroom",
     description: "The latest company news and industry updates from Monufact, covering sustainability, technology, and manufacturing trends.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -41,7 +41,7 @@ export default function Page() {
           <div className="container news-list">
             <article className="news-list-item">
               <a href="/news/on-grid-solar-energy" className="news-list-media">
-                <img loading="lazy" src="/images/blog/on-grid-solar.jpg" alt="On-Grid System: The New Face of Solar Energy"/>
+                <img loading="lazy" src="/images/blog/on-grid-solar.webp" alt="On-Grid System: The New Face of Solar Energy"/>
               </a>
               <div>
                 <div className="news-list-tags">

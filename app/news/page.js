@@ -6,7 +6,7 @@ export const metadata = {
     description: "News, press releases, and product innovation from Monufact.",
     url: "/news",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "News - Monufact",
     description: "News, press releases, and product innovation from Monufact.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -41,7 +41,7 @@ export default function Page() {
           <div className="container news-list">
             <article className="news-list-item">
               <a href="/news/trade-show-success" className="news-list-media">
-                <img loading="lazy" src="/images/blog/trade-show-success.jpg" alt="Trade Show Success for Canadian Manufacturers"/>
+                <img loading="lazy" src="/images/blog/trade-show-success.webp" alt="Trade Show Success for Canadian Manufacturers"/>
               </a>
               <div>
                 <div className="news-list-tags">
@@ -58,7 +58,7 @@ export default function Page() {
             </article>
             <article className="news-list-item">
               <a href="/news/sustainability-marketing-advantage" className="news-list-media">
-                <img loading="lazy" src="/images/blog/marketing-sustainability.jpg" alt="Why Sustainability Is Becoming a Marketing Advantage in Manufacturing"/>
+                <img loading="lazy" src="/images/blog/marketing-sustainability.webp" alt="Why Sustainability Is Becoming a Marketing Advantage in Manufacturing"/>
               </a>
               <div>
                 <div className="news-list-tags">
@@ -75,7 +75,7 @@ export default function Page() {
             </article>
             <article className="news-list-item">
               <a href="/news/on-grid-solar-energy" className="news-list-media">
-                <img loading="lazy" src="/images/blog/on-grid-solar.jpg" alt="On-Grid System: The New Face of Solar Energy"/>
+                <img loading="lazy" src="/images/blog/on-grid-solar.webp" alt="On-Grid System: The New Face of Solar Energy"/>
               </a>
               <div>
                 <div className="news-list-tags">

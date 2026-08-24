@@ -6,7 +6,7 @@ export const metadata = {
     description: "Modern, fast, conversion-focused websites built for industrial manufacturers, from UX strategy and design through development and ongoing support.",
     url: "/services/website-design-development",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Website Design & Development for Manufacturers - Monufact",
     description: "Modern, fast, conversion-focused websites built for industrial manufacturers, from UX strategy and design through development and ongoing support.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -70,7 +70,7 @@ export default function Page() {
             <h2>Dedicated to the First Impression</h2>
             <p>Most B2B buyers judge credibility from your website before they ever pick up the phone. We design and build sites engineered to earn that trust in the first few seconds.</p>
           </div>
-          <img loading="lazy" src="/images/services/website-design-development.jpg" alt="Website design and development"/>
+          <img loading="lazy" src="/images/services/website-design-development.webp" alt="Website design and development"/>
         </section>
 
         {/* Spec columns */}
@@ -160,12 +160,12 @@ export default function Page() {
             <span className="eyebrow">/ Gallery</span>
             <h2>Website Design Work</h2>
             <div className="gallery-grid">
-              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/monufact-metalcor.jpg" alt="Website homepage design"/></div>
-              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-performance.jpg" alt="Mobile responsive layout"/></div>
-              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-performnace-03.jpg" alt="Product page design"/></div>
-              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-performnace-01.jpg" alt="Navigation and UX wireframe"/></div>
-              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/website-design-development.jpg" alt="Website design system"/></div>
-              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-metalcor.jpg" alt="Dashboard interface design"/></div>
+              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/monufact-metalcor.webp" alt="Website homepage design"/></div>
+              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-performance.webp" alt="Mobile responsive layout"/></div>
+              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-performnace-03.webp" alt="Product page design"/></div>
+              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-performnace-01.webp" alt="Navigation and UX wireframe"/></div>
+              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/website-design-development.webp" alt="Website design system"/></div>
+              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-metalcor.webp" alt="Dashboard interface design"/></div>
             </div>
           </div>
         </section>
@@ -216,7 +216,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/services/monufact-carterai.png')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/services/monufact-carterai.webp')"}}>
           </div>
           <div className="split-cta-right">
             <span className="eyebrow">/ Get to know us</span>

@@ -6,7 +6,7 @@ export const metadata = {
     description: "High-quality printed catalogs, one-pagers, and technical sheets that support reps, distributors, and engineering decision-makers.",
     url: "/services/print-marketing-sales-collateral",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Print Marketing & Sales Collateral - Monufact",
     description: "High-quality printed catalogs, one-pagers, and technical sheets that support reps, distributors, and engineering decision-makers.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
 
         {/* Image banner */}
         <section className="image-banner">
-          <img loading="lazy" className="parallax-img" src="/images/services/print-marketing-sales-collateral.jpg" alt="Print Marketing & Sales Collateral"/>
+          <img loading="lazy" className="parallax-img" src="/images/services/print-marketing-sales-collateral.webp" alt="Print Marketing & Sales Collateral"/>
           <span className="eyebrow overlay-label">/ Print & Sales Collateral</span>
           <div className="overlay-cta-group">
             <a href="/company/contact" className="btn btn-dark overlay-cta">Contact us
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Dedicated to Materials That Hold Up</h2>
             <p>A spec sheet has to survive a plant floor, a windshield, and a filing cabinet just as well as a first read. We design and produce print collateral built for that kind of use, not just a nice PDF.</p>
           </div>
-          <img loading="lazy" src="/images/services/pachon-business-cards.jpg" alt="Print marketing and sales collateral"/>
+          <img loading="lazy" src="/images/services/pachon-business-cards.webp" alt="Print marketing and sales collateral"/>
         </section>
 
         {/* Spec columns */}
@@ -154,12 +154,12 @@ export default function Page() {
             <span className="eyebrow">/ Gallery</span>
             <h2>Print Marketing Work</h2>
             <div className="gallery-grid">
-              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/monufact-chat.jpg" alt="Printed product spec catalog"/></div>
-              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-crossman-03.jpg" alt="Client project book spread"/></div>
-              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-carterai.png" alt="Client brand book cover"/></div>
-              <div className="gallery-item"><img loading="lazy" src="/images/services/digital-sales-assets.jpg" alt="One-pager layout"/></div>
-              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/pachon-brandguide.jpg" alt="Client brand guide cover"/></div>
-              <div className="gallery-item"><img loading="lazy" src="/images/services/pachon-business-cards.jpg" alt="Brochure design"/></div>
+              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/monufact-chat.webp" alt="Printed product spec catalog"/></div>
+              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-crossman-03.webp" alt="Client project book spread"/></div>
+              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-carterai.webp" alt="Client brand book cover"/></div>
+              <div className="gallery-item"><img loading="lazy" src="/images/services/digital-sales-assets.webp" alt="One-pager layout"/></div>
+              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/pachon-brandguide.webp" alt="Client brand guide cover"/></div>
+              <div className="gallery-item"><img loading="lazy" src="/images/services/pachon-business-cards.webp" alt="Brochure design"/></div>
             </div>
           </div>
         </section>
@@ -210,7 +210,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/services/monufact-crossman-03.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/services/monufact-crossman-03.webp')"}}>
           </div>
           <div className="split-cta-right">
             <span className="eyebrow">/ Get to know us</span>

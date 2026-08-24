@@ -6,7 +6,7 @@ export const metadata = {
     description: "Monufact is a digital marketing agency based in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.",
     url: "/",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Monufact - Digital Solutions for the Steel Industry",
     description: "Monufact is a digital marketing agency based in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -195,14 +195,14 @@ export default function Page() {
                 <img loading="lazy" className="logo-item-img" src="/images/clients/pachon.svg" alt="Pachon"/>
                 <img loading="lazy" className="logo-item-img" src="/images/clients/carter-ai.svg" alt="Carter AI"/>
                 <img loading="lazy" className="logo-item-img" src="/images/clients/mgb.svg" alt="MGB"/>
-                <img loading="lazy" className="logo-item-img" src="/images/clients/Crossman-Group-Primary-Field-Poppy-Accent.png" alt="Crossman Group"/>
+                <img loading="lazy" className="logo-item-img" src="/images/clients/Crossman-Group-Primary-Field-Poppy-Accent.webp" alt="Crossman Group"/>
               </div>
               <div className="logo-carousel-track" aria-hidden="true">
                 <img loading="lazy" className="logo-item-img" src="/images/clients/kao.svg" alt=""/>
                 <img loading="lazy" className="logo-item-img" src="/images/clients/pachon.svg" alt=""/>
                 <img loading="lazy" className="logo-item-img" src="/images/clients/carter-ai.svg" alt=""/>
                 <img loading="lazy" className="logo-item-img" src="/images/clients/mgb.svg" alt=""/>
-                <img loading="lazy" className="logo-item-img" src="/images/clients/Crossman-Group-Primary-Field-Poppy-Accent.png" alt=""/>
+                <img loading="lazy" className="logo-item-img" src="/images/clients/Crossman-Group-Primary-Field-Poppy-Accent.webp" alt=""/>
               </div>
             </div>
           </div>
@@ -250,7 +250,7 @@ export default function Page() {
               <div className="solutions-col">
                 <a className="solution-item" href="/services/brand-strategy-positioning">
                   <div className="solution-media">
-                    <img loading="lazy" src="/images/services/pachon-brandguide.jpg" alt="Brand Strategy & Positioning"/>
+                    <img loading="lazy" src="/images/services/pachon-brandguide.webp" alt="Brand Strategy & Positioning"/>
                     <span className="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
                   </div>
                   <h3>Brand Strategy & Positioning</h3>
@@ -258,7 +258,7 @@ export default function Page() {
                 </a>
                 <a className="solution-item" href="/services/print-marketing-sales-collateral">
                   <div className="solution-media">
-                    <img loading="lazy" src="/images/services/print-marketing-sales-collateral.jpg" alt="Print Marketing & Sales Collateral"/>
+                    <img loading="lazy" src="/images/services/print-marketing-sales-collateral.webp" alt="Print Marketing & Sales Collateral"/>
                     <span className="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
                   </div>
                   <h3>Print Marketing & Sales Collateral</h3>
@@ -266,7 +266,7 @@ export default function Page() {
                 </a>
                 <a className="solution-item" href="/services/digital-marketing">
                   <div className="solution-media">
-                    <img loading="lazy" src="/images/services/monufact-performnace-01.jpg" alt="Digital Marketing"/>
+                    <img loading="lazy" src="/images/services/monufact-performnace-01.webp" alt="Digital Marketing"/>
                     <span className="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
                   </div>
                   <h3>Digital Marketing</h3>
@@ -276,7 +276,7 @@ export default function Page() {
               <div className="solutions-col solutions-col-lead">
                 <a className="solution-item" href="/services/performance-marketing">
                   <div className="solution-media">
-                    <img loading="lazy" src="/images/services/performance-marketing.jpg" alt="Performance Marketing"/>
+                    <img loading="lazy" src="/images/services/performance-marketing.webp" alt="Performance Marketing"/>
                     <span className="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
                   </div>
                   <h3>Performance Marketing</h3>
@@ -284,7 +284,7 @@ export default function Page() {
                 </a>
                 <a className="solution-item" href="/services/trade-show-event-materials">
                   <div className="solution-media">
-                    <img loading="lazy" src="/images/services/trade-show-event-materials.jpg" alt="Trade Show & Event Materials"/>
+                    <img loading="lazy" src="/images/services/trade-show-event-materials.webp" alt="Trade Show & Event Materials"/>
                     <span className="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
                   </div>
                   <h3>Trade Show & Event Materials</h3>
@@ -294,7 +294,7 @@ export default function Page() {
               <div className="solutions-col">
                 <a className="solution-item" href="/services/digital-sales-assets">
                   <div className="solution-media">
-                    <img loading="lazy" src="/images/services/digital-sales-assets.jpg" alt="Digital Sales Assets"/>
+                    <img loading="lazy" src="/images/services/digital-sales-assets.webp" alt="Digital Sales Assets"/>
                     <span className="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
                   </div>
                   <h3>Digital Sales Assets</h3>
@@ -302,7 +302,7 @@ export default function Page() {
                 </a>
                 <a className="solution-item" href="/services/content-technical-communication">
                   <div className="solution-media">
-                    <img loading="lazy" src="/images/services/content-technical-communications.jpg" alt="Content & Technical Communication"/>
+                    <img loading="lazy" src="/images/services/content-technical-communications.webp" alt="Content & Technical Communication"/>
                     <span className="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
                   </div>
                   <h3>Content & Technical Communication</h3>
@@ -310,7 +310,7 @@ export default function Page() {
                 </a>
                 <a className="solution-item" href="/services/website-design-development">
                   <div className="solution-media">
-                    <img loading="lazy" src="/images/services/website-design-development.jpg" alt="Website Design & Development"/>
+                    <img loading="lazy" src="/images/services/website-design-development.webp" alt="Website Design & Development"/>
                     <span className="solution-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
                   </div>
                   <h3>Website Design & Development</h3>
@@ -323,7 +323,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>
@@ -350,7 +350,7 @@ export default function Page() {
               <article className="news-card">
                 <div className="news-card-media">
                   <a href="/news/trade-show-success">
-                    <img loading="lazy" src="/images/blog/trade-show-success.jpg" alt="Trade Show Success for Canadian Manufacturers"/>
+                    <img loading="lazy" src="/images/blog/trade-show-success.webp" alt="Trade Show Success for Canadian Manufacturers"/>
                   </a>
                   <a href="/news/trade-show-success" className="news-arrow">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
@@ -363,7 +363,7 @@ export default function Page() {
               <article className="news-card">
                 <div className="news-card-media">
                   <a href="/news/sustainability-marketing-advantage">
-                    <img loading="lazy" src="/images/blog/marketing-sustainability.jpg" alt="Why Sustainability Is Becoming a Marketing Advantage in Manufacturing"/>
+                    <img loading="lazy" src="/images/blog/marketing-sustainability.webp" alt="Why Sustainability Is Becoming a Marketing Advantage in Manufacturing"/>
                   </a>
                   <a href="/news/sustainability-marketing-advantage" className="news-arrow">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
@@ -376,7 +376,7 @@ export default function Page() {
               <article className="news-card">
                 <div className="news-card-media">
                   <a href="/news/on-grid-solar-energy">
-                    <img loading="lazy" src="/images/blog/on-grid-solar.jpg" alt="On-Grid System: The New Face of Solar Energy"/>
+                    <img loading="lazy" src="/images/blog/on-grid-solar.webp" alt="On-Grid System: The New Face of Solar Energy"/>
                   </a>
                   <a href="/news/on-grid-solar-energy" className="news-arrow">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>

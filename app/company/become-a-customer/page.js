@@ -8,7 +8,7 @@ export const metadata = {
     description: "Ready to work with Monufact? Tell us about your project, budget, and goals, and our team will follow up to build a plan tailored to your business.",
     url: "/company/become-a-customer",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -16,7 +16,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Become a Customer - Get Started with Monufact",
     description: "Ready to work with Monufact? Tell us about your project, budget, and goals, and our team will follow up to build a plan tailored to your business.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
@@ -63,7 +63,7 @@ export default function Page() {
 
         {/* Image banner */}
         <section className="image-banner">
-          <img loading="lazy" src="/images/services/monufact-about-hero.jpg" alt="The Monufact logo displayed in the office"/>
+          <img loading="lazy" src="/images/services/monufact-about-hero.webp" alt="The Monufact logo displayed in the office"/>
           <span className="eyebrow overlay-label">/ Get Started</span>
           <div className="overlay-cta-group">
             <a href="/company/contact" className="btn btn-dark overlay-cta">Contact us

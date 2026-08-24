@@ -6,7 +6,7 @@ export const metadata = {
     description: "Why on-grid solar systems are becoming a practical first step for manufacturers investing in renewable energy.",
     url: "/news/on-grid-solar-energy",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,14 +14,14 @@ export const metadata = {
     card: "summary_large_image",
     title: "On-Grid System: The New Face of Solar Energy - Monufact",
     description: "Why on-grid solar systems are becoming a practical first step for manufacturers investing in renewable energy.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"On-Grid System: The New Face of Solar Energy\", \"description\": \"Why on-grid solar systems are becoming a practical first step for manufacturers investing in renewable energy.\", \"image\": \"https://monufact.com/images/blog/on-grid-solar.jpg\", \"author\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"logo\": {\"@type\": \"ImageObject\", \"url\": \"https://monufact.com/images/monufact-logo.svg\"}}, \"mainEntityOfPage\": {\"@type\": \"WebPage\", \"@id\": \"https://monufact.com/news/on-grid-solar-energy\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"On-Grid System: The New Face of Solar Energy\", \"description\": \"Why on-grid solar systems are becoming a practical first step for manufacturers investing in renewable energy.\", \"image\": \"https://monufact.com/images/blog/on-grid-solar.webp\", \"author\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"logo\": {\"@type\": \"ImageObject\", \"url\": \"https://monufact.com/images/monufact-logo.svg\"}}, \"mainEntityOfPage\": {\"@type\": \"WebPage\", \"@id\": \"https://monufact.com/news/on-grid-solar-energy\"}}" }} />
       {/* Article hero */}
         <section className="service-hero article-hero">
           <div className="container">
@@ -31,7 +31,7 @@ export default function Page() {
         </section>
 
         <div className="container">
-          <img loading="lazy" className="article-hero-image" src="/images/blog/on-grid-solar.jpg" alt="On-Grid System: The New Face of Solar Energy"/>
+          <img loading="lazy" className="article-hero-image" src="/images/blog/on-grid-solar.webp" alt="On-Grid System: The New Face of Solar Energy"/>
         </div>
 
         {/* Article body */}
@@ -72,7 +72,7 @@ export default function Page() {
               <article className="news-card">
                 <div className="news-card-media">
                   <a href="/news/trade-show-success">
-                    <img loading="lazy" src="/images/blog/trade-show-success.jpg" alt="Trade Show Success for Canadian Manufacturers"/>
+                    <img loading="lazy" src="/images/blog/trade-show-success.webp" alt="Trade Show Success for Canadian Manufacturers"/>
                   </a>
                   <a href="/news/trade-show-success" className="news-arrow">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
@@ -84,7 +84,7 @@ export default function Page() {
               <article className="news-card">
                 <div className="news-card-media">
                   <a href="/news/sustainability-marketing-advantage">
-                    <img loading="lazy" src="/images/blog/marketing-sustainability.jpg" alt="Why Sustainability Is Becoming a Marketing Advantage in Manufacturing"/>
+                    <img loading="lazy" src="/images/blog/marketing-sustainability.webp" alt="Why Sustainability Is Becoming a Marketing Advantage in Manufacturing"/>
                   </a>
                   <a href="/news/sustainability-marketing-advantage" className="news-arrow">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>

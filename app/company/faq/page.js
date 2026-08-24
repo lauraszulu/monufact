@@ -6,7 +6,7 @@ export const metadata = {
     description: "Answers to common questions about working with Monufact: our process, payment terms, service breakdowns, and project workflow.",
     url: "/company/faq",
     siteName: "Monufact",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Frequently Asked Questions - Monufact",
     description: "Answers to common questions about working with Monufact: our process, payment terms, service breakdowns, and project workflow.",
-    images: ["/images/about/monufact-about-hero.jpg"],
+    images: ["/images/services/monufact-about-hero.webp"],
   },
 };
 
