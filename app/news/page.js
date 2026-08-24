@@ -40,6 +40,23 @@ export default function Page() {
         <section className="section">
           <div className="container news-list">
             <article className="news-list-item">
+              <a href="/news/manufacturing-matters-2026" className="news-list-media">
+                <img loading="lazy" src="/images/industries/shared-factory-floor.webp" alt="Manufacturing Matters 2026"/>
+              </a>
+              <div>
+                <div className="news-list-tags">
+                  <span className="tag">News</span>
+                </div>
+                <a href="/news/manufacturing-matters-2026" className="news-list-title">
+                  <h3>Manufacturing Matters 2026: What London, Ontario Manufacturers Need to Know</h3>
+                </a>
+                <p>A free half-day conference for manufacturers, hosted by LEDC and the London Region Manufacturing Council on October 1, 2026 — here's what's on the agenda.</p>
+                <a href="/news/manufacturing-matters-2026" className="news-list-readmore">Read more
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </article>
+            <article className="news-list-item">
               <a href="/news/trade-show-success" className="news-list-media">
                 <img loading="lazy" src="/images/blog/trade-show-success.webp" alt="Trade Show Success for Canadian Manufacturers"/>
               </a>

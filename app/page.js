@@ -375,16 +375,16 @@ export default function Page() {
               </article>
               <article className="news-card">
                 <div className="news-card-media">
-                  <a href="/news/on-grid-solar-energy">
-                    <img loading="lazy" src="/images/blog/on-grid-solar.webp" alt="On-Grid System: The New Face of Solar Energy"/>
+                  <a href="/news/manufacturing-matters-2026">
+                    <img loading="lazy" src="/images/industries/shared-factory-floor.webp" alt="Manufacturing Matters 2026"/>
                   </a>
-                  <a href="/news/on-grid-solar-energy" className="news-arrow">
+                  <a href="/news/manufacturing-matters-2026" className="news-arrow">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>
                 <span className="tag">News</span>
-                <h4>On-Grid System: The New Face of Solar Energy</h4>
-                <p>How on-grid solar systems and other sustainability investments are helping manufacturers reduce costs while meeting rising environmental expectations.</p>
+                <h4>Manufacturing Matters 2026: What London, Ontario Manufacturers Need to Know</h4>
+                <p>A free half-day conference for manufacturers, hosted by LEDC and the London Region Manufacturing Council on October 1, 2026.</p>
               </article>
             </div>
           </div>
