@@ -3347,6 +3347,49 @@ body.lightbox-open {
   color: var(--c-orange);
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: var(--space-l);
+  left: var(--space-l);
+  z-index: 998;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: var(--c-black);
+  color: var(--c-white);
+  cursor: pointer;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.2s ease, transform 0.2s ease, background 0.2s ease;
+  pointer-events: none;
+}
+
+.back-to-top svg {
+  width: 20px;
+  height: 20px;
+}
+
+.back-to-top.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.back-to-top:hover {
+  background: var(--c-orange);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .back-to-top {
+    transition: opacity 0.01ms;
+  }
+}
+
 .editor-toggle {
   position: fixed;
   bottom: var(--space-l);

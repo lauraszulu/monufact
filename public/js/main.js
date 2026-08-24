@@ -1043,3 +1043,27 @@ if (document.querySelector('.gallery-item img')) {
     });
   });
 })();
+
+// Back to top — appears after scrolling past one viewport height
+const backToTop = document.getElementById('backToTop');
+if (backToTop) {
+  let ticking = false;
+  function updateBackToTop() {
+    backToTop.classList.toggle('is-visible', window.scrollY > window.innerHeight);
+    ticking = false;
+  }
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      window.requestAnimationFrame(updateBackToTop);
+      ticking = true;
+    }
+  }, { passive: true });
+  updateBackToTop();
+
+  backToTop.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+    });
+  });
+}

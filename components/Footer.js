@@ -1,5 +1,6 @@
 export default function Footer() {
   return (
+    <>
     <footer className="site-footer">
       <div className="container footer-grid">
         <div className="footer-brand">
@@ -56,5 +57,9 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+      <button type="button" id="backToTop" className="back-to-top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 19V5M5 12l7-7 7 7" /></svg>
+      </button>
+    </>
   );
 }

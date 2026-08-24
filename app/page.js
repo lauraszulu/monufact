@@ -48,7 +48,7 @@ export default function Page() {
               <input type="file" id="heroUploadInput" accept=".gif,image/gif,video/mp4,video/webm,video/ogg" hidden/>
             </div>
             <div className="hero-cta-group">
-              <a href="#" className="hero-cta btn btn-dark">Learn more
+              <a href="#solutions" className="hero-cta btn btn-dark">Learn more
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
               </a>
               <div className="hero-cta-accent"></div>
