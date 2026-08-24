@@ -25,10 +25,8 @@ export async function submitContactForm(prevState, formData) {
 
   const recaptcha = await verifyRecaptcha(formData.get('g-recaptcha-response'));
   if (!recaptcha.ok) {
-    // TEMPORARY: surfacing the real reason while debugging the Enterprise
-    // integration — replace with a plain visitor-facing message once
-    // this is confirmed working.
-    return { ok: false, error: 'DEBUG reCAPTCHA rejected: ' + recaptcha.reason };
+    console.error('contact form recaptcha rejected:', recaptcha.reason);
+    return { ok: false, error: "Please refresh the page and try again." };
   }
 
   try {

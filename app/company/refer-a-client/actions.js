@@ -35,7 +35,8 @@ export async function submitReferralForm(prevState, formData) {
 
   const recaptcha = await verifyRecaptcha(formData.get('g-recaptcha-response'));
   if (!recaptcha.ok) {
-    return { ok: false, error: "Please check the \"I'm not a robot\" box before submitting." };
+    console.error('referral form recaptcha rejected:', recaptcha.reason);
+    return { ok: false, error: "Please refresh the page and try again." };
   }
 
   try {
