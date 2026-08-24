@@ -3,7 +3,7 @@
 import { useActionState, useEffect, useRef } from 'react';
 import { useFormStatus } from 'react-dom';
 import { submitStartForm } from '@/app/company/become-a-customer/actions';
-import { RECAPTCHA_SITE_KEY } from '@/lib/recaptchaSiteKey';
+import { useRecaptchaSubmit } from '@/lib/useRecaptchaSubmit';
 
 const initialState = { ok: false, error: null, message: null };
 
@@ -29,13 +29,15 @@ function SubmitButton() {
 export default function StartForm() {
   const [state, formAction] = useActionState(submitStartForm, initialState);
   const formRef = useRef(null);
+  const { tokenInputRef, handleSubmit } = useRecaptchaSubmit(formRef);
 
   useEffect(() => {
     if (state.ok) formRef.current?.reset();
   }, [state]);
 
   return (
-    <form className="contact-form-fields start-form" id="startForm" ref={formRef} action={formAction}>
+    <form className="contact-form-fields start-form" id="startForm" ref={formRef} action={formAction} onSubmit={handleSubmit}>
+      <input type="hidden" name="g-recaptcha-response" ref={tokenInputRef} />
       <input
         type="text"
         name="_hp"
@@ -104,7 +106,6 @@ export default function StartForm() {
         <label htmlFor="sf-goals">What are you hoping to achieve?</label>
         <textarea id="sf-goals" name="goals" placeholder="Tell us about your goals and expectations"></textarea>
       </div>
-      <div className="g-recaptcha" data-sitekey={RECAPTCHA_SITE_KEY}></div>
       <SubmitButton />
       <p className="contact-form-note" id="startFormNote">
         {state.ok ? state.message : state.error}

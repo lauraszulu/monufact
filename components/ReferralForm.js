@@ -3,7 +3,7 @@
 import { useActionState, useEffect, useRef } from 'react';
 import { useFormStatus } from 'react-dom';
 import { submitReferralForm } from '@/app/company/refer-a-client/actions';
-import { RECAPTCHA_SITE_KEY } from '@/lib/recaptchaSiteKey';
+import { useRecaptchaSubmit } from '@/lib/useRecaptchaSubmit';
 
 const initialState = { ok: false, error: null, message: null };
 
@@ -20,13 +20,15 @@ function SubmitButton() {
 export default function ReferralForm() {
   const [state, formAction] = useActionState(submitReferralForm, initialState);
   const formRef = useRef(null);
+  const { tokenInputRef, handleSubmit } = useRecaptchaSubmit(formRef);
 
   useEffect(() => {
     if (state.ok) formRef.current?.reset();
   }, [state]);
 
   return (
-    <form className="contact-form-fields start-form" id="referralForm" ref={formRef} action={formAction}>
+    <form className="contact-form-fields start-form" id="referralForm" ref={formRef} action={formAction} onSubmit={handleSubmit}>
+      <input type="hidden" name="g-recaptcha-response" ref={tokenInputRef} />
       <input
         type="text"
         name="_hp"
@@ -84,7 +86,6 @@ export default function ReferralForm() {
         <a href="/company/terms-conditions#referral-program">Terms &amp; Conditions</a>, including the Referral Partner
         Program terms above.
       </label>
-      <div className="g-recaptcha" data-sitekey={RECAPTCHA_SITE_KEY}></div>
       <SubmitButton />
       <p className="contact-form-note" id="referralFormNote">
         {state.ok ? state.message : state.error}

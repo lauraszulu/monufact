@@ -44,9 +44,13 @@ export default function RootLayout({ children }) {
           gtag('config', 'G-K063VKZPNC');`}
         </Script>
 
-        {/* Google reCAPTCHA — renders the checkbox widget on the 3 site
-            forms (Contact, Become a Customer, Refer a Client) */}
-        <Script src="https://www.google.com/recaptcha/api.js" strategy="afterInteractive" async defer />
+        {/* Google reCAPTCHA v3 — invisible, score-based. Loaded with
+            render=<site key> so grecaptcha.execute() is available to the
+            3 site forms (Contact, Become a Customer, Refer a Client). */}
+        <Script
+          src="https://www.google.com/recaptcha/api.js?render=6Le6bpUtAAAAAA82pA0bTFhQerL3qJGivcREa1_8"
+          strategy="afterInteractive"
+        />
 
         {/* Microsoft Clarity */}
         <Script id="clarity" strategy="afterInteractive">

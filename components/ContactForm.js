@@ -3,7 +3,7 @@
 import { useActionState, useEffect, useRef } from 'react';
 import { useFormStatus } from 'react-dom';
 import { submitContactForm } from '@/app/company/contact/actions';
-import { RECAPTCHA_SITE_KEY } from '@/lib/recaptchaSiteKey';
+import { useRecaptchaSubmit } from '@/lib/useRecaptchaSubmit';
 
 const initialState = { ok: false, error: null, message: null };
 
@@ -20,13 +20,15 @@ function SubmitButton() {
 export default function ContactForm() {
   const [state, formAction] = useActionState(submitContactForm, initialState);
   const formRef = useRef(null);
+  const { tokenInputRef, handleSubmit } = useRecaptchaSubmit(formRef);
 
   useEffect(() => {
     if (state.ok) formRef.current?.reset();
   }, [state]);
 
   return (
-    <form className="contact-form-fields" id="contactForm" ref={formRef} action={formAction}>
+    <form className="contact-form-fields" id="contactForm" ref={formRef} action={formAction} onSubmit={handleSubmit}>
+      <input type="hidden" name="g-recaptcha-response" ref={tokenInputRef} />
       <input
         type="text"
         name="_hp"
@@ -69,7 +71,6 @@ export default function ContactForm() {
         <label htmlFor="cf-message">Comments/Questions</label>
         <textarea id="cf-message" name="message" required></textarea>
       </div>
-      <div className="g-recaptcha" data-sitekey={RECAPTCHA_SITE_KEY}></div>
       <SubmitButton />
       <p className="contact-form-note" id="contactFormNote">
         {state.ok ? state.message : state.error}
