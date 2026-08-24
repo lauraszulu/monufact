@@ -3,6 +3,7 @@
 import { useActionState, useEffect, useRef } from 'react';
 import { useFormStatus } from 'react-dom';
 import { submitStartForm } from '@/app/company/become-a-customer/actions';
+import { RECAPTCHA_SITE_KEY } from '@/lib/recaptchaSiteKey';
 
 const initialState = { ok: false, error: null, message: null };
 
@@ -103,6 +104,7 @@ export default function StartForm() {
         <label htmlFor="sf-goals">What are you hoping to achieve?</label>
         <textarea id="sf-goals" name="goals" placeholder="Tell us about your goals and expectations"></textarea>
       </div>
+      <div className="g-recaptcha" data-sitekey={RECAPTCHA_SITE_KEY}></div>
       <SubmitButton />
       <p className="contact-form-note" id="startFormNote">
         {state.ok ? state.message : state.error}

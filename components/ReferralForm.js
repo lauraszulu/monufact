@@ -3,6 +3,7 @@
 import { useActionState, useEffect, useRef } from 'react';
 import { useFormStatus } from 'react-dom';
 import { submitReferralForm } from '@/app/company/refer-a-client/actions';
+import { RECAPTCHA_SITE_KEY } from '@/lib/recaptchaSiteKey';
 
 const initialState = { ok: false, error: null, message: null };
 
@@ -83,6 +84,7 @@ export default function ReferralForm() {
         <a href="/company/terms-conditions#referral-program">Terms &amp; Conditions</a>, including the Referral Partner
         Program terms above.
       </label>
+      <div className="g-recaptcha" data-sitekey={RECAPTCHA_SITE_KEY}></div>
       <SubmitButton />
       <p className="contact-form-note" id="referralFormNote">
         {state.ok ? state.message : state.error}

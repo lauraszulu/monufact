@@ -3,6 +3,7 @@
 import { useActionState, useEffect, useRef } from 'react';
 import { useFormStatus } from 'react-dom';
 import { submitContactForm } from '@/app/company/contact/actions';
+import { RECAPTCHA_SITE_KEY } from '@/lib/recaptchaSiteKey';
 
 const initialState = { ok: false, error: null, message: null };
 
@@ -68,6 +69,7 @@ export default function ContactForm() {
         <label htmlFor="cf-message">Comments/Questions</label>
         <textarea id="cf-message" name="message" required></textarea>
       </div>
+      <div className="g-recaptcha" data-sitekey={RECAPTCHA_SITE_KEY}></div>
       <SubmitButton />
       <p className="contact-form-note" id="contactFormNote">
         {state.ok ? state.message : state.error}

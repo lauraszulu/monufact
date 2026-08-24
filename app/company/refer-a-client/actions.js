@@ -1,6 +1,7 @@
 'use server';
 
 import { sendNotificationEmail } from '../../../lib/mailer';
+import { verifyRecaptcha } from '../../../lib/recaptcha';
 
 const REQUIRED_FIELDS = [
   'referrer_name',
@@ -30,6 +31,11 @@ export async function submitReferralForm(prevState, formData) {
   }
   if (!formData.get('agree_terms')) {
     return { ok: false, error: 'Please agree to the Terms & Conditions to submit a referral.' };
+  }
+
+  const recaptchaOk = await verifyRecaptcha(formData.get('g-recaptcha-response'));
+  if (!recaptchaOk) {
+    return { ok: false, error: "Please check the \"I'm not a robot\" box before submitting." };
   }
 
   try {

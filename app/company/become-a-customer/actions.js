@@ -1,6 +1,7 @@
 'use server';
 
 import { sendNotificationEmail } from '../../../lib/mailer';
+import { verifyRecaptcha } from '../../../lib/recaptcha';
 
 const REQUIRED_FIELDS = ['first_name', 'last_name', 'email', 'company_name', 'budget', 'timeline'];
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -21,6 +22,11 @@ export async function submitStartForm(prevState, formData) {
   }
   if (!EMAIL_PATTERN.test(fields.email)) {
     return { ok: false, error: 'Please enter a valid email address.' };
+  }
+
+  const recaptchaOk = await verifyRecaptcha(formData.get('g-recaptcha-response'));
+  if (!recaptchaOk) {
+    return { ok: false, error: "Please check the \"I'm not a robot\" box before submitting." };
   }
 
   try {
