@@ -30,6 +30,33 @@ export const metadata = {
   },
 };
 
+// Sitewide Organization/LocalBusiness structured data. ProfessionalService
+// is a LocalBusiness subtype — a better fit than plain LocalBusiness for a
+// service agency (vs. a storefront customers walk into), while still
+// satisfying "local business schema." Only verified facts go in here: no
+// founding date, employee count, or awards, since none of that has been
+// confirmed for Monufact specifically.
+const ORGANIZATION_SCHEMA = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  name: 'Monufact',
+  url: 'https://monufact.com',
+  logo: 'https://monufact.com/images/monufact-logo.svg',
+  image: 'https://monufact.com/images/about/monufact-about-hero.jpg',
+  description:
+    'Monufact is a digital marketing agency based in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.',
+  telephone: '+1-226-977-2064',
+  email: 'info@monufact.com',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'London',
+    addressRegion: 'ON',
+    addressCountry: 'CA',
+  },
+  areaServed: 'CA',
+  sameAs: ['https://www.instagram.com/monufact.marketing/'],
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -40,6 +67,10 @@ export default function RootLayout({ children }) {
         <link
           href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
           rel="stylesheet"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(ORGANIZATION_SCHEMA) }}
         />
       </head>
       <body>

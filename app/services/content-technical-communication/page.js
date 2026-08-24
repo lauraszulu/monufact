@@ -21,6 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Content & Technical Communication\", \"description\": \"Clear technical documentation, case studies, and content that turns complex products into content buyers can actually use.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": \"CA\", \"url\": \"https://monufact.com/services/content-technical-communication\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">

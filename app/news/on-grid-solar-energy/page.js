@@ -21,6 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"On-Grid System: The New Face of Solar Energy\", \"description\": \"Why on-grid solar systems are becoming a practical first step for manufacturers investing in renewable energy.\", \"image\": \"https://monufact.com/images/blog/on-grid-solar.jpg\", \"author\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"logo\": {\"@type\": \"ImageObject\", \"url\": \"https://monufact.com/images/monufact-logo.svg\"}}, \"mainEntityOfPage\": {\"@type\": \"WebPage\", \"@id\": \"https://monufact.com/news/on-grid-solar-energy\"}}" }} />
       {/* Article hero */}
         <section className="service-hero article-hero">
           <div className="container">

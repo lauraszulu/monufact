@@ -21,6 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"Trade Show Success for Canadian Manufacturers\", \"description\": \"How Canadian manufacturers can turn trade show events into real, lasting business.\", \"image\": \"https://monufact.com/images/blog/trade-show-success.jpg\", \"author\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"logo\": {\"@type\": \"ImageObject\", \"url\": \"https://monufact.com/images/monufact-logo.svg\"}}, \"mainEntityOfPage\": {\"@type\": \"WebPage\", \"@id\": \"https://monufact.com/news/trade-show-success\"}}" }} />
       {/* Article hero */}
         <section className="service-hero article-hero">
           <div className="container">

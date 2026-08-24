@@ -21,6 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Digital Marketing\", \"description\": \"Full-funnel digital marketing for manufacturers: SEO, paid media, email, and marketing automation built to generate qualified industrial leads.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": \"CA\", \"url\": \"https://monufact.com/services/digital-marketing\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">

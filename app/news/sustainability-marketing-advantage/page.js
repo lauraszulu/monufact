@@ -21,6 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"Why Sustainability Is Becoming a Marketing Advantage in Manufacturing\", \"description\": \"How sustainability is becoming a genuine competitive advantage for manufacturers, not just an operational goal.\", \"image\": \"https://monufact.com/images/blog/marketing-sustainability.jpg\", \"author\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"logo\": {\"@type\": \"ImageObject\", \"url\": \"https://monufact.com/images/monufact-logo.svg\"}}, \"mainEntityOfPage\": {\"@type\": \"WebPage\", \"@id\": \"https://monufact.com/news/sustainability-marketing-advantage\"}}" }} />
       {/* Article hero */}
         <section className="service-hero article-hero">
           <div className="container">

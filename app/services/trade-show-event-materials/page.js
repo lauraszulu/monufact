@@ -21,6 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Trade Show & Event Materials\", \"description\": \"Custom-designed vehicle wraps, booth graphics, signage, and print materials built for industrial trade shows and events.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": \"CA\", \"url\": \"https://monufact.com/services/trade-show-event-materials\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">
