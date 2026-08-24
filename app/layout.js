@@ -77,10 +77,18 @@ export default function RootLayout({ children }) {
         <Footer />
 
         {/* Site-wide, non-form interactivity (mobile nav, accordions, scroll
-            effects, Edit Mode, etc.) — see public/js/main.js. Plain <script>,
-            not next/script, so it runs at the same point in the document as
-            it always has, right before </body>. */}
-        <script src="/js/main.js" />
+            effects, Edit Mode, etc.) — see public/js/main.js. main.js starts
+            mutating the DOM immediately on load (adding data-editable-*
+            attributes for Edit Mode, running the stat-counter animation,
+            etc). A plain <script> tag runs as soon as it's parsed, which can
+            land in the middle of React's hydration pass — React then sees
+            DOM it didn't expect, treats it as a hydration mismatch, and
+            regenerates that whole subtree client-side. That regeneration
+            drops any listeners main.js had just attached (e.g. the nav
+            toggle), so the mobile menu and tab dropdowns silently stopped
+            responding to taps. next/script's afterInteractive strategy
+            defers execution until after hydration, which avoids the race. */}
+        <Script src="/js/main.js" strategy="afterInteractive" />
       </body>
     </html>
   );
