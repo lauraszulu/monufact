@@ -49,7 +49,7 @@ export default function Page() {
             <h2>Marketing for the Long Sales Cycle</h2>
             <p>Energy and infrastructure projects are won over months, not days. We build marketing systems that stay in front of decision-makers through every stage of a long, technical, multi-stakeholder sales process.</p>
           </div>
-          <img loading="lazy" src="https://picsum.photos/seed/monufact-energy-innovation/1600/700" alt="Energy infrastructure development"/>
+          <img loading="lazy" src="/images/industries/energy-1.jpg" alt="Energy infrastructure development"/>
         </section>
 
         {/* Industry details */}
@@ -77,7 +77,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('https://picsum.photos/seed/monufact-energy-cta/900/900')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

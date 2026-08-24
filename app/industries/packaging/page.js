@@ -49,7 +49,7 @@ export default function Page() {
             <h2>Built for the Specification Chain</h2>
             <p>We map your product's path from plant to project (architects, distributors, contractors) and build marketing for each stage, so your materials get specified early and stay specified through to the build.</p>
           </div>
-          <img loading="lazy" src="https://picsum.photos/seed/monufact-materials-innovation/1600/700" alt="Building materials manufacturing"/>
+          <img loading="lazy" src="/images/industries/packaging-1.jpg" alt="Building materials manufacturing"/>
         </section>
 
         {/* Industry details */}
@@ -77,7 +77,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('https://picsum.photos/seed/monufact-packaging-cta/900/900')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

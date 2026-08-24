@@ -20,7 +20,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Industrial suppliers and distributors compete on availability, reliability, and how easy they are to do business with. We build the marketing and digital tools that make that easier to prove and easier to find.</p>
-              <img loading="lazy" src="https://picsum.photos/seed/monufact-supply-intro/700/500" alt="Industrial supply warehouse"/>
+              <img loading="lazy" src="/images/industries/packaging-1.jpg" alt="Industrial supply warehouse"/>
             </div>
           </div>
         </section>
@@ -35,10 +35,10 @@ export default function Page() {
             </div>
             </div>
             <div className="industry-sector-col industry-sector-col-1">
-              <img loading="lazy" src="https://picsum.photos/seed/monufact-supply-sector-1/500/500" alt="Industrial parts inventory"/>
+              <img loading="lazy" src="/images/industries/shared-quality-testing.jpg" alt="Industrial parts inventory"/>
             </div>
             <div className="industry-sector-col industry-sector-col-2">
-              <img loading="lazy" src="https://picsum.photos/seed/monufact-supply-sector-2/500/500" alt="Distribution warehouse shelving"/>
+              <img loading="lazy" src="/images/industries/shared-factory-floor.jpg" alt="Distribution warehouse shelving"/>
             </div>
           </div>
         </section>
@@ -49,7 +49,7 @@ export default function Page() {
             <h2>Built for High-Volume, High-Trust Buying</h2>
             <p>We understand that industrial buyers are creatures of habit. Once they find a supplier they trust, they stay. Our marketing is built to earn that first order and support the relationship that keeps them coming back.</p>
           </div>
-          <img loading="lazy" src="https://picsum.photos/seed/monufact-supply-innovation/1600/700" alt="Industrial supply distribution center"/>
+          <img loading="lazy" src="/images/industries/industrial-1.jpg" alt="Industrial supply distribution center"/>
         </section>
 
         {/* Industry details */}
@@ -77,7 +77,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('https://picsum.photos/seed/monufact-parts-cta/900/900')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

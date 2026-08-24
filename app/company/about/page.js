@@ -41,7 +41,7 @@ export default function Page() {
 
         {/* Image banner with stat overlay */}
         <section className="image-banner">
-          <img loading="lazy" src="https://picsum.photos/seed/monufact-about-metal/1600/700" alt="Monufact"/>
+          <img loading="lazy" src="/images/services/monufact-about-hero.jpg" alt="Monufact"/>
           <div className="stat-overlay-card">
             <span className="eyebrow">/ Experience. Transparency. Results.</span>
             <span className="stat-number">20+</span>

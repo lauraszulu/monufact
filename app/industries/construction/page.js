@@ -49,7 +49,7 @@ export default function Page() {
             <h2>Marketing That Understands the Job Site</h2>
             <p>We work with contractors to understand project types, service areas, and past work before building anything, so your marketing reflects real capability and helps you compete for the projects that fit your business best.</p>
           </div>
-          <img loading="lazy" src="https://picsum.photos/seed/monufact-construction-innovation/1600/700" alt="Construction project underway"/>
+          <img loading="lazy" src="/images/industries/construction-1.jpg" alt="Construction project underway"/>
         </section>
 
         {/* Industry details */}
@@ -77,7 +77,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('https://picsum.photos/seed/monufact-construction-cta/900/900')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

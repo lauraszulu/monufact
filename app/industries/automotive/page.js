@@ -49,7 +49,7 @@ export default function Page() {
             <h2>Built for Automotive-Grade Standards</h2>
             <p>We understand the certifications, quality systems, and sourcing processes that define the automotive supply chain, and we build marketing that speaks that language fluently, from first contact through RFQ.</p>
           </div>
-          <img loading="lazy" src="https://picsum.photos/seed/monufact-automotive-innovation/1600/700" alt="Automotive manufacturing facility"/>
+          <img loading="lazy" src="/images/industries/automotive-1.jpg" alt="Automotive manufacturing facility"/>
         </section>
 
         {/* Industry details */}
@@ -77,7 +77,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('https://picsum.photos/seed/monufact-automotive-cta/900/900')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

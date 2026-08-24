@@ -49,7 +49,7 @@ export default function Page() {
             <h2>One Product, Two Audiences</h2>
             <p>We build marketing systems that flex between retail-facing and trade-facing content, so the same product story works whether it's reaching a showroom floor or a distributor's order desk.</p>
           </div>
-          <img loading="lazy" src="https://picsum.photos/seed/monufact-appliances-innovation/1600/700" alt="Appliance manufacturing facility"/>
+          <img loading="lazy" src="/images/industries/appliances-1.jpg" alt="Appliance manufacturing facility"/>
         </section>
 
         {/* Industry details */}
@@ -77,7 +77,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('https://picsum.photos/seed/monufact-appliances-cta/900/900')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

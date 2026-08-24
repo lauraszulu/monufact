@@ -49,7 +49,7 @@ export default function Page() {
             <h2>Built for Demanding Environments</h2>
             <p>We understand that mining and heavy industrial buyers evaluate suppliers on durability, safety record, and total cost of ownership. Our marketing is built to communicate exactly that, clearly and credibly.</p>
           </div>
-          <img loading="lazy" src="https://picsum.photos/seed/monufact-mining-innovation/1600/700" alt="Mining operations facility"/>
+          <img loading="lazy" src="/images/industries/mining-1.jpg" alt="Mining operations facility"/>
         </section>
 
         {/* Industry details */}
@@ -77,7 +77,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('https://picsum.photos/seed/monufact-mining-cta/900/900')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

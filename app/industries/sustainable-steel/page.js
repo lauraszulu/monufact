@@ -49,7 +49,7 @@ export default function Page() {
             <h2>Precision Work Deserves Precise Marketing</h2>
             <p>We take the time to understand your shop's capabilities, certifications, and specialties before building a single piece of content, so every asset accurately represents what you can deliver and helps you win the projects you actually want.</p>
           </div>
-          <img loading="lazy" src="https://picsum.photos/seed/monufact-steel-innovation/1600/700" alt="Steel fabrication facility"/>
+          <img loading="lazy" src="/images/industries/sustainable-steel-1.jpg" alt="Steel fabrication facility"/>
         </section>
 
         {/* Industry details */}
@@ -77,7 +77,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('https://picsum.photos/seed/monufact-sustainable-steel-cta/900/900')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

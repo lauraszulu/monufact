@@ -49,7 +49,7 @@ export default function Page() {
             <h2>Built Around Your Production Reality</h2>
             <p>We work closely with manufacturing teams to understand capacity, capability, and competitive position before a single asset gets built. That means marketing that reflects what your plant can actually deliver and communicates it with the credibility technical buyers expect.</p>
           </div>
-          <img loading="lazy" src="https://picsum.photos/seed/monufact-industrial-innovation/1600/700" alt="Industrial production facility"/>
+          <img loading="lazy" src="/images/industries/industrial-1.jpg" alt="Industrial production facility"/>
         </section>
 
         {/* Industry details */}
@@ -77,7 +77,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('https://picsum.photos/seed/monufact-industrial-cta/900/900')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.jpg')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

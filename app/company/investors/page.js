@@ -37,7 +37,7 @@ export default function Page() {
 
         {/* Image banner */}
         <section className="image-banner">
-          <img loading="lazy" src="https://picsum.photos/seed/monufact-investors/1600/700" alt="Investors"/>
+          <img loading="lazy" src="/images/services/0458e783-9481-4d64-9c44-5b07896eef9b.jpg" alt="Investors"/>
           <span className="eyebrow overlay-label">/ Lorem Ipsum</span>
           <a href="/#contact" className="btn btn-dark overlay-cta">Contact us
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
@@ -46,7 +46,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('https://picsum.photos/seed/monufact-investors-cta/900/900')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-quality-testing.jpg')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Lorem Ipsum Supports</h4>
