@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Appliances Industry Marketing - Monufact",
   description: "Digital marketing and communications services for appliance manufacturers and industrial companies.",
+  openGraph: {
+    title: "Appliances Industry Marketing - Monufact",
+    description: "Digital marketing and communications services for appliance manufacturers and industrial companies.",
+    url: "/industries/appliances",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Appliances Industry Marketing - Monufact",
+    description: "Digital marketing and communications services for appliance manufacturers and industrial companies.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

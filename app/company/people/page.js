@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Our People - Monufact",
   description: "Meet the team behind Monufact's digital marketing and industrial communications work.",
+  openGraph: {
+    title: "Our People - Monufact",
+    description: "Meet the team behind Monufact's digital marketing and industrial communications work.",
+    url: "/company/people",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Our People - Monufact",
+    description: "Meet the team behind Monufact's digital marketing and industrial communications work.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

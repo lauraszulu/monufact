@@ -1,6 +1,21 @@
 export const metadata = {
   title: "About Monufact - Digital Marketing for Manufacturers",
   description: "Monufact is a digital marketing agency in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.",
+  openGraph: {
+    title: "About Monufact - Digital Marketing for Manufacturers",
+    description: "Monufact is a digital marketing agency in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.",
+    url: "/company/about",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Monufact - Digital Marketing for Manufacturers",
+    description: "Monufact is a digital marketing agency in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

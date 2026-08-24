@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Steel & Metal Fabrication Marketing - Monufact",
   description: "Marketing and sales content for steel and metal fabrication companies, built to communicate technical capability and win industrial buyers.",
+  openGraph: {
+    title: "Steel & Metal Fabrication Marketing - Monufact",
+    description: "Marketing and sales content for steel and metal fabrication companies, built to communicate technical capability and win industrial buyers.",
+    url: "/industries/sustainable-steel",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Steel & Metal Fabrication Marketing - Monufact",
+    description: "Marketing and sales content for steel and metal fabrication companies, built to communicate technical capability and win industrial buyers.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

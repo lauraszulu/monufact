@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Accessibility - Monufact",
   description: "Monufact's commitment to accessibility for our website and services.",
+  openGraph: {
+    title: "Accessibility - Monufact",
+    description: "Monufact's commitment to accessibility for our website and services.",
+    url: "/company/accessibility",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Accessibility - Monufact",
+    description: "Monufact's commitment to accessibility for our website and services.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

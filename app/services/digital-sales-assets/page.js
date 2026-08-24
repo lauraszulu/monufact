@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Digital Sales Assets for Manufacturers - Monufact",
   description: "Capabilities decks, digital brochures, and sales materials that help manufacturers communicate value with clarity and precision.",
+  openGraph: {
+    title: "Digital Sales Assets for Manufacturers - Monufact",
+    description: "Capabilities decks, digital brochures, and sales materials that help manufacturers communicate value with clarity and precision.",
+    url: "/services/digital-sales-assets",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Digital Sales Assets for Manufacturers - Monufact",
+    description: "Capabilities decks, digital brochures, and sales materials that help manufacturers communicate value with clarity and precision.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

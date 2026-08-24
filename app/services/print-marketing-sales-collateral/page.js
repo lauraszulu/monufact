@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Print Marketing & Sales Collateral - Monufact",
   description: "High-quality printed catalogs, one-pagers, and technical sheets that support reps, distributors, and engineering decision-makers.",
+  openGraph: {
+    title: "Print Marketing & Sales Collateral - Monufact",
+    description: "High-quality printed catalogs, one-pagers, and technical sheets that support reps, distributors, and engineering decision-makers.",
+    url: "/services/print-marketing-sales-collateral",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Print Marketing & Sales Collateral - Monufact",
+    description: "High-quality printed catalogs, one-pagers, and technical sheets that support reps, distributors, and engineering decision-makers.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

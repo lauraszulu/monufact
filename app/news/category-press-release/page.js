@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Press Releases - Monufact Newsroom",
   description: "Official press releases and announcements from Monufact for the manufacturing and industrial sectors.",
+  openGraph: {
+    title: "Press Releases - Monufact Newsroom",
+    description: "Official press releases and announcements from Monufact for the manufacturing and industrial sectors.",
+    url: "/news/category-press-release",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Press Releases - Monufact Newsroom",
+    description: "Official press releases and announcements from Monufact for the manufacturing and industrial sectors.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

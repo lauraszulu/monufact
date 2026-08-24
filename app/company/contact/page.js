@@ -3,6 +3,21 @@ import ContactForm from '@/components/ContactForm';
 export const metadata = {
   title: "Contact Monufact - Digital Marketing Agency in Ontario",
   description: "Get in touch with Monufact's team in London, Ontario. Reach out by phone, email, or our contact form to start the conversation about your marketing needs.",
+  openGraph: {
+    title: "Contact Monufact - Digital Marketing Agency in Ontario",
+    description: "Get in touch with Monufact's team in London, Ontario. Reach out by phone, email, or our contact form to start the conversation about your marketing needs.",
+    url: "/company/contact",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Monufact - Digital Marketing Agency in Ontario",
+    description: "Get in touch with Monufact's team in London, Ontario. Reach out by phone, email, or our contact form to start the conversation about your marketing needs.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

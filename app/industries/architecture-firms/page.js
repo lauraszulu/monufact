@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Architecture & Engineering Marketing - Monufact",
   description: "Marketing support for architecture and engineering firms, translating technical expertise into content that wins clients and projects.",
+  openGraph: {
+    title: "Architecture & Engineering Marketing - Monufact",
+    description: "Marketing support for architecture and engineering firms, translating technical expertise into content that wins clients and projects.",
+    url: "/industries/architecture-firms",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Architecture & Engineering Marketing - Monufact",
+    description: "Marketing support for architecture and engineering firms, translating technical expertise into content that wins clients and projects.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

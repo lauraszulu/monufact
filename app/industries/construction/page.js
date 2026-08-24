@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Construction & Contracting Marketing - Monufact",
   description: "Digital marketing for construction and contracting companies, from brand positioning to sales materials that support every bid and project.",
+  openGraph: {
+    title: "Construction & Contracting Marketing - Monufact",
+    description: "Digital marketing for construction and contracting companies, from brand positioning to sales materials that support every bid and project.",
+    url: "/industries/construction",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Construction & Contracting Marketing - Monufact",
+    description: "Digital marketing for construction and contracting companies, from brand positioning to sales materials that support every bid and project.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

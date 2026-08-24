@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Content & Technical Communication - Monufact",
   description: "Clear technical documentation, case studies, and content that turns complex products into content buyers can actually use.",
+  openGraph: {
+    title: "Content & Technical Communication - Monufact",
+    description: "Clear technical documentation, case studies, and content that turns complex products into content buyers can actually use.",
+    url: "/services/content-technical-communication",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Content & Technical Communication - Monufact",
+    description: "Clear technical documentation, case studies, and content that turns complex products into content buyers can actually use.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

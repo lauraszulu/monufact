@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Automotive Industry Marketing - Monufact",
   description: "Digital marketing and communications services for automotive manufacturers and suppliers.",
+  openGraph: {
+    title: "Automotive Industry Marketing - Monufact",
+    description: "Digital marketing and communications services for automotive manufacturers and suppliers.",
+    url: "/industries/automotive",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Automotive Industry Marketing - Monufact",
+    description: "Digital marketing and communications services for automotive manufacturers and suppliers.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

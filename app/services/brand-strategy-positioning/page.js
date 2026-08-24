@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Brand Strategy & Positioning for Manufacturers - Monufact",
   description: "Build a clear, credible brand identity that resonates with engineers, buyers, and distributors in competitive industrial markets.",
+  openGraph: {
+    title: "Brand Strategy & Positioning for Manufacturers - Monufact",
+    description: "Build a clear, credible brand identity that resonates with engineers, buyers, and distributors in competitive industrial markets.",
+    url: "/services/brand-strategy-positioning",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Brand Strategy & Positioning for Manufacturers - Monufact",
+    description: "Build a clear, credible brand identity that resonates with engineers, buyers, and distributors in competitive industrial markets.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

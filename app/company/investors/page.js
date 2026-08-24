@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Investors - Monufact",
   description: "Investor relations information and updates for Monufact stakeholders.",
+  openGraph: {
+    title: "Investors - Monufact",
+    description: "Investor relations information and updates for Monufact stakeholders.",
+    url: "/company/investors",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Investors - Monufact",
+    description: "Investor relations information and updates for Monufact stakeholders.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Website Design & Development for Manufacturers - Monufact",
   description: "Modern, fast, conversion-focused websites built for industrial manufacturers, from UX strategy and design through development and ongoing support.",
+  openGraph: {
+    title: "Website Design & Development for Manufacturers - Monufact",
+    description: "Modern, fast, conversion-focused websites built for industrial manufacturers, from UX strategy and design through development and ongoing support.",
+    url: "/services/website-design-development",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Website Design & Development for Manufacturers - Monufact",
+    description: "Modern, fast, conversion-focused websites built for industrial manufacturers, from UX strategy and design through development and ongoing support.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

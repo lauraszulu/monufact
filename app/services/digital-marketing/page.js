@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Digital Marketing for Manufacturers - Monufact",
   description: "Full-funnel digital marketing for manufacturers: SEO, paid media, email, and marketing automation built to generate qualified industrial leads.",
+  openGraph: {
+    title: "Digital Marketing for Manufacturers - Monufact",
+    description: "Full-funnel digital marketing for manufacturers: SEO, paid media, email, and marketing automation built to generate qualified industrial leads.",
+    url: "/services/digital-marketing",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Digital Marketing for Manufacturers - Monufact",
+    description: "Full-funnel digital marketing for manufacturers: SEO, paid media, email, and marketing automation built to generate qualified industrial leads.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

@@ -1,6 +1,21 @@
 export const metadata = {
   title: "On-Grid System: The New Face of Solar Energy - Monufact",
   description: "Why on-grid solar systems are becoming a practical first step for manufacturers investing in renewable energy.",
+  openGraph: {
+    title: "On-Grid System: The New Face of Solar Energy - Monufact",
+    description: "Why on-grid solar systems are becoming a practical first step for manufacturers investing in renewable energy.",
+    url: "/news/on-grid-solar-energy",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "On-Grid System: The New Face of Solar Energy - Monufact",
+    description: "Why on-grid solar systems are becoming a practical first step for manufacturers investing in renewable energy.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

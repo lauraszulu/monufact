@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Product Innovation - Monufact Newsroom",
   description: "Insights on product innovation, trade shows, and go-to-market strategy for manufacturers, from the Monufact newsroom.",
+  openGraph: {
+    title: "Product Innovation - Monufact Newsroom",
+    description: "Insights on product innovation, trade shows, and go-to-market strategy for manufacturers, from the Monufact newsroom.",
+    url: "/news/category-product-innovation",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Product Innovation - Monufact Newsroom",
+    description: "Insights on product innovation, trade shows, and go-to-market strategy for manufacturers, from the Monufact newsroom.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

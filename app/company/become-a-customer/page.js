@@ -3,6 +3,21 @@ import StartForm from '@/components/StartForm';
 export const metadata = {
   title: "Become a Customer - Get Started with Monufact",
   description: "Ready to work with Monufact? Tell us about your project, budget, and goals, and our team will follow up to build a plan tailored to your business.",
+  openGraph: {
+    title: "Become a Customer - Get Started with Monufact",
+    description: "Ready to work with Monufact? Tell us about your project, budget, and goals, and our team will follow up to build a plan tailored to your business.",
+    url: "/company/become-a-customer",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Become a Customer - Get Started with Monufact",
+    description: "Ready to work with Monufact? Tell us about your project, budget, and goals, and our team will follow up to build a plan tailored to your business.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

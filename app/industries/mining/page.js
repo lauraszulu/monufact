@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Mining Industry Marketing - Monufact",
   description: "Digital marketing and communications services for mining and heavy industrial companies.",
+  openGraph: {
+    title: "Mining Industry Marketing - Monufact",
+    description: "Digital marketing and communications services for mining and heavy industrial companies.",
+    url: "/industries/mining",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mining Industry Marketing - Monufact",
+    description: "Digital marketing and communications services for mining and heavy industrial companies.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Trade Show & Event Materials Design - Monufact",
   description: "Custom-designed vehicle wraps, booth graphics, signage, and print materials built for industrial trade shows and events.",
+  openGraph: {
+    title: "Trade Show & Event Materials Design - Monufact",
+    description: "Custom-designed vehicle wraps, booth graphics, signage, and print materials built for industrial trade shows and events.",
+    url: "/services/trade-show-event-materials",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Trade Show & Event Materials Design - Monufact",
+    description: "Custom-designed vehicle wraps, booth graphics, signage, and print materials built for industrial trade shows and events.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

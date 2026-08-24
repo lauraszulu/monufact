@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Why Sustainability Is Becoming a Marketing Advantage in Manufacturing - Monufact",
   description: "How sustainability is becoming a genuine competitive advantage for manufacturers, not just an operational goal.",
+  openGraph: {
+    title: "Why Sustainability Is Becoming a Marketing Advantage in Manufacturing - Monufact",
+    description: "How sustainability is becoming a genuine competitive advantage for manufacturers, not just an operational goal.",
+    url: "/news/sustainability-marketing-advantage",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Why Sustainability Is Becoming a Marketing Advantage in Manufacturing - Monufact",
+    description: "How sustainability is becoming a genuine competitive advantage for manufacturers, not just an operational goal.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

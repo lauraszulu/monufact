@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Monufact - Digital Solutions for the Steel Industry",
   description: "Monufact is a digital marketing agency based in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.",
+  openGraph: {
+    title: "Monufact - Digital Solutions for the Steel Industry",
+    description: "Monufact is a digital marketing agency based in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.",
+    url: "/",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Monufact - Digital Solutions for the Steel Industry",
+    description: "Monufact is a digital marketing agency based in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {
@@ -60,7 +75,7 @@ export default function Page() {
           <h4>We value your privacy</h4>
           <p>We use cookies to improve your experience, analyze site traffic, and personalize content. You can customize your preferences or accept all.</p>
           <div className="cookie-links">
-            <button className="link-btn" id="cookieCustomize">Customize</button>
+            <a className="link-btn" id="cookieCustomize" href="/company/cookie-policy">Customize</a>
             <button className="link-btn" id="cookieReject">Reject All</button>
           </div>
           <button className="btn btn-accept" id="cookieAccept">Accept All</button>

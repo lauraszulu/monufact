@@ -51,6 +51,7 @@ export default function Footer() {
         <div className="footer-legal">
           <a href="/company/terms-conditions">Terms &amp; Conditions</a>
           <a href="/company/privacy-policy">Privacy Policy</a>
+          <a href="/company/cookie-policy">Cookie Policy</a>
           <a href="/company/accessibility">Accessibility</a>
         </div>
       </div>

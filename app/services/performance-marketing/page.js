@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Performance Marketing for Industrial Companies - Monufact",
   description: "Targeted digital campaigns that drive industrial demand, expand distributor pipelines, and generate qualified B2B leads.",
+  openGraph: {
+    title: "Performance Marketing for Industrial Companies - Monufact",
+    description: "Targeted digital campaigns that drive industrial demand, expand distributor pipelines, and generate qualified B2B leads.",
+    url: "/services/performance-marketing",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Performance Marketing for Industrial Companies - Monufact",
+    description: "Targeted digital campaigns that drive industrial demand, expand distributor pipelines, and generate qualified B2B leads.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

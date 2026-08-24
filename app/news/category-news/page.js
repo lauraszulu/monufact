@@ -1,6 +1,21 @@
 export const metadata = {
   title: "News - Monufact Newsroom",
   description: "The latest company news and industry updates from Monufact, covering sustainability, technology, and manufacturing trends.",
+  openGraph: {
+    title: "News - Monufact Newsroom",
+    description: "The latest company news and industry updates from Monufact, covering sustainability, technology, and manufacturing trends.",
+    url: "/news/category-news",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "News - Monufact Newsroom",
+    description: "The latest company news and industry updates from Monufact, covering sustainability, technology, and manufacturing trends.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

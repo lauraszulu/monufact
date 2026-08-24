@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Privacy Policy - Monufact",
   description: "Monufact's Privacy Policy explains how we collect, use, and protect your information.",
+  openGraph: {
+    title: "Privacy Policy - Monufact",
+    description: "Monufact's Privacy Policy explains how we collect, use, and protect your information.",
+    url: "/company/privacy-policy",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Privacy Policy - Monufact",
+    description: "Monufact's Privacy Policy explains how we collect, use, and protect your information.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

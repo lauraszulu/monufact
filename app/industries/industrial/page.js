@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Manufacturing & Industrial Production Marketing - Monufact",
   description: "Digital marketing built for manufacturers: brand strategy, sales enablement, and content that speaks to engineers, buyers, and distributors.",
+  openGraph: {
+    title: "Manufacturing & Industrial Production Marketing - Monufact",
+    description: "Digital marketing built for manufacturers: brand strategy, sales enablement, and content that speaks to engineers, buyers, and distributors.",
+    url: "/industries/industrial",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Manufacturing & Industrial Production Marketing - Monufact",
+    description: "Digital marketing built for manufacturers: brand strategy, sales enablement, and content that speaks to engineers, buyers, and distributors.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

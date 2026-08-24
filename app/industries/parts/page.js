@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Industrial Supply & Distribution Marketing - Monufact",
   description: "Digital marketing for industrial suppliers and distributors, built to support sales teams and reach buyers across every channel.",
+  openGraph: {
+    title: "Industrial Supply & Distribution Marketing - Monufact",
+    description: "Digital marketing for industrial suppliers and distributors, built to support sales teams and reach buyers across every channel.",
+    url: "/industries/parts",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Industrial Supply & Distribution Marketing - Monufact",
+    description: "Digital marketing for industrial suppliers and distributors, built to support sales teams and reach buyers across every channel.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

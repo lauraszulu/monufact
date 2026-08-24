@@ -1,6 +1,21 @@
 export const metadata = {
   title: "News - Monufact",
   description: "News, press releases, and product innovation from Monufact.",
+  openGraph: {
+    title: "News - Monufact",
+    description: "News, press releases, and product innovation from Monufact.",
+    url: "/news",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "News - Monufact",
+    description: "News, press releases, and product innovation from Monufact.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

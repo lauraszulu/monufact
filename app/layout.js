@@ -4,11 +4,29 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
+  metadataBase: new URL('https://monufact.com'),
   title: 'Monufact - Digital Solutions for the Steel Industry',
   description:
     'Monufact is a digital marketing agency based in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.',
   icons: {
     icon: '/images/monufact-favicon.svg',
+  },
+  openGraph: {
+    title: 'Monufact - Digital Solutions for the Steel Industry',
+    description:
+      'Monufact is a digital marketing agency based in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.',
+    url: '/',
+    siteName: 'Monufact',
+    images: ['/images/about/monufact-about-hero.jpg'],
+    locale: 'en_CA',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Monufact - Digital Solutions for the Steel Industry',
+    description:
+      'Monufact is a digital marketing agency based in London, Ontario, helping steel manufacturers and industrial companies modernize how they market, sell, and communicate.',
+    images: ['/images/about/monufact-about-hero.jpg'],
   },
 };
 

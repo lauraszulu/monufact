@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Energy & Infrastructure Marketing - Monufact",
   description: "Marketing and communications for energy and infrastructure companies, built to support complex sales cycles and technical audiences.",
+  openGraph: {
+    title: "Energy & Infrastructure Marketing - Monufact",
+    description: "Marketing and communications for energy and infrastructure companies, built to support complex sales cycles and technical audiences.",
+    url: "/industries/energy",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Energy & Infrastructure Marketing - Monufact",
+    description: "Marketing and communications for energy and infrastructure companies, built to support complex sales cycles and technical audiences.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

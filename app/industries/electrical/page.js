@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Automation & Industrial Technology Marketing - Monufact",
   description: "Marketing for automation and industrial technology companies, turning complex products into content that buyers and engineers understand.",
+  openGraph: {
+    title: "Automation & Industrial Technology Marketing - Monufact",
+    description: "Marketing for automation and industrial technology companies, turning complex products into content that buyers and engineers understand.",
+    url: "/industries/electrical",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Automation & Industrial Technology Marketing - Monufact",
+    description: "Marketing for automation and industrial technology companies, turning complex products into content that buyers and engineers understand.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

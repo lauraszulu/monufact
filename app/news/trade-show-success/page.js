@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Trade Show Success for Canadian Manufacturers - Monufact",
   description: "How Canadian manufacturers can turn trade show events into real, lasting business.",
+  openGraph: {
+    title: "Trade Show Success for Canadian Manufacturers - Monufact",
+    description: "How Canadian manufacturers can turn trade show events into real, lasting business.",
+    url: "/news/trade-show-success",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Trade Show Success for Canadian Manufacturers - Monufact",
+    description: "How Canadian manufacturers can turn trade show events into real, lasting business.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

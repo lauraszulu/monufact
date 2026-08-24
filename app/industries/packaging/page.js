@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Building Products & Materials Marketing - Monufact",
   description: "Marketing for building products and materials manufacturers, built to reach specifiers, distributors, and buyers across the supply chain.",
+  openGraph: {
+    title: "Building Products & Materials Marketing - Monufact",
+    description: "Marketing for building products and materials manufacturers, built to reach specifiers, distributors, and buyers across the supply chain.",
+    url: "/industries/packaging",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Building Products & Materials Marketing - Monufact",
+    description: "Marketing for building products and materials manufacturers, built to reach specifiers, distributors, and buyers across the supply chain.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {

@@ -1,6 +1,21 @@
 export const metadata = {
   title: "Frequently Asked Questions - Monufact",
   description: "Answers to common questions about working with Monufact: our process, payment terms, service breakdowns, and project workflow.",
+  openGraph: {
+    title: "Frequently Asked Questions - Monufact",
+    description: "Answers to common questions about working with Monufact: our process, payment terms, service breakdowns, and project workflow.",
+    url: "/company/faq",
+    siteName: "Monufact",
+    images: ["/images/about/monufact-about-hero.jpg"],
+    locale: "en_CA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Frequently Asked Questions - Monufact",
+    description: "Answers to common questions about working with Monufact: our process, payment terms, service breakdowns, and project workflow.",
+    images: ["/images/about/monufact-about-hero.jpg"],
+  },
 };
 
 export default function Page() {
