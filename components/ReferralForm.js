@@ -20,14 +20,14 @@ function SubmitButton() {
 export default function ReferralForm() {
   const [state, formAction] = useActionState(submitReferralForm, initialState);
   const formRef = useRef(null);
-  const { tokenInputRef, handleSubmit } = useRecaptchaSubmit(formRef);
+  const { tokenInputRef } = useRecaptchaSubmit();
 
   useEffect(() => {
     if (state.ok) formRef.current?.reset();
   }, [state]);
 
   return (
-    <form className="contact-form-fields start-form" id="referralForm" ref={formRef} action={formAction} onSubmit={handleSubmit}>
+    <form className="contact-form-fields start-form" id="referralForm" ref={formRef} action={formAction}>
       <input type="hidden" name="g-recaptcha-response" ref={tokenInputRef} />
       <input
         type="text"

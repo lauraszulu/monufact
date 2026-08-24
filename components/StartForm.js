@@ -29,14 +29,14 @@ function SubmitButton() {
 export default function StartForm() {
   const [state, formAction] = useActionState(submitStartForm, initialState);
   const formRef = useRef(null);
-  const { tokenInputRef, handleSubmit } = useRecaptchaSubmit(formRef);
+  const { tokenInputRef } = useRecaptchaSubmit();
 
   useEffect(() => {
     if (state.ok) formRef.current?.reset();
   }, [state]);
 
   return (
-    <form className="contact-form-fields start-form" id="startForm" ref={formRef} action={formAction} onSubmit={handleSubmit}>
+    <form className="contact-form-fields start-form" id="startForm" ref={formRef} action={formAction}>
       <input type="hidden" name="g-recaptcha-response" ref={tokenInputRef} />
       <input
         type="text"
