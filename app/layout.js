@@ -44,11 +44,15 @@ export default function RootLayout({ children }) {
           gtag('config', 'G-K063VKZPNC');`}
         </Script>
 
-        {/* Google reCAPTCHA v3 — invisible, score-based. Loaded with
-            render=<site key> so grecaptcha.execute() is available to the
-            3 site forms (Contact, Become a Customer, Refer a Client). */}
+        {/* Google reCAPTCHA Enterprise — invisible, score-based. This site
+            key was created via Google Cloud Console, so it needs the
+            enterprise.js client (grecaptcha.enterprise.execute), not the
+            classic api.js (grecaptcha.execute) — using the wrong one
+            throws cryptic internal errors and every execute() call fails
+            silently. Used by the 3 site forms (Contact, Become a
+            Customer, Refer a Client). */}
         <Script
-          src="https://www.google.com/recaptcha/api.js?render=6Le6bpUtAAAAAA82pA0bTFhQerL3qJGivcREa1_8"
+          src="https://www.google.com/recaptcha/enterprise.js?render=6Le6bpUtAAAAAA82pA0bTFhQerL3qJGivcREa1_8"
           strategy="afterInteractive"
         />
 
