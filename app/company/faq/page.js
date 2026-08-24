@@ -202,7 +202,10 @@ export default function Page() {
                     <span className="plus"></span>
                   </button>
                   <div className="accordion-panel">
-                    <p>Yes. If you refer a manufacturer or industrial company that signs on with us, you get paid: up to $1,500 on signed retainers, or 10% on one-time projects. See our <a href="/company/refer-a-client">Referral Partner Program page</a> for full details and to submit a referral.</p>
+                    <p>Yes. If you refer a manufacturer or industrial company that signs on with us, you get paid: up to $1,500 on signed retainers, or 10% on one-time projects.</p>
+                    <a href="/company/refer-a-client" className="btn btn-dark faq-referral-cta">Referral Partner Program
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+                    </a>
                   </div>
                 </div>
                 <div className="accordion-item">

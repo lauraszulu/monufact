@@ -1169,7 +1169,14 @@ body.editor-active .hero-media-actions {
 }
 
 .accordion-item.is-open .accordion-panel {
-  max-height: 200px;
+  /* Was 200px — too tight once the referral FAQ answer got a real CTA
+     button added below its text; raised with headroom for any answer
+     that grows a bit rather than tuning this per-item. */
+  max-height: 320px;
+}
+
+.faq-referral-cta {
+  margin-top: var(--space-m);
 }
 
 .accordion-panel p {
