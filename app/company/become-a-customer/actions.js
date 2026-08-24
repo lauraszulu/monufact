@@ -24,8 +24,8 @@ export async function submitStartForm(prevState, formData) {
     return { ok: false, error: 'Please enter a valid email address.' };
   }
 
-  const recaptchaOk = await verifyRecaptcha(formData.get('g-recaptcha-response'));
-  if (!recaptchaOk) {
+  const recaptcha = await verifyRecaptcha(formData.get('g-recaptcha-response'));
+  if (!recaptcha.ok) {
     return { ok: false, error: "Please check the \"I'm not a robot\" box before submitting." };
   }
 

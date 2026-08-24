@@ -33,8 +33,8 @@ export async function submitReferralForm(prevState, formData) {
     return { ok: false, error: 'Please agree to the Terms & Conditions to submit a referral.' };
   }
 
-  const recaptchaOk = await verifyRecaptcha(formData.get('g-recaptcha-response'));
-  if (!recaptchaOk) {
+  const recaptcha = await verifyRecaptcha(formData.get('g-recaptcha-response'));
+  if (!recaptcha.ok) {
     return { ok: false, error: "Please check the \"I'm not a robot\" box before submitting." };
   }
 
