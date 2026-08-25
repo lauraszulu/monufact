@@ -50,10 +50,10 @@ export default function Page() {
             </div>
             </div>
             <div className="industry-sector-col industry-sector-col-1">
-              <img loading="lazy" src="/images/industries/shared-factory-floor.webp" alt="Automated production line"/>
+              <img loading="lazy" src="/images/industries/electrical-2.webp" alt="Automated production line"/>
             </div>
             <div className="industry-sector-col industry-sector-col-2">
-              <img loading="lazy" src="/images/industries/shared-quality-testing.webp" alt="Industrial control systems"/>
+              <img loading="lazy" src="/images/industries/electrical-3.webp" alt="Industrial control systems"/>
             </div>
           </div>
         </section>
@@ -128,7 +128,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/electrical-1.webp?v=2')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>
