@@ -25,7 +25,7 @@ export default function Page() {
         <section className="service-hero">
           <div className="container">
             <span className="eyebrow">/ Industries</span>
-            <h1>Mining</h1>
+            <h1>Mining & Heavy Industry Marketing</h1>
             <p className="service-intro">Marketing for mining and heavy industrial companies operating under strict safety and procurement standards.</p>
           </div>
         </section>
@@ -90,6 +90,42 @@ export default function Page() {
           </div>
         </section>
 
+        {/* FAQ */}
+        <section className="faq-section faq-dark section">
+          <div className="container faq-split">
+            <div className="faq-intro">
+              <span className="eyebrow">/ FAQ</span>
+              <h2>Heavy Industry Marketing Questions, Answered.</h2>
+            </div>
+            <div className="accordion faq-accordion">
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">What matters most to procurement teams evaluating a mining or heavy industrial supplier?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Durability data, safety record, and total cost of ownership tend to outweigh price alone. Buyers in this space are often personally accountable for equipment failures on-site, so marketing that only talks about cost without addressing reliability and support tends to get discounted.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">Do heavy industrial buyers actually research suppliers online, or is it still relationship-driven?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Both. Relationships still open doors, but procurement teams increasingly vet a supplier's website and documentation during a compliance review, especially for larger accounts with formal vendor approval processes. A thin or outdated site can stall a deal a phone call already moved forward.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">What kind of content actually helps close mining and heavy industrial deals?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Equipment documentation that's specific rather than promotional, tolerances, testing standards, service history, tends to do more work than a generic capabilities page. Case studies with real performance data, when available, carry more weight than testimonials.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Split CTA */}
         <section className="split-cta">
           <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
@@ -105,7 +141,7 @@ export default function Page() {
               <h2>Durability Claims Only Convince With Proof Behind Them.</h2>
               <p>If procurement teams can't verify your performance data, let's fix that. Talk to our team about heavy industry marketing.</p>
             </div>
-            <a href="/#contact" className="btn btn-dark">Contact us
+            <a href="/company/contact" className="btn btn-dark">Contact us
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
           </div>

@@ -90,6 +90,42 @@ export default function Page() {
           </div>
         </section>
 
+        {/* FAQ */}
+        <section className="faq-section faq-dark section">
+          <div className="container faq-split">
+            <div className="faq-intro">
+              <span className="eyebrow">/ FAQ</span>
+              <h2>Contractor Marketing Questions, Answered.</h2>
+            </div>
+            <div className="accordion faq-accordion">
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">Does a construction or contracting company really need a marketing website?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>If new work comes entirely through repeat clients and personal referrals, a website matters less. But most GCs and contractors are increasingly shortlisted based on what a property owner or developer finds online before the first call, so an outdated or thin site can quietly cost bids you never hear about.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">How is marketing for a bid-based business different from a typical B2B company?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>The buying process is more structured. Property owners, developers, and GCs often work from a defined shortlist and RFP process, so proof of past work, licensing, and safety record matter more than brand messaging alone. Marketing here is closer to sales enablement than advertising.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">What's the highest-impact place to start with a limited marketing budget?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Usually a project portfolio that's actually current and searchable. Most contractor sites we take over have a portfolio that stopped updating years ago. A strong, current portfolio does more to win the next bid than almost anything else we'd build first.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Split CTA */}
         <section className="split-cta">
           <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
@@ -105,7 +141,7 @@ export default function Page() {
               <h2>The Best Portfolio Doesn't Win the Bid on Its Own.</h2>
               <p>If your project history isn't translating into shortlist decisions, let's fix that. Talk to our team about contractor marketing.</p>
             </div>
-            <a href="/#contact" className="btn btn-dark">Contact us
+            <a href="/company/contact" className="btn btn-dark">Contact us
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
           </div>

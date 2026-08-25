@@ -25,7 +25,7 @@ export default function Page() {
         <section className="service-hero">
           <div className="container">
             <span className="eyebrow">/ Industries</span>
-            <h1>Automotive</h1>
+            <h1>Automotive Supplier Marketing</h1>
             <p className="service-intro">Marketing built to the same standards automotive suppliers are held to.</p>
           </div>
         </section>
@@ -90,6 +90,42 @@ export default function Page() {
           </div>
         </section>
 
+        {/* FAQ */}
+        <section className="faq-section faq-dark section">
+          <div className="container faq-split">
+            <div className="faq-intro">
+              <span className="eyebrow">/ FAQ</span>
+              <h2>Automotive Marketing Questions, Answered.</h2>
+            </div>
+            <div className="accordion faq-accordion">
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">Why do automotive suppliers need different marketing than other manufacturers?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>OEM and Tier 1 sourcing teams work from a defined qualification process, certifications, quality history, and capacity data, before a sales conversation even starts. Marketing that skips straight to a pitch without surfacing that information gets filtered out before anyone reads it.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">What should an automotive supplier's website actually include?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>At minimum, current certifications, a clear capacity and capability overview, and a way for a sourcing contact to request a capability statement or RFQ packet directly. Proof a buyer can verify matters more than photos of the shop floor.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">How long does it typically take to see results from automotive supplier marketing?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Automotive sourcing cycles are long by design, often months between first contact and an awarded RFQ, so early results usually look like visibility and credibility with sourcing teams rather than immediate leads. We set that expectation before any work starts.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Split CTA */}
         <section className="split-cta">
           <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
@@ -105,7 +141,7 @@ export default function Page() {
               <h2>OEMs Don't Take Meetings on Reputation Alone.</h2>
               <p>If your certifications and track record aren't opening sourcing conversations, let's fix that. Talk to our team about automotive marketing.</p>
             </div>
-            <a href="/#contact" className="btn btn-dark">Contact us
+            <a href="/company/contact" className="btn btn-dark">Contact us
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
           </div>

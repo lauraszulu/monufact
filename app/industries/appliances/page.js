@@ -25,7 +25,7 @@ export default function Page() {
         <section className="service-hero">
           <div className="container">
             <span className="eyebrow">/ Industries</span>
-            <h1>Appliances</h1>
+            <h1>Appliance Industry Marketing</h1>
             <p className="service-intro">Marketing for appliance manufacturers selling to retail buyers and trade partners alike.</p>
           </div>
         </section>
@@ -90,6 +90,42 @@ export default function Page() {
           </div>
         </section>
 
+        {/* FAQ */}
+        <section className="faq-section faq-dark section">
+          <div className="container faq-split">
+            <div className="faq-intro">
+              <span className="eyebrow">/ FAQ</span>
+              <h2>Appliance Marketing Questions, Answered.</h2>
+            </div>
+            <div className="accordion faq-accordion">
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">What's different about marketing an appliance brand compared to other manufacturers?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Appliance manufacturers usually sell through two very different channels at once: retail and trade or distribution. Retail buyers want lifestyle imagery and simple comparison points; distributors and trade partners want accurate spec sheets and availability information. The marketing has to serve both without either audience feeling like an afterthought.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">Do we need separate websites for retail and trade audiences?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Not usually. A single site can serve both if it's structured well, consumer-facing product pages up front, with a dedicated trade or dealer section for spec downloads and order tools. Splitting into two sites usually creates more maintenance overhead than it solves.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">How do you keep technical specs accurate while still writing for a retail audience?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>We work directly from your engineering documentation, not marketing summaries, so the numbers on a retail page match what's in the trade spec sheet. Simplifying language for a retail buyer doesn't mean rounding a spec or dropping a certification a trade buyer needs to see.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Split CTA */}
         <section className="split-cta">
           <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
@@ -105,7 +141,7 @@ export default function Page() {
               <h2>Retail-Ready Shouldn't Mean Spec-Light.</h2>
               <p>If your product content is losing technical buyers to keep up with retail, let's fix that. Talk to our team about appliance marketing.</p>
             </div>
-            <a href="/#contact" className="btn btn-dark">Contact us
+            <a href="/company/contact" className="btn btn-dark">Contact us
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
           </div>

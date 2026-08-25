@@ -90,6 +90,42 @@ export default function Page() {
           </div>
         </section>
 
+        {/* FAQ */}
+        <section className="faq-section faq-dark section">
+          <div className="container faq-split">
+            <div className="faq-intro">
+              <span className="eyebrow">/ FAQ</span>
+              <h2>Distribution Marketing Questions, Answered.</h2>
+            </div>
+            <div className="accordion faq-accordion">
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">How is marketing for a distributor different from marketing for a manufacturer?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Distributors compete less on the product itself, since they often carry similar lines to competitors, and more on availability, service, and how easy they are to do business with. Marketing here is about proving reliability and making reordering effortless, not differentiating a product spec.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">Does a distributor really need a marketing strategy if most business is repeat orders?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Repeat orders keep a distributor running, but every account was a first order once, and most distributors are quietly losing a share of accounts every year to a competitor with an easier ordering experience. Marketing's job is filling that gap without disrupting what already works.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">What's the highest-leverage improvement for a distributor's website?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Making it fast to find and reorder a part. Buyers who already trust you are the easiest conversion in your business, and a clunky search or outdated catalog is often the biggest thing quietly pushing them to call a competitor instead.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Split CTA */}
         <section className="split-cta">
           <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
@@ -105,7 +141,7 @@ export default function Page() {
               <h2>Availability Doesn't Matter if Buyers Can't Find It.</h2>
               <p>If reordering isn't as easy as it should be, let's fix that. Talk to our team about distribution marketing.</p>
             </div>
-            <a href="/#contact" className="btn btn-dark">Contact us
+            <a href="/company/contact" className="btn btn-dark">Contact us
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
           </div>

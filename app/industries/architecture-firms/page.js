@@ -90,6 +90,42 @@ export default function Page() {
           </div>
         </section>
 
+        {/* FAQ */}
+        <section className="faq-section faq-dark section">
+          <div className="container faq-split">
+            <div className="faq-intro">
+              <span className="eyebrow">/ FAQ</span>
+              <h2>Architecture & Engineering Marketing Questions, Answered.</h2>
+            </div>
+            <div className="accordion faq-accordion">
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">How is marketing an architecture or engineering firm different from marketing a product-based business?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>The "product" is largely the firm's judgment and past work, so marketing is almost entirely about presenting a portfolio and credentials in a way that builds confidence before the first meeting. There's rarely a spec sheet to lean on; reputation and past projects carry the weight instead.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">Do we need to update our portfolio constantly, or just once in a while?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>More often than most firms do. A portfolio that stops at a project from several years ago quietly signals the firm hasn't taken on comparable new work recently, even if that's not true. Keeping it current is one of the simplest, highest-impact habits a firm can build.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">What matters most for winning institutional or commercial RFPs?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Clearly documented credentials and comparable past project experience, presented in a format that's easy for a review committee to evaluate quickly. RFP reviewers are often reading dozens of submissions, so clarity and completeness tend to matter as much as the quality of the work itself.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Split CTA */}
         <section className="split-cta">
           <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
@@ -105,7 +141,7 @@ export default function Page() {
               <h2>Great Design Deserves a Presentation That Matches It.</h2>
               <p>If your project showcases aren't landing with the developers and clients who matter, let's fix that. Talk to our team about A&E marketing.</p>
             </div>
-            <a href="/#contact" className="btn btn-dark">Contact us
+            <a href="/company/contact" className="btn btn-dark">Contact us
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
           </div>

@@ -90,6 +90,42 @@ export default function Page() {
           </div>
         </section>
 
+        {/* FAQ */}
+        <section className="faq-section faq-dark section">
+          <div className="container faq-split">
+            <div className="faq-intro">
+              <span className="eyebrow">/ FAQ</span>
+              <h2>Energy & Infrastructure Marketing Questions, Answered.</h2>
+            </div>
+            <div className="accordion faq-accordion">
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">Why does energy and infrastructure marketing take longer to show results?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>These projects are typically won over months through a formal RFP or procurement process involving multiple stakeholders, engineers, developers, and often a municipal or institutional buyer. Marketing here is about staying credible and visible through that entire cycle, not generating a fast lead.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">What do municipalities and institutional buyers actually look for in a supplier?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Proof of scale, safety record, and successful past projects of comparable size, usually documented clearly enough to support a formal evaluation or RFP response. Vague claims about experience don't hold up in a procurement review the way a specific, well-documented project case study does.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">Is content marketing worth it for a business that mostly wins work through RFPs?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Yes, an RFP is usually the final stage of a decision that started earlier, when a developer or municipality was researching who to even invite to bid. Being visible and credible before the RFP is issued is often what gets you on the shortlist in the first place.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Split CTA */}
         <section className="split-cta">
           <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
@@ -105,7 +141,7 @@ export default function Page() {
               <h2>Scale and Safety Only Matter if Buyers Can See Them.</h2>
               <p>If your track record isn't reaching the developers and municipalities deciding your next contract, let's fix that. Talk to our team about energy marketing.</p>
             </div>
-            <a href="/#contact" className="btn btn-dark">Contact us
+            <a href="/company/contact" className="btn btn-dark">Contact us
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
           </div>

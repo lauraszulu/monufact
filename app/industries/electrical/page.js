@@ -90,6 +90,42 @@ export default function Page() {
           </div>
         </section>
 
+        {/* FAQ */}
+        <section className="faq-section faq-dark section">
+          <div className="container faq-split">
+            <div className="faq-intro">
+              <span className="eyebrow">/ FAQ</span>
+              <h2>Industrial Technology Marketing Questions, Answered.</h2>
+            </div>
+            <div className="accordion faq-accordion">
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">Why is marketing automation and industrial technology harder than marketing a simpler product?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>The buying decision usually involves more than one stakeholder, an engineer evaluating specs, a plant manager weighing operational impact, and sometimes procurement weighing cost, and each needs different information to say yes. Content written for only one of them tends to stall the deal with the others.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">How technical should our website content actually be?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Technical enough that an engineer trusts it, but structured so a plant manager doesn't have to wade through it to get the operational answer they need. We usually layer content: a plain-language summary up front, with technical detail available for the reader who wants it.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">Do demo videos or interactive content actually help sell complex systems?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Often, yes, seeing a system in motion answers questions a spec sheet can't. But it only helps if it's easy to find and doesn't require a sales call just to access it. Strong demo content buried three clicks deep tends to do almost nothing for pipeline.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Split CTA */}
         <section className="split-cta">
           <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
@@ -105,7 +141,7 @@ export default function Page() {
               <h2>Complex Products Need Marketing That Doesn't Oversimplify.</h2>
               <p>If your systems are getting reduced to a bullet point buyers don't trust, let's fix that. Talk to our team about industrial technology marketing.</p>
             </div>
-            <a href="/#contact" className="btn btn-dark">Contact us
+            <a href="/company/contact" className="btn btn-dark">Contact us
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
           </div>

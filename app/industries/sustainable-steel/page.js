@@ -90,6 +90,42 @@ export default function Page() {
           </div>
         </section>
 
+        {/* FAQ */}
+        <section className="faq-section faq-dark section">
+          <div className="container faq-split">
+            <div className="faq-intro">
+              <span className="eyebrow">/ FAQ</span>
+              <h2>Fabrication Marketing Questions, Answered.</h2>
+            </div>
+            <div className="accordion faq-accordion">
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">What do engineers and project managers actually look for in a fabricator's marketing?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Proof of capability that's specific: tolerances you can hold, certifications you carry, equipment on your floor, and examples of comparable past work. Generic claims about quality don't help a buyer evaluate whether you can actually deliver their spec.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">Should we be showing pricing on our website?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Rarely. Most fabrication work is quoted per project based on material, tolerance, and volume, so pricing on a page usually creates more confusion than clarity. What's more useful is making it easy to request a quote with the right project details upfront.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">How much does a strong portfolio of past work actually matter?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>More than most shops realize. Buyers evaluating a new fabricator often look for evidence they've handled a similar project before, and a portfolio that's outdated or thin can quietly cost you the benefit of the doubt, even if your shop is fully capable.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Split CTA */}
         <section className="split-cta">
           <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
@@ -105,7 +141,7 @@ export default function Page() {
               <h2>Tolerances Win Bids. So Does Knowing How to Prove Them.</h2>
               <p>If your capabilities are getting lost before the RFQ stage, let's change that. Talk to our team about fabrication marketing.</p>
             </div>
-            <a href="/#contact" className="btn btn-dark">Contact us
+            <a href="/company/contact" className="btn btn-dark">Contact us
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
           </div>

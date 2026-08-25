@@ -90,6 +90,42 @@ export default function Page() {
           </div>
         </section>
 
+        {/* FAQ */}
+        <section className="faq-section faq-dark section">
+          <div className="container faq-split">
+            <div className="faq-intro">
+              <span className="eyebrow">/ FAQ</span>
+              <h2>Manufacturing Marketing Questions, Answered.</h2>
+            </div>
+            <div className="accordion faq-accordion">
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">How is marketing for a manufacturer different from marketing a typical business?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Buyers are usually evaluating a supplier's capability and reliability, not just a product, so marketing has to prove production capacity, quality systems, and track record, not just describe what you make. Procurement and engineering both need to trust what they're reading before they'll pick up the phone.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">Our sales team already has a deck. Why do we need a marketing strategy too?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>A sales deck works once someone's already talking to your team. Marketing's job is getting the right buyers to that conversation in the first place, mostly through a website and content that shows up when a procurement team is researching suppliers, before your sales team even knows they exist.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">What's the biggest gap you typically see on manufacturer websites?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Outdated or missing capability information. Buyers can't tell what your plant can actually produce, at what volume, or to what tolerance, so they move on to a competitor whose site answers that in the first thirty seconds.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Split CTA */}
         <section className="split-cta">
           <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
@@ -105,7 +141,7 @@ export default function Page() {
               <h2>Your Capability Shouldn't Be Your Best-Kept Secret.</h2>
               <p>If procurement teams can't find proof of what your plant can actually do, let's fix that. Talk to our team about manufacturing marketing.</p>
             </div>
-            <a href="/#contact" className="btn btn-dark">Contact us
+            <a href="/company/contact" className="btn btn-dark">Contact us
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
           </div>

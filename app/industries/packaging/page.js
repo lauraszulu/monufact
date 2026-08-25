@@ -90,6 +90,42 @@ export default function Page() {
           </div>
         </section>
 
+        {/* FAQ */}
+        <section className="faq-section faq-dark section">
+          <div className="container faq-split">
+            <div className="faq-intro">
+              <span className="eyebrow">/ FAQ</span>
+              <h2>Building Products Marketing Questions, Answered.</h2>
+            </div>
+            <div className="accordion faq-accordion">
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">What does "the specification chain" actually mean for a building products manufacturer?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Your product usually has to be chosen multiple times before it's ever installed: first specified by an architect or engineer, then approved by a contractor, then purchased by a distributor or builder. Losing any one of those buyers means the product doesn't make it into the building.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">How early should we be marketing to architects and specifiers?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Earlier than most manufacturers assume. Once a project's specifications are finalized, switching a specified product is rare, so the real opportunity is being visible and well-documented while a design is still being developed, not after.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">What kind of content actually helps get a product specified?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Accurate, complete technical documentation, compliance data, application details, CAD or BIM files where applicable, tends to matter more than marketing language. Specifiers are choosing based on whether they can defend the choice technically, not on branding alone.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Split CTA */}
         <section className="split-cta">
           <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/shared-factory-floor.webp')"}}>
@@ -105,7 +141,7 @@ export default function Page() {
               <h2>Specifiers Choose What They Understand First.</h2>
               <p>If your product data isn't reaching the people who write the spec, let's fix that. Talk to our team about materials marketing.</p>
             </div>
-            <a href="/#contact" className="btn btn-dark">Contact us
+            <a href="/company/contact" className="btn btn-dark">Contact us
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
           </div>
