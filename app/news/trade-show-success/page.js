@@ -88,7 +88,7 @@ export default function Page() {
               <li>Strong visual hierarchy</li>
               <li>Easy-to-understand value propositions</li>
             </ul>
-            <p>The goal isn't just to look good. It's to start conversations — see our tips on <a href="/news/trade-show-lead-generation-tips">what to actually say once someone stops at your booth</a>.</p>
+            <p>The goal isn't just to look good. It's to start conversations. See our tips on <a href="/news/trade-show-lead-generation-tips">what to actually say once someone stops at your booth</a>.</p>
 
             <h3>Sales Materials That Actually Support Conversations</h3>
             <p>Most brochures and spec sheets are too technical or poorly structured.</p>

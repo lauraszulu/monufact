@@ -50,7 +50,7 @@ export default function Page() {
                 <a href="/news/trade-show-lead-generation-tips" className="news-list-title">
                   <h3>What Actually Gets You Leads at Trade Shows (It's Not the Pitch)</h3>
                 </a>
-                <p>Real trade show lead generation tips from the show floor — the one question that opens conversations, and the small booth fixes that made the biggest difference.</p>
+                <p>Real trade show lead generation tips from the show floor: the one question that opens conversations, and the small booth fixes that made the biggest difference.</p>
                 <a href="/news/trade-show-lead-generation-tips" className="news-list-readmore">Read more
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                 </a>

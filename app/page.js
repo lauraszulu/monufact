@@ -371,7 +371,7 @@ export default function Page() {
                 </div>
                 <a href="/news/category-news" className="tag">News</a>
                 <a href="/news/trade-show-lead-generation-tips"><h4>What Actually Gets You Leads at Trade Shows (It's Not the Pitch)</h4></a>
-                <p>Real trade show lead generation tips from the show floor — the one question that opens conversations, and the small booth fixes that made the biggest difference.</p>
+                <p>Real trade show lead generation tips from the show floor: the one question that opens conversations, and the small booth fixes that made the biggest difference.</p>
               </article>
               <article className="news-card">
                 <div className="news-card-media">

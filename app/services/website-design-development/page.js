@@ -160,11 +160,11 @@ export default function Page() {
             <span className="eyebrow">/ Gallery</span>
             <h2>Website Design Work</h2>
             <div className="gallery-grid">
-              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/monufact-metalcor.webp" alt="Website homepage design"/></div>
+              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/website-design-development.webp" alt="Website homepage design"/></div>
               <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-performance.webp" alt="Mobile responsive layout"/></div>
               <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-performnace-03.webp" alt="Product page design"/></div>
-              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-performnace-01.webp" alt="Navigation and UX wireframe"/></div>
-              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/website-design-development.webp" alt="Website design system"/></div>
+              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/monufact-performnace-01.webp" alt="Navigation and UX wireframe"/></div>
+              <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-metalcor.webp" alt="Website design system"/></div>
               <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-metalcor.webp" alt="Dashboard interface design"/></div>
             </div>
           </div>
