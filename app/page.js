@@ -362,16 +362,16 @@ export default function Page() {
               </article>
               <article className="news-card">
                 <div className="news-card-media">
-                  <a href="/news/sustainability-marketing-advantage">
-                    <img loading="lazy" src="/images/blog/marketing-sustainability.webp" alt="Why Sustainability Is Becoming a Marketing Advantage in Manufacturing"/>
+                  <a href="/news/trade-show-lead-generation-tips">
+                    <img loading="lazy" src="/images/blog/trade-show-success.webp" alt="Trade show booth conversation"/>
                   </a>
-                  <a href="/news/sustainability-marketing-advantage" className="news-arrow">
+                  <a href="/news/trade-show-lead-generation-tips" className="news-arrow">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>
-                <a href="/news/category-press-release" className="tag">Press Release</a>
-                <a href="/news/sustainability-marketing-advantage"><h4>Why Sustainability Is Becoming a Marketing Advantage in Manufacturing</h4></a>
-                <p>Sustainability used to be something that lived behind the scenes. Today, it has moved to the forefront of decision-making for manufacturers and the clients they serve.</p>
+                <a href="/news/category-news" className="tag">News</a>
+                <a href="/news/trade-show-lead-generation-tips"><h4>What Actually Gets You Leads at Trade Shows (It's Not the Pitch)</h4></a>
+                <p>Real trade show lead generation tips from the show floor — the one question that opens conversations, and the small booth fixes that made the biggest difference.</p>
               </article>
               <article className="news-card">
                 <div className="news-card-media">

@@ -35,6 +35,7 @@ const ROUTES = [
   '/news/category-product-innovation',
   '/news/on-grid-solar-energy',
   '/news/sustainability-marketing-advantage',
+  '/news/trade-show-lead-generation-tips',
   '/news/trade-show-success',
   '/services/brand-strategy-positioning',
   '/services/content-technical-communication',
