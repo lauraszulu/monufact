@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Appliance manufacturers sell to both retail buyers and trade partners at once, two audiences with very different expectations. We build marketing that speaks to both without compromising either.</p>
-              <img loading="lazy" src="/images/industries/appliances-1.webp" alt="Appliance manufacturing line"/>
+              <img loading="lazy" src="/images/industries/appliances-1.webp" alt="Industrial-scale appliance production facility"/>
             </div>
           </div>
         </section>

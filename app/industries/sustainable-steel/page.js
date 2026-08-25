@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Steel and metal fabrication is a relationship-driven, technically demanding business, and buyers expect suppliers to prove capability before they'll trust them with a project. We build the marketing that makes that trust easier to earn.</p>
-              <img loading="lazy" src="/images/industries/sustainable-steel-1.webp" alt="Steel fabrication shop"/>
+              <img loading="lazy" src="/images/industries/sustainable-steel-1.webp" alt="Welder fabricating a steel frame"/>
             </div>
           </div>
         </section>

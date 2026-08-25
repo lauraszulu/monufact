@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Industrial suppliers and distributors compete on availability, reliability, and how easy they are to do business with. We build the marketing and digital tools that make that easier to prove and easier to find.</p>
-              <img loading="lazy" src="/images/industries/packaging-1.webp" alt="Industrial supply warehouse"/>
+              <img loading="lazy" src="/images/industries/parts-1.webp" alt="Industrial supply warehouse loading dock"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Built for High-Volume, High-Trust Buying</h2>
             <p>We understand that industrial buyers are creatures of habit. Once they find a supplier they trust, they stay. Our marketing is built to earn that first order and support the relationship that keeps them coming back.</p>
           </div>
-          <img loading="lazy" src="/images/industries/industrial-1.webp" alt="Industrial supply distribution center"/>
+          <img loading="lazy" src="/images/industries/parts-1.webp" alt="Warehouse forklift at a distribution dock"/>
         </section>
 
         {/* Industry details */}

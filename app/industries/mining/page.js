@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Mining and heavy industrial companies operate in a world of long procurement cycles, strict safety standards, and specialized equipment. We build marketing that reflects that reality and speaks to the buyers who live in it.</p>
-              <img loading="lazy" src="/images/industries/mining-1.webp" alt="Mining industrial site"/>
+              <img loading="lazy" src="/images/industries/mining-1.webp" alt="Mining haul truck in an open-pit quarry"/>
             </div>
           </div>
         </section>

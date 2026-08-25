@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Architecture and engineering firms win work through reputation and portfolio as much as pitch decks. We build the digital presence that lets your best projects do the talking, and makes it easy for the right clients to find you.</p>
-              <img loading="lazy" src="/images/industries/construction-1.webp" alt="Modern architecture building"/>
+              <img loading="lazy" src="/images/industries/architecture-1.webp" alt="Architectural floor plan blueprints"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Design-Led Marketing for Design-Led Firms</h2>
             <p>We take time to understand your firm's portfolio, specialties, and target project types before building anything, so your marketing carries the same attention to detail as the work it represents.</p>
           </div>
-          <img loading="lazy" src="/images/industries/construction-1.webp" alt="Architectural design studio"/>
+          <img loading="lazy" src="/images/industries/architecture-1.webp" alt="Detailed architectural blueprints on a desk"/>
         </section>
 
         {/* Industry details */}
