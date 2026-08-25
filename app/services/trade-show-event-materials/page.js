@@ -158,8 +158,8 @@ export default function Page() {
               <div className="gallery-item"><img loading="lazy" src="/images/services/0458e783-9481-4d64-9c44-5b07896eef9b.webp" alt="Event signage"/></div>
               <div className="gallery-item"><img loading="lazy" src="/images/services/print-marketing-sales-collateral.webp" alt="Booth graphics"/></div>
               <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-performnace-03.webp" alt="Conference display"/></div>
-              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/pachon-business-cards.webp" alt="Trade show floor"/></div>
-              <div className="gallery-item"><img loading="lazy" src="/images/services/performance-marketing.webp" alt="Event banners"/></div>
+              <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/performance-marketing.webp" alt="Event banners"/></div>
+              <div className="gallery-item"><img loading="lazy" src="/images/services/pachon-business-cards.webp" alt="Trade show floor"/></div>
             </div>
           </div>
         </section>
