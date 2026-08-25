@@ -57,10 +57,12 @@ export default function Page() {
         {/* Image banner with stat overlay */}
         <section className="image-banner">
           <img loading="lazy" src="/images/services/monufact-about-hero.webp" alt="Monufact"/>
-          <div className="stat-overlay-card">
-            <span className="eyebrow">/ Experience. Transparency. Results.</span>
-            <span className="stat-number">20+</span>
-            <p>years combined marketing experience</p>
+          <div className="container image-banner-overlay-container">
+            <div className="stat-overlay-card">
+              <span className="eyebrow">/ Experience. Transparency. Results.</span>
+              <span className="stat-number">20+</span>
+              <p>years combined marketing experience</p>
+            </div>
           </div>
         </section>
 

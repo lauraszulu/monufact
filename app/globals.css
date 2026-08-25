@@ -906,10 +906,12 @@ body.editor-active .hero-media-actions {
   background: var(--c-white);
 }
 
-.stat-overlay-card {
+.image-banner-overlay-container {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  inset: auto 0 0 0;
+}
+
+.stat-overlay-card {
   background: var(--c-white);
   padding: var(--space-l) var(--space-xl) var(--space-xl);
   max-width: 320px;

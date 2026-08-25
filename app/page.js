@@ -382,8 +382,8 @@ export default function Page() {
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>
-                <span className="tag">News</span>
-                <h4>Manufacturing Matters 2026: What London, Ontario Manufacturers Need to Know</h4>
+                <a href="/news/category-news" className="tag">News</a>
+                <a href="/news/manufacturing-matters-2026"><h4>Manufacturing Matters 2026: What London, Ontario Manufacturers Need to Know</h4></a>
                 <p>A free half-day conference for manufacturers, hosted by LEDC and the London Region Manufacturing Council on October 1, 2026.</p>
               </article>
             </div>
