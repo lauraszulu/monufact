@@ -1734,9 +1734,16 @@ body.editor-active .hero-media-actions {
 .industry-innovation img {
   width: 100%;
   height: 420px;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
   background: var(--c-black);
+}
+
+/* Fallback for the one industry whose source photos are all portrait-
+   shot with no landscape option to crop from — contain rather than
+   force a near-unrecognizable crop. */
+.industry-innovation.portrait-photo img {
+  object-fit: contain;
 }
 
 /* Dedicated-to variant (service pages): the section reserves black space

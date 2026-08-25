@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Built for the Specification Chain</h2>
             <p>We map your product's path from plant to project (architects, distributors, contractors) and build marketing for each stage, so your materials get specified early and stay specified through to the build.</p>
           </div>
-          <img loading="lazy" src="/images/industries/packaging-1.webp?v=2" alt="Building materials manufacturing"/>
+          <img loading="lazy" src="/images/industries/packaging-2.webp" alt="Building materials warehouse racking"/>
         </section>
 
         {/* Industry details */}

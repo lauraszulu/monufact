@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Design-Led Marketing for Design-Led Firms</h2>
             <p>We take time to understand your firm's portfolio, specialties, and target project types before building anything, so your marketing carries the same attention to detail as the work it represents.</p>
           </div>
-          <img loading="lazy" src="/images/industries/architecture-1.webp" alt="Detailed architectural blueprints on a desk"/>
+          <img loading="lazy" src="/images/industries/architecture-3.webp" alt="Modern glass architecture exterior"/>
         </section>
 
         {/* Industry details */}

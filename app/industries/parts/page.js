@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Built for High-Volume, High-Trust Buying</h2>
             <p>We understand that industrial buyers are creatures of habit. Once they find a supplier they trust, they stay. Our marketing is built to earn that first order and support the relationship that keeps them coming back.</p>
           </div>
-          <img loading="lazy" src="/images/industries/parts-1.webp" alt="Warehouse forklift at a distribution dock"/>
+          <img loading="lazy" src="/images/industries/parts-3.webp" alt="Warehouse aisle with stacked inventory"/>
         </section>
 
         {/* Industry details */}

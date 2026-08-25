@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Built for Automotive-Grade Standards</h2>
             <p>We understand the certifications, quality systems, and sourcing processes that define the automotive supply chain, and we build marketing that speaks that language fluently, from first contact through RFQ.</p>
           </div>
-          <img loading="lazy" src="/images/industries/automotive-1.webp?v=2" alt="Automotive manufacturing facility"/>
+          <img loading="lazy" src="/images/industries/automotive-3.webp" alt="Automotive factory workers operating machinery"/>
         </section>
 
         {/* Industry details */}

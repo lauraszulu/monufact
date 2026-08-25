@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Built for Demanding Environments</h2>
             <p>We understand that mining and heavy industrial buyers evaluate suppliers on durability, safety record, and total cost of ownership. Our marketing is built to communicate exactly that, clearly and credibly.</p>
           </div>
-          <img loading="lazy" src="/images/industries/mining-1.webp?v=2" alt="Mining operations facility"/>
+          <img loading="lazy" src="/images/industries/mining-3.webp" alt="Heavy equipment excavating in a quarry"/>
         </section>
 
         {/* Industry details */}

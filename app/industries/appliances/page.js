@@ -59,12 +59,12 @@ export default function Page() {
         </section>
 
         {/* Industry innovation */}
-        <section className="industry-innovation">
+        <section className="industry-innovation portrait-photo">
           <div className="container industry-innovation-intro">
             <h2>One Product, Two Audiences</h2>
             <p>We build marketing systems that flex between retail-facing and trade-facing content, so the same product story works whether it's reaching a showroom floor or a distributor's order desk.</p>
           </div>
-          <img loading="lazy" src="/images/industries/appliances-1.webp?v=2" alt="Appliance manufacturing facility"/>
+          <img loading="lazy" src="/images/industries/appliances-2.webp" alt="Appliance production technician at work"/>
         </section>
 
         {/* Industry details */}
@@ -128,7 +128,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/appliances-1.webp?v=2')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/appliances-3.webp')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

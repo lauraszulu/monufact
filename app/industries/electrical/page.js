@@ -128,7 +128,7 @@ export default function Page() {
 
         {/* Split CTA */}
         <section className="split-cta">
-          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/electrical-1.webp?v=2')"}}>
+          <div className="split-cta-left" style={{backgroundImage: "url('/images/industries/electrical-2.webp')"}}>
             <div className="split-icon">⬡</div>
             <div className="split-caption">
               <h4>Built to Support</h4>

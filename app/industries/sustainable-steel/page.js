@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Precision Work Deserves Precise Marketing</h2>
             <p>We take the time to understand your shop's capabilities, certifications, and specialties before building a single piece of content, so every asset accurately represents what you can deliver and helps you win the projects you actually want.</p>
           </div>
-          <img loading="lazy" src="/images/industries/sustainable-steel-1.webp?v=2" alt="Steel fabrication facility"/>
+          <img loading="lazy" src="/images/industries/sustainable-steel-2.webp" alt="Welder fabricating steel components"/>
         </section>
 
         {/* Industry details */}

@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Marketing That Understands the Job Site</h2>
             <p>We work with contractors to understand project types, service areas, and past work before building anything, so your marketing reflects real capability and helps you compete for the projects that fit your business best.</p>
           </div>
-          <img loading="lazy" src="/images/industries/construction-1.webp?v=2" alt="Construction project underway"/>
+          <img loading="lazy" src="/images/industries/construction-4.webp" alt="Aerial view of a bridge construction project"/>
         </section>
 
         {/* Industry details */}

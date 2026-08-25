@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Marketing for the Long Sales Cycle</h2>
             <p>Energy and infrastructure projects are won over months, not days. We build marketing systems that stay in front of decision-makers through every stage of a long, technical, multi-stakeholder sales process.</p>
           </div>
-          <img loading="lazy" src="/images/industries/energy-1.webp?v=2" alt="Energy infrastructure development"/>
+          <img loading="lazy" src="/images/industries/energy-2.webp" alt="Solar and wind energy infrastructure"/>
         </section>
 
         {/* Industry details */}
