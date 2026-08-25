@@ -26,7 +26,7 @@ export default function Page() {
         '@type': 'Article',
         headline: 'Manufacturing Matters 2026: What London, Ontario Manufacturers Need to Know',
         description: 'Everything to know about Manufacturing Matters 2026 — the free half-day conference for manufacturers hosted by LEDC and the London Region Manufacturing Council on October 1, 2026.',
-        image: 'https://monufact.com/images/industries/shared-factory-floor.webp',
+        image: 'https://monufact.com/images/services/monufact-about-hero.webp',
         author: { '@type': 'Organization', name: 'Monufact', url: 'https://monufact.com' },
         publisher: {
           '@type': 'Organization',
@@ -44,7 +44,7 @@ export default function Page() {
         </section>
 
         <div className="container">
-          <img loading="lazy" className="article-hero-image" src="/images/industries/shared-factory-floor.webp" alt="Manufacturing Matters 2026"/>
+          <img loading="lazy" className="article-hero-image" src="/images/services/monufact-about-hero.webp" alt="Manufacturing Matters 2026"/>
         </div>
 
         {/* Article body */}

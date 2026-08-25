@@ -6,7 +6,7 @@ export const metadata = {
     description: "Real trade show lead generation tips from the show floor: the one question that opens conversations, how to warm up a lead, and the small booth fixes that made the biggest difference.",
     url: "/news/trade-show-lead-generation-tips",
     siteName: "Monufact",
-    images: ["/images/blog/trade-show-success.webp"],
+    images: ["/images/services/monufact-tradeshow-displays.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,7 +14,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Trade Show Lead Generation Tips From the Booth - Monufact",
     description: "Real trade show lead generation tips from the show floor: the one question that opens conversations, how to warm up a lead, and the small booth fixes that made the biggest difference.",
-    images: ["/images/blog/trade-show-success.webp"],
+    images: ["/images/services/monufact-tradeshow-displays.webp"],
   },
 };
 
@@ -26,7 +26,7 @@ export default function Page() {
         '@type': 'Article',
         headline: 'What Actually Gets You Leads at Trade Shows (It’s Not the Pitch)',
         description: 'Real trade show lead generation tips from the show floor: the one question that opens conversations, how to warm up a lead, and the small booth fixes that made the biggest difference.',
-        image: 'https://monufact.com/images/blog/trade-show-success.webp',
+        image: 'https://monufact.com/images/services/monufact-tradeshow-displays.webp',
         author: { '@type': 'Organization', name: 'Monufact', url: 'https://monufact.com' },
         publisher: {
           '@type': 'Organization',
@@ -44,7 +44,7 @@ export default function Page() {
         </section>
 
         <div className="container">
-          <img loading="lazy" className="article-hero-image" src="/images/blog/trade-show-success.webp" alt="Trade show booth conversation"/>
+          <img loading="lazy" className="article-hero-image" src="/images/services/monufact-tradeshow-displays.webp" alt="Trade show booth display for a Monufact client"/>
         </div>
 
         {/* Article body */}
@@ -91,7 +91,7 @@ export default function Page() {
               <article className="news-card">
                 <div className="news-card-media">
                   <a href="/news/trade-show-success">
-                    <img loading="lazy" src="/images/blog/trade-show-success.webp" alt="Trade Show Success for Canadian Manufacturers"/>
+                    <img loading="lazy" src="/images/services/monufact-tradeshow-displays.webp" alt="Trade Show Success for Canadian Manufacturers"/>
                   </a>
                   <a href="/news/trade-show-success" className="news-arrow">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
