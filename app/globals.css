@@ -3008,7 +3008,7 @@ body.lightbox-open {
   }
 
   .industry-sector-text-inner {
-    margin-top: 0;
+    transform: none;
   }
 
   .industry-innovation-intro {
