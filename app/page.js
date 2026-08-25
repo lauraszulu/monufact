@@ -168,18 +168,18 @@ export default function Page() {
             <p className="industries-subhead">We build marketing for manufacturers and industrial companies across steel fabrication, construction, architecture and engineering, building products, industrial supply, energy and infrastructure, and industrial automation.</p>
             <div className="grid-3 industries-grid">
               <ul>
-                <li>Manufacturing & Industrial Production</li>
-                <li>Steel & Metal Fabrication</li>
-                <li>Construction & Contracting</li>
+                <li><a href="/industries/industrial">Manufacturing &amp; Industrial Production</a></li>
+                <li><a href="/industries/sustainable-steel">Steel &amp; Metal Fabrication</a></li>
+                <li><a href="/industries/construction">Construction &amp; Contracting</a></li>
               </ul>
               <ul>
-                <li>Architecture & Engineering</li>
-                <li>Building Products & Materials</li>
-                <li>Industrial Supply & Distribution</li>
+                <li><a href="/industries/architecture-firms">Architecture &amp; Engineering</a></li>
+                <li><a href="/industries/packaging">Building Products &amp; Materials</a></li>
+                <li><a href="/industries/parts">Industrial Supply &amp; Distribution</a></li>
               </ul>
               <ul>
-                <li>Energy & Infrastructure</li>
-                <li>Automation & Industrial Technology</li>
+                <li><a href="/industries/energy">Energy &amp; Infrastructure</a></li>
+                <li><a href="/industries/electrical">Automation &amp; Industrial Technology</a></li>
               </ul>
             </div>
           </div>

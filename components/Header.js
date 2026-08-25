@@ -57,6 +57,42 @@ export default function Header() {
               </div>
             </div>
           </div>
+          <div className="nav-item">
+            <a href="/industries/industrial">Industries</a>
+            <div className="mega-menu">
+              <div className="container mega-menu-inner">
+                <div className="mega-menu-intro">
+                  <h3>Built for Manufacturers &amp; Builders.</h3>
+                </div>
+                <div className="mega-menu-links">
+                  <ul>
+                    <li><a href="/industries/industrial">Manufacturing &amp; Industrial Production</a></li>
+                    <li><a href="/industries/sustainable-steel">Steel &amp; Metal Fabrication</a></li>
+                    <li><a href="/industries/construction">Construction &amp; Contracting</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="/industries/automotive">Automotive</a></li>
+                    <li><a href="/industries/mining">Mining</a></li>
+                    <li><a href="/industries/appliances">Appliances</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="/industries/architecture-firms">Architecture &amp; Engineering</a></li>
+                    <li><a href="/industries/packaging">Building Products &amp; Materials</a></li>
+                    <li><a href="/industries/parts">Industrial Supply &amp; Distribution</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="/industries/energy">Energy &amp; Infrastructure</a></li>
+                    <li><a href="/industries/electrical">Automation &amp; Industrial Technology</a></li>
+                  </ul>
+                </div>
+                <div className="mega-menu-media" style={{ backgroundImage: "url('/images/services/monufact-about-hero.webp')" }}>
+                  <a href="/company/become-a-customer" className="btn btn-dark mega-cta">Become a Customer
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <a href="/news">News</a>
           <a href="/company/faq">FAQ</a>
         </nav>

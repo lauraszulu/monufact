@@ -959,6 +959,15 @@ body.editor-active .hero-media-actions {
   padding: 0.5rem 0;
 }
 
+.industries-grid li a {
+  color: inherit;
+  display: block;
+}
+
+.industries-grid li a:hover {
+  color: var(--c-orange);
+}
+
 .industries-subhead {
   max-width: 640px;
   margin-bottom: var(--space-xl);
@@ -1499,7 +1508,7 @@ body.editor-active .hero-media-actions {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr;
   gap: var(--space-l);
   padding-bottom: var(--space-2xl);
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);

@@ -15,6 +15,22 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-col">
+          <h5>Industries</h5>
+          <ul>
+            <li><a href="/industries/industrial">Manufacturing &amp; Industrial Production</a></li>
+            <li><a href="/industries/sustainable-steel">Steel &amp; Metal Fabrication</a></li>
+            <li><a href="/industries/construction">Construction &amp; Contracting</a></li>
+            <li><a href="/industries/automotive">Automotive</a></li>
+            <li><a href="/industries/mining">Mining</a></li>
+            <li><a href="/industries/appliances">Appliances</a></li>
+            <li><a href="/industries/architecture-firms">Architecture &amp; Engineering</a></li>
+            <li><a href="/industries/packaging">Building Products &amp; Materials</a></li>
+            <li><a href="/industries/parts">Industrial Supply &amp; Distribution</a></li>
+            <li><a href="/industries/energy">Energy &amp; Infrastructure</a></li>
+            <li><a href="/industries/electrical">Automation &amp; Industrial Technology</a></li>
+          </ul>
+        </div>
+        <div className="footer-col">
           <h5>Services</h5>
           <ul>
             <li><a href="/services/brand-strategy-positioning">Brand Strategy &amp; Positioning</a></li>
