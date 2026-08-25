@@ -88,7 +88,7 @@ export default function Page() {
               <li>Strong visual hierarchy</li>
               <li>Easy-to-understand value propositions</li>
             </ul>
-            <p>The goal isn't just to look good. It's to start conversations.</p>
+            <p>The goal isn't just to look good. It's to start conversations — see our tips on <a href="/news/trade-show-lead-generation-tips">what to actually say once someone stops at your booth</a>.</p>
 
             <h3>Sales Materials That Actually Support Conversations</h3>
             <p>Most brochures and spec sheets are too technical or poorly structured.</p>
@@ -180,15 +180,15 @@ export default function Page() {
               </article>
               <article className="news-card">
                 <div className="news-card-media">
-                  <a href="/news/on-grid-solar-energy">
-                    <img loading="lazy" src="/images/blog/on-grid-solar.webp" alt="On-Grid System: The New Face of Solar Energy"/>
+                  <a href="/news/trade-show-lead-generation-tips">
+                    <img loading="lazy" src="/images/blog/trade-show-success.webp" alt="Trade show booth conversation"/>
                   </a>
-                  <a href="/news/on-grid-solar-energy" className="news-arrow">
+                  <a href="/news/trade-show-lead-generation-tips" className="news-arrow">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>
                 <a href="/news/category-news" className="tag">News</a>
-                <a href="/news/on-grid-solar-energy"><h4>On-Grid System: The New Face of Solar Energy</h4></a>
+                <a href="/news/trade-show-lead-generation-tips"><h4>What Actually Gets You Leads at Trade Shows (It's Not the Pitch)</h4></a>
               </article>
             </div>
           </div>
