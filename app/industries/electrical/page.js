@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Automation and industrial technology are complex to explain and expensive to get wrong. Buyers need to understand exactly what a system does before they'll trust it on their floor. We make that clarity part of the marketing.</p>
-              <img loading="lazy" src="/images/industries/electrical-1.webp" alt="Industrial automation equipment"/>
+              <img loading="lazy" src="/images/industries/electrical-1.webp?v=2" alt="Industrial automation equipment"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Making Complex Systems Easy to Understand</h2>
             <p>We work with your engineering team to translate technical specifications into content that a plant manager, not just another engineer, can understand and act on, without losing the accuracy that technical buyers demand.</p>
           </div>
-          <img loading="lazy" src="/images/industries/electrical-1.webp" alt="Industrial automation technology"/>
+          <img loading="lazy" src="/images/industries/electrical-1.webp?v=2" alt="Industrial automation technology"/>
         </section>
 
         {/* Industry details */}

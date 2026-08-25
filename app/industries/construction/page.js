@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Construction and contracting decisions are won on trust, timelines, and proof of past work. We help contractors and builders tell that story clearly, so the right clients and partners find you before the bid even goes out.</p>
-              <img loading="lazy" src="/images/industries/construction-1.webp" alt="Construction site"/>
+              <img loading="lazy" src="/images/industries/construction-1.webp?v=2" alt="Construction site"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Marketing That Understands the Job Site</h2>
             <p>We work with contractors to understand project types, service areas, and past work before building anything, so your marketing reflects real capability and helps you compete for the projects that fit your business best.</p>
           </div>
-          <img loading="lazy" src="/images/industries/construction-1.webp" alt="Construction project underway"/>
+          <img loading="lazy" src="/images/industries/construction-1.webp?v=2" alt="Construction project underway"/>
         </section>
 
         {/* Industry details */}

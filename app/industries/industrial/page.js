@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Manufacturers compete on more than price and lead time today. Buyers research online long before they ever call a sales rep. We build the brand, content, and digital presence that help industrial producers get found, get understood, and get chosen.</p>
-              <img loading="lazy" src="/images/industries/industrial-1.webp" alt="Manufacturing facility"/>
+              <img loading="lazy" src="/images/industries/industrial-1.webp?v=2" alt="Manufacturing facility"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Built Around Your Production Reality</h2>
             <p>We work closely with manufacturing teams to understand capacity, capability, and competitive position before a single asset gets built. That means marketing that reflects what your plant can actually deliver and communicates it with the credibility technical buyers expect.</p>
           </div>
-          <img loading="lazy" src="/images/industries/industrial-1.webp" alt="Industrial production facility"/>
+          <img loading="lazy" src="/images/industries/industrial-1.webp?v=2" alt="Industrial production facility"/>
         </section>
 
         {/* Industry details */}

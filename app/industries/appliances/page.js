@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Appliance manufacturers sell to both retail buyers and trade partners at once, two audiences with very different expectations. We build marketing that speaks to both without compromising either.</p>
-              <img loading="lazy" src="/images/industries/appliances-1.webp" alt="Industrial-scale appliance production facility"/>
+              <img loading="lazy" src="/images/industries/appliances-1.webp?v=2" alt="Industrial-scale appliance production facility"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>One Product, Two Audiences</h2>
             <p>We build marketing systems that flex between retail-facing and trade-facing content, so the same product story works whether it's reaching a showroom floor or a distributor's order desk.</p>
           </div>
-          <img loading="lazy" src="/images/industries/appliances-1.webp" alt="Appliance manufacturing facility"/>
+          <img loading="lazy" src="/images/industries/appliances-1.webp?v=2" alt="Appliance manufacturing facility"/>
         </section>
 
         {/* Industry details */}

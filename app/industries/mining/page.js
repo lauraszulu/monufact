@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Mining and heavy industrial companies operate in a world of long procurement cycles, strict safety standards, and specialized equipment. We build marketing that reflects that reality and speaks to the buyers who live in it.</p>
-              <img loading="lazy" src="/images/industries/mining-1.webp" alt="Mining haul truck in an open-pit quarry"/>
+              <img loading="lazy" src="/images/industries/mining-1.webp?v=2" alt="Mining haul truck in an open-pit quarry"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Built for Demanding Environments</h2>
             <p>We understand that mining and heavy industrial buyers evaluate suppliers on durability, safety record, and total cost of ownership. Our marketing is built to communicate exactly that, clearly and credibly.</p>
           </div>
-          <img loading="lazy" src="/images/industries/mining-1.webp" alt="Mining operations facility"/>
+          <img loading="lazy" src="/images/industries/mining-1.webp?v=2" alt="Mining operations facility"/>
         </section>
 
         {/* Industry details */}

@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Energy and infrastructure projects move on long timelines and bigger budgets, which means trust, credibility, and technical clarity matter more than ever. We build marketing that holds up under that kind of scrutiny.</p>
-              <img loading="lazy" src="/images/industries/energy-1.webp" alt="Energy infrastructure facility"/>
+              <img loading="lazy" src="/images/industries/energy-1.webp?v=2" alt="Energy infrastructure facility"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Marketing for the Long Sales Cycle</h2>
             <p>Energy and infrastructure projects are won over months, not days. We build marketing systems that stay in front of decision-makers through every stage of a long, technical, multi-stakeholder sales process.</p>
           </div>
-          <img loading="lazy" src="/images/industries/energy-1.webp" alt="Energy infrastructure development"/>
+          <img loading="lazy" src="/images/industries/energy-1.webp?v=2" alt="Energy infrastructure development"/>
         </section>
 
         {/* Industry details */}

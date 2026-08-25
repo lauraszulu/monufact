@@ -35,7 +35,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Automotive suppliers operate inside some of the most demanding quality and delivery standards in manufacturing. We build marketing that reflects that discipline and helps you win the OEM and Tier 1 relationships that matter.</p>
-              <img loading="lazy" src="/images/industries/automotive-1.webp" alt="Automotive manufacturing line"/>
+              <img loading="lazy" src="/images/industries/automotive-1.webp?v=2" alt="Automotive manufacturing line"/>
             </div>
           </div>
         </section>
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Built for Automotive-Grade Standards</h2>
             <p>We understand the certifications, quality systems, and sourcing processes that define the automotive supply chain, and we build marketing that speaks that language fluently, from first contact through RFQ.</p>
           </div>
-          <img loading="lazy" src="/images/industries/automotive-1.webp" alt="Automotive manufacturing facility"/>
+          <img loading="lazy" src="/images/industries/automotive-1.webp?v=2" alt="Automotive manufacturing facility"/>
         </section>
 
         {/* Industry details */}
