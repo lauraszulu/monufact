@@ -6,7 +6,7 @@ export const metadata = {
     description: "How Canadian manufacturers can turn trade show events into real, lasting business.",
     url: "/news/trade-show-success",
     siteName: "Monufact",
-    images: ["/images/services/monufact-tradeshow-displays.webp"],
+    images: ["/images/services/monufact-ecofoot-tradeshow.webp"],
     locale: "en_CA",
     type: "website",
   },
@@ -14,14 +14,14 @@ export const metadata = {
     card: "summary_large_image",
     title: "Trade Show Success for Canadian Manufacturers - Monufact",
     description: "How Canadian manufacturers can turn trade show events into real, lasting business.",
-    images: ["/images/services/monufact-tradeshow-displays.webp"],
+    images: ["/images/services/monufact-ecofoot-tradeshow.webp"],
   },
 };
 
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"Trade Show Success for Canadian Manufacturers\", \"description\": \"How Canadian manufacturers can turn trade show events into real, lasting business.\", \"image\": \"https://monufact.com/images/services/monufact-tradeshow-displays.webp\", \"author\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"logo\": {\"@type\": \"ImageObject\", \"url\": \"https://monufact.com/images/monufact-logo.svg\"}}, \"mainEntityOfPage\": {\"@type\": \"WebPage\", \"@id\": \"https://monufact.com/news/trade-show-success\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"Trade Show Success for Canadian Manufacturers\", \"description\": \"How Canadian manufacturers can turn trade show events into real, lasting business.\", \"image\": \"https://monufact.com/images/services/monufact-ecofoot-tradeshow.webp\", \"author\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"logo\": {\"@type\": \"ImageObject\", \"url\": \"https://monufact.com/images/monufact-logo.svg\"}}, \"mainEntityOfPage\": {\"@type\": \"WebPage\", \"@id\": \"https://monufact.com/news/trade-show-success\"}}" }} />
       {/* Article hero */}
         <section className="service-hero article-hero">
           <div className="container">
@@ -31,7 +31,7 @@ export default function Page() {
         </section>
 
         <div className="container">
-          <img loading="lazy" className="article-hero-image" src="/images/services/monufact-tradeshow-displays.webp" alt="Trade show booth display for a Monufact client"/>
+          <img loading="lazy" className="article-hero-image" src="/images/services/monufact-ecofoot-tradeshow.webp" alt="Trade show booth display for a Monufact client"/>
         </div>
 
         {/* Article body */}

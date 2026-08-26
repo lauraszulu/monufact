@@ -41,7 +41,7 @@ export default function Page() {
           <div className="container news-list">
             <article className="news-list-item">
               <a href="/news/trade-show-success" className="news-list-media">
-                <img loading="lazy" src="/images/services/monufact-tradeshow-displays.webp" alt="Trade Show Success for Canadian Manufacturers"/>
+                <img loading="lazy" src="/images/services/monufact-ecofoot-tradeshow.webp" alt="Trade Show Success for Canadian Manufacturers"/>
               </a>
               <div>
                 <div className="news-list-tags">
