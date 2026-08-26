@@ -1738,10 +1738,31 @@ body.editor-active .hero-media-actions {
   background: var(--c-black);
 }
 
-/* Fallback for the one industry whose source photos are all portrait-
-   shot with no landscape option to crop from — contain rather than
-   force a near-unrecognizable crop. */
-.industry-innovation.portrait-photo img {
+/* Blurred-backdrop fallback for the one industry whose source photos
+   are all portrait-shot with no landscape option to crop from. A
+   blurred, full-bleed copy of the same photo fills the band behind a
+   sharp, fully-visible copy on top — still reads as a big, full-width
+   banner instead of a letterboxed strip. */
+.industry-innovation .img-frame {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+}
+
+.industry-innovation .img-frame-bg {
+  position: absolute;
+  inset: -20px;
+  width: calc(100% + 40px);
+  height: calc(100% + 40px);
+  object-fit: cover;
+  filter: blur(24px) brightness(0.55);
+}
+
+.industry-innovation .img-frame-fg {
+  position: relative;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 

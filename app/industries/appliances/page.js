@@ -59,12 +59,15 @@ export default function Page() {
         </section>
 
         {/* Industry innovation */}
-        <section className="industry-innovation portrait-photo">
+        <section className="industry-innovation">
           <div className="container industry-innovation-intro">
             <h2>One Product, Two Audiences</h2>
             <p>We build marketing systems that flex between retail-facing and trade-facing content, so the same product story works whether it's reaching a showroom floor or a distributor's order desk.</p>
           </div>
-          <img loading="lazy" src="/images/industries/appliances-2.webp" alt="Appliance production technician at work"/>
+          <div className="img-frame">
+            <img loading="lazy" className="img-frame-bg" src="/images/industries/appliances-2.webp" alt="" aria-hidden="true"/>
+            <img loading="lazy" className="img-frame-fg" src="/images/industries/appliances-2.webp" alt="Appliance production technician at work"/>
+          </div>
         </section>
 
         {/* Industry details */}
