@@ -155,9 +155,12 @@ export default function Page() {
             <source src="/videos/monufact-intro.mp4" type="video/mp4"/>
           </video>
           <span className="eyebrow overlay-label">/ Who We Are</span>
-          <a href="#contact" className="btn btn-dark overlay-cta">Contact us
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
+          <div className="overlay-cta-group">
+            <a href="/company/contact" className="btn btn-dark overlay-cta">Contact us
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <div className="overlay-cta-accent"></div>
+          </div>
         </section>
 
         {/* Industries */}
