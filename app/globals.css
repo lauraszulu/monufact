@@ -1699,9 +1699,8 @@ body.editor-active .hero-media-actions {
 
 .industry-sector-col img {
   width: 100%;
-  height: 260px;
-  object-fit: contain;
-  background: var(--c-white);
+  height: 360px;
+  object-fit: cover;
 }
 
 .industry-sector-col-1 img {
