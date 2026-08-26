@@ -41,7 +41,7 @@ export default function Page() {
           <div className="container news-list">
             <article className="news-list-item">
               <a href="/news/trade-show-lead-generation-tips" className="news-list-media">
-                <img loading="lazy" src="/images/blog/trade-show-success.webp" alt="Trade show booth conversation"/>
+                <img loading="lazy" src="/images/services/monufact-tradeshow-displays.webp" alt="Trade show booth conversation"/>
               </a>
               <div>
                 <div className="news-list-tags">
@@ -58,7 +58,7 @@ export default function Page() {
             </article>
             <article className="news-list-item">
               <a href="/news/manufacturing-matters-2026" className="news-list-media">
-                <img loading="lazy" src="/images/industries/shared-factory-floor.webp" alt="Manufacturing Matters 2026"/>
+                <img loading="lazy" src="/images/services/monufact-about-hero.webp" alt="Manufacturing Matters 2026"/>
               </a>
               <div>
                 <div className="news-list-tags">

@@ -103,7 +103,7 @@ export default function Page() {
               <article className="news-card">
                 <div className="news-card-media">
                   <a href="/news/manufacturing-matters-2026">
-                    <img loading="lazy" src="/images/industries/shared-factory-floor.webp" alt="Manufacturing Matters 2026"/>
+                    <img loading="lazy" src="/images/services/monufact-about-hero.webp" alt="Manufacturing Matters 2026"/>
                   </a>
                   <a href="/news/manufacturing-matters-2026" className="news-arrow">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>

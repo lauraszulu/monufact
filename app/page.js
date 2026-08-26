@@ -350,7 +350,7 @@ export default function Page() {
               <article className="news-card">
                 <div className="news-card-media">
                   <a href="/news/trade-show-success">
-                    <img loading="lazy" src="/images/blog/trade-show-success.webp" alt="Trade Show Success for Canadian Manufacturers"/>
+                    <img loading="lazy" src="/images/services/monufact-tradeshow-displays.webp" alt="Trade Show Success for Canadian Manufacturers"/>
                   </a>
                   <a href="/news/trade-show-success" className="news-arrow">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
@@ -363,7 +363,7 @@ export default function Page() {
               <article className="news-card">
                 <div className="news-card-media">
                   <a href="/news/trade-show-lead-generation-tips">
-                    <img loading="lazy" src="/images/blog/trade-show-success.webp" alt="Trade show booth conversation"/>
+                    <img loading="lazy" src="/images/services/monufact-tradeshow-displays.webp" alt="Trade show booth conversation"/>
                   </a>
                   <a href="/news/trade-show-lead-generation-tips" className="news-arrow">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
@@ -376,7 +376,7 @@ export default function Page() {
               <article className="news-card">
                 <div className="news-card-media">
                   <a href="/news/manufacturing-matters-2026">
-                    <img loading="lazy" src="/images/industries/shared-factory-floor.webp" alt="Manufacturing Matters 2026"/>
+                    <img loading="lazy" src="/images/services/monufact-about-hero.webp" alt="Manufacturing Matters 2026"/>
                   </a>
                   <a href="/news/manufacturing-matters-2026" className="news-arrow">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
