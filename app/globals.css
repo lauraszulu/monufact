@@ -2897,6 +2897,30 @@ body.lightbox-open {
     display: none;
   }
 
+  /* The enlarged hero/overlay CTA (button + accent) is sized for
+     desktop and was running edge-to-edge on narrow screens, leaving
+     no margin. Scale it down and pull it in from the raw edge. */
+  .hero-cta-group,
+  .overlay-cta-group {
+    right: var(--space-m);
+  }
+
+  .hero-cta {
+    padding: 0.8rem 1.6rem;
+  }
+
+  .hero-cta-accent {
+    width: 28px;
+  }
+
+  .overlay-cta {
+    padding: 0.8rem 1.4rem;
+  }
+
+  .overlay-cta-accent {
+    width: 28px;
+  }
+
   .hero-grid,
   .grid-3.divided,
   .feature-cards .grid-3,
