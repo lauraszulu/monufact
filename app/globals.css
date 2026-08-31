@@ -618,11 +618,18 @@ body.editor-active .hero-media-actions {
 }
 
 .hero-cta {
-  padding: 0.9rem 3.5rem;
+  padding: 1.1rem 4rem;
+  background: var(--c-white);
+  color: var(--c-black);
+}
+
+.hero-cta:hover {
+  background: var(--c-orange);
+  color: var(--c-white);
 }
 
 .hero-cta-accent {
-  width: 90px;
+  width: 120px;
   background: var(--c-white);
 }
 
@@ -888,6 +895,14 @@ body.editor-active .hero-media-actions {
   position: absolute;
   top: 0;
   right: 0;
+  padding: 1.1rem 2.4rem;
+  background: var(--c-white);
+  color: var(--c-black);
+}
+
+.overlay-cta:hover {
+  background: var(--c-orange);
+  color: var(--c-white);
 }
 
 .overlay-cta-group {
@@ -902,7 +917,7 @@ body.editor-active .hero-media-actions {
 }
 
 .overlay-cta-accent {
-  width: 90px;
+  width: 120px;
   background: var(--c-white);
 }
 
