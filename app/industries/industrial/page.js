@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Manufacturing & Industrial Production Marketing - Monufact",
-  description: "Digital marketing built for manufacturers: brand strategy, sales enablement, and content that speaks to engineers, buyers, and distributors.",
+  description: "Digital marketing built for OEMs, capital equipment manufacturers, and industrial producers: brand strategy, sales enablement, and SEO that speaks to engineers, buyers, and distributors.",
   openGraph: {
     title: "Manufacturing & Industrial Production Marketing - Monufact",
-    description: "Digital marketing built for manufacturers: brand strategy, sales enablement, and content that speaks to engineers, buyers, and distributors.",
+    description: "Digital marketing built for OEMs, capital equipment manufacturers, and industrial producers: brand strategy, sales enablement, and SEO that speaks to engineers, buyers, and distributors.",
     url: "/industries/industrial",
     siteName: "Monufact",
     images: ["/images/services/monufact-about-hero.webp"],
@@ -13,7 +13,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Manufacturing & Industrial Production Marketing - Monufact",
-    description: "Digital marketing built for manufacturers: brand strategy, sales enablement, and content that speaks to engineers, buyers, and distributors.",
+    description: "Digital marketing built for OEMs, capital equipment manufacturers, and industrial producers: brand strategy, sales enablement, and SEO that speaks to engineers, buyers, and distributors.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
 };
@@ -74,18 +74,43 @@ export default function Page() {
               <div>
                 <svg className="industry-detail-icon" viewBox="0 0 24 24" stroke="currentColor"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18M9 21V9"/></svg>
                 <h4>Brand & Positioning</h4>
-                <p>Define how your plant is positioned against competitors, and give sales teams a clear story to tell.</p>
+                <p>Define how your plant, OEM line, or capital equipment brand is positioned against competitors, and give sales teams a clear story to tell.</p>
               </div>
               <div>
                 <svg className="industry-detail-icon" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 2 3 7v10l9 5 9-5V7z"/><path d="M3 7l9 5 9-5M12 12v10"/></svg>
                 <h4>Sales Enablement</h4>
-                <p>Capabilities decks, spec sheets, and sales tools built to support every stage of a technical sales cycle.</p>
+                <p>Capabilities decks and sales tools built to support every stage of a technical sales cycle. See Spec Sheet & Catalog Systems below for print collateral specifically.</p>
               </div>
               <div>
                 <svg className="industry-detail-icon" viewBox="0 0 24 24" stroke="currentColor"><rect x="2" y="4" width="20" height="16" rx="1"/><path d="M2 9h20"/></svg>
                 <h4>Digital Presence</h4>
-                <p>A website and content strategy that turns research-stage buyers into qualified inbound leads.</p>
+                <p>SEO, website design, and paid search that turns research-stage buyers into qualified inbound leads, whether they find you through search or a Google Ads campaign.</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Built for OEMs and Capital Equipment Manufacturers */}
+        <section className="section">
+          <div className="container">
+            <span className="eyebrow">/ Built for OEMs and Capital Equipment Manufacturers</span>
+            <h2>Marketing for the Buyers Who Evaluate Longest</h2>
+            <div className="industry-details divided">
+              <a href="/services/brand-strategy-positioning">
+                <svg className="industry-detail-icon" viewBox="0 0 24 24" stroke="currentColor"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"/></svg>
+                <h4>OEM & Capital Equipment Positioning</h4>
+                <p>Brand and messaging built around how OEM and capital equipment buyers actually evaluate vendors: technical credibility first, price second.</p>
+              </a>
+              <a href="/services/print-marketing-sales-collateral">
+                <svg className="industry-detail-icon" viewBox="0 0 24 24" stroke="currentColor"><path d="M4 4h16v16H4z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+                <h4>Spec Sheet & Catalog Systems</h4>
+                <p>Spec sheets, product catalogs, and technical literature designed to be found in a search and trusted in a bid, not just printed and shelved.</p>
+              </a>
+              <a href="/services/trade-show-event-materials">
+                <svg className="industry-detail-icon" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 21h18"/><path d="M6 21V9l6-5 6 5v12"/><path d="M10 21v-6h4v6"/></svg>
+                <h4>Trade Show Lead Capture</h4>
+                <p>Booth design, pre-show outreach, and post-show follow-up built to turn trade show conversations into a tracked pipeline, not a stack of business cards.</p>
+              </a>
             </div>
           </div>
         </section>
@@ -120,6 +145,14 @@ export default function Page() {
                 </button>
                 <div className="accordion-panel">
                   <p>Outdated or missing capability information. Buyers can't tell what your plant can actually produce, at what volume, or to what tolerance, so they move on to a competitor whose site answers that in the first thirty seconds.</p>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <button className="accordion-trigger" type="button">Do you work with OEMs and capital equipment manufacturers specifically?
+                  <span className="plus"></span>
+                </button>
+                <div className="accordion-panel">
+                  <p>Yes, OEM and capital equipment manufacturers are a core focus. Their buyers research longer, involve more stakeholders, and need more technical proof before they'll pick up the phone, so their marketing has to work harder to earn that trust.</p>
                 </div>
               </div>
             </div>

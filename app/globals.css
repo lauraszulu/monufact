@@ -1834,10 +1834,20 @@ body.editor-active .hero-media-actions {
 
 .industry-details h4 {
   margin-bottom: var(--space-s);
+  transition: color 0.15s ease;
 }
 
 .industry-details p {
   font-size: 0.9rem;
+}
+
+.industry-details a {
+  display: block;
+  color: inherit;
+}
+
+.industry-details a:hover h4 {
+  color: var(--c-orange);
 }
 
 /* Approach tabs
