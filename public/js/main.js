@@ -184,8 +184,10 @@ document.querySelectorAll('.stat-number').forEach((el) => {
   requestAnimationFrame(tickStat);
 });
 
-// Scroll-reveal for section titles
-const revealTargets = document.querySelectorAll('h2');
+// Scroll-reveal for section titles, content images, and homepage service cards
+const revealTargets = document.querySelectorAll(
+  'h2, img[loading="lazy"]:not(.logo-item-img), .solution-item'
+);
 if (revealTargets.length && 'IntersectionObserver' in window) {
   revealTargets.forEach((el) => el.classList.add('reveal'));
 
