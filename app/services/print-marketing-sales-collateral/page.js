@@ -130,6 +130,7 @@ export default function Page() {
                   <li>Catalog Design</li>
                   <li>One-Pager Layouts</li>
                   <li>Technical Sheet Design</li>
+                  <li>Color Swatch & Material Spec Sheets</li>
                   <li>Print-Ready Files</li>
                   <li>Brand Template Systems</li>
                 </ul>
@@ -177,7 +178,7 @@ export default function Page() {
                   <span className="plus"></span>
                 </button>
                 <div className="accordion-panel">
-                  <p>Spec sheets, catalogs, brochures, one-pagers, and trade show handouts. Anything a salesperson or distributor needs to hand a buyer that has to survive the field.</p>
+                  <p>Spec sheets, catalogs, brochures, one-pagers, trade show handouts, and color swatch spec sheets for products with material or finish options. Anything a salesperson or distributor needs to hand a buyer that has to survive the field.</p>
                 </div>
               </div>
               <div className="accordion-item">

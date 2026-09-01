@@ -104,7 +104,7 @@ export default function Page() {
               <a href="/services/print-marketing-sales-collateral">
                 <svg className="industry-detail-icon" viewBox="0 0 24 24" stroke="currentColor"><path d="M4 4h16v16H4z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
                 <h4>Spec Sheet & Catalog Systems</h4>
-                <p>Spec sheets, product catalogs, and technical literature designed to be found in a search and trusted in a bid, not just printed and shelved.</p>
+                <p>Spec sheets, color swatch sheets, product catalogs, and technical literature designed to be found in a search and trusted in a bid, not just printed and shelved.</p>
               </a>
               <a href="/services/trade-show-event-materials">
                 <svg className="industry-detail-icon" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 21h18"/><path d="M6 21V9l6-5 6 5v12"/><path d="M10 21v-6h4v6"/></svg>
