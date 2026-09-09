@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Construction & Contracting Marketing - Monufact",
-  description: "Digital marketing for construction and contracting companies, from brand positioning to sales materials that support every bid and project.",
+  description: "Digital marketing for construction and contracting companies in Canada and the United States, from brand positioning to sales materials that support every bid and project.",
   openGraph: {
     title: "Construction & Contracting Marketing - Monufact",
-    description: "Digital marketing for construction and contracting companies, from brand positioning to sales materials that support every bid and project.",
+    description: "Digital marketing for construction and contracting companies in Canada and the United States, from brand positioning to sales materials that support every bid and project.",
     url: "/industries/construction",
     siteName: "Monufact",
     images: ["/images/services/monufact-about-hero.webp"],
@@ -13,7 +13,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Construction & Contracting Marketing - Monufact",
-    description: "Digital marketing for construction and contracting companies, from brand positioning to sales materials that support every bid and project.",
+    description: "Digital marketing for construction and contracting companies in Canada and the United States, from brand positioning to sales materials that support every bid and project.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
 };
@@ -21,12 +21,13 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Construction & Contracting Marketing\", \"description\": \"Digital marketing for construction and contracting companies in Canada and the United States, from brand positioning to sales materials that support every bid and project.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://monufact.com/industries/construction\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">
             <span className="eyebrow">/ Industries</span>
             <h1>Construction & Contracting</h1>
-            <p className="service-intro">Marketing that helps contractors and builders win on trust, timelines, and proof of work.</p>
+            <p className="service-intro">Marketing that helps contractors and builders across Canada and the United States win on trust, timelines, and proof of work.</p>
           </div>
         </section>
 

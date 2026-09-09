@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Industrial Supply & Distribution Marketing - Monufact",
-  description: "Digital marketing for industrial suppliers and distributors, built to support sales teams and reach buyers across every channel.",
+  description: "Digital marketing for industrial suppliers and distributors across Canada and the United States, built to support sales teams and reach buyers across every channel.",
   openGraph: {
     title: "Industrial Supply & Distribution Marketing - Monufact",
-    description: "Digital marketing for industrial suppliers and distributors, built to support sales teams and reach buyers across every channel.",
+    description: "Digital marketing for industrial suppliers and distributors across Canada and the United States, built to support sales teams and reach buyers across every channel.",
     url: "/industries/parts",
     siteName: "Monufact",
     images: ["/images/services/monufact-about-hero.webp"],
@@ -13,7 +13,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Industrial Supply & Distribution Marketing - Monufact",
-    description: "Digital marketing for industrial suppliers and distributors, built to support sales teams and reach buyers across every channel.",
+    description: "Digital marketing for industrial suppliers and distributors across Canada and the United States, built to support sales teams and reach buyers across every channel.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
 };
@@ -21,12 +21,13 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Industrial Supply & Distribution Marketing\", \"description\": \"Digital marketing for industrial suppliers and distributors across Canada and the United States, built to support sales teams and reach buyers across every channel.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://monufact.com/industries/parts\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">
             <span className="eyebrow">/ Industries</span>
             <h1>Industrial Supply & Distribution</h1>
-            <p className="service-intro">Marketing and digital tools for industrial suppliers and distributors who compete on reliability.</p>
+            <p className="service-intro">Marketing and digital tools for industrial suppliers and distributors across Canada and the United States who compete on reliability.</p>
           </div>
         </section>
 

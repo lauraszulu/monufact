@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Mining Industry Marketing - Monufact",
-  description: "Digital marketing and communications services for mining and heavy industrial companies.",
+  description: "Digital marketing and communications services for mining and heavy industrial companies across Canada and the United States.",
   openGraph: {
     title: "Mining Industry Marketing - Monufact",
-    description: "Digital marketing and communications services for mining and heavy industrial companies.",
+    description: "Digital marketing and communications services for mining and heavy industrial companies across Canada and the United States.",
     url: "/industries/mining",
     siteName: "Monufact",
     images: ["/images/services/monufact-about-hero.webp"],
@@ -13,7 +13,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Mining Industry Marketing - Monufact",
-    description: "Digital marketing and communications services for mining and heavy industrial companies.",
+    description: "Digital marketing and communications services for mining and heavy industrial companies across Canada and the United States.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
 };
@@ -21,12 +21,13 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Mining & Heavy Industry Marketing\", \"description\": \"Digital marketing and communications services for mining and heavy industrial companies across Canada and the United States.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://monufact.com/industries/mining\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">
             <span className="eyebrow">/ Industries</span>
             <h1>Mining & Heavy Industry Marketing</h1>
-            <p className="service-intro">Marketing for mining and heavy industrial companies operating under strict safety and procurement standards.</p>
+            <p className="service-intro">Marketing for mining and heavy industrial companies across Canada and the United States operating under strict safety and procurement standards.</p>
           </div>
         </section>
 

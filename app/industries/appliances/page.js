@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Appliances Industry Marketing - Monufact",
-  description: "Digital marketing and communications services for appliance manufacturers and industrial companies.",
+  description: "Digital marketing and communications services for appliance manufacturers and industrial companies across Canada and the United States.",
   openGraph: {
     title: "Appliances Industry Marketing - Monufact",
-    description: "Digital marketing and communications services for appliance manufacturers and industrial companies.",
+    description: "Digital marketing and communications services for appliance manufacturers and industrial companies across Canada and the United States.",
     url: "/industries/appliances",
     siteName: "Monufact",
     images: ["/images/services/monufact-about-hero.webp"],
@@ -13,7 +13,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Appliances Industry Marketing - Monufact",
-    description: "Digital marketing and communications services for appliance manufacturers and industrial companies.",
+    description: "Digital marketing and communications services for appliance manufacturers and industrial companies across Canada and the United States.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
 };
@@ -21,12 +21,13 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Appliance Industry Marketing\", \"description\": \"Digital marketing and communications services for appliance manufacturers and industrial companies across Canada and the United States.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://monufact.com/industries/appliances\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">
             <span className="eyebrow">/ Industries</span>
             <h1>Appliance Industry Marketing</h1>
-            <p className="service-intro">Marketing for appliance manufacturers selling to retail buyers and trade partners alike.</p>
+            <p className="service-intro">Marketing for appliance manufacturers across Canada and the United States, selling to retail buyers and trade partners alike.</p>
           </div>
         </section>
 

@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Automation & Industrial Technology Marketing - Monufact",
-  description: "Marketing for automation and industrial technology companies, turning complex products into content that buyers and engineers understand.",
+  description: "Marketing for automation and industrial technology companies across Canada and the United States, turning complex products into content that buyers and engineers understand.",
   openGraph: {
     title: "Automation & Industrial Technology Marketing - Monufact",
-    description: "Marketing for automation and industrial technology companies, turning complex products into content that buyers and engineers understand.",
+    description: "Marketing for automation and industrial technology companies across Canada and the United States, turning complex products into content that buyers and engineers understand.",
     url: "/industries/electrical",
     siteName: "Monufact",
     images: ["/images/services/monufact-about-hero.webp"],
@@ -13,7 +13,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Automation & Industrial Technology Marketing - Monufact",
-    description: "Marketing for automation and industrial technology companies, turning complex products into content that buyers and engineers understand.",
+    description: "Marketing for automation and industrial technology companies across Canada and the United States, turning complex products into content that buyers and engineers understand.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
 };
@@ -21,12 +21,13 @@ export const metadata = {
 export default function Page() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Automation & Industrial Technology Marketing\", \"description\": \"Marketing for automation and industrial technology companies across Canada and the United States, turning complex products into content that buyers and engineers understand.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://monufact.com/industries/electrical\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">
             <span className="eyebrow">/ Industries</span>
             <h1>Automation & Industrial Technology</h1>
-            <p className="service-intro">Marketing that makes complex automation and industrial technology easy to trust.</p>
+            <p className="service-intro">Marketing that makes complex automation and industrial technology easy to trust, for companies across Canada and the United States.</p>
           </div>
         </section>
 
