@@ -26,7 +26,7 @@ export default function Page() {
           <div className="container hero-find-more-row">
             <div>
               <span className="eyebrow">/ About</span>
-              <h1>Shaping the Future of Steel</h1>
+              <h1>Marketing Built by Someone Who's Sat on Your Side of the Table</h1>
             </div>
           </div>
         </section>
@@ -43,13 +43,11 @@ export default function Page() {
               <h2>Turning Vision Into Measurable Momentum</h2>
             </div>
             <div className="intro-text">
-              <p>At Monufact, we build modern marketing systems designed for sustainable growth. As a full-service marketing partner, we combine strategy, creative, performance media, and data intelligence to deliver measurable impact across every stage of the customer journey.</p>
-              <p>In a landscape where attention is fragmented and competition is relentless, we help brands move with clarity and precision. Our integrated approach aligns brand positioning, digital execution, and performance optimization into one cohesive growth framework, ensuring every touchpoint works harder and smarter.</p>
-              <p>We believe marketing should be accountable, scalable, and built for long-term value. Through strategic planning, advanced analytics, and conversion-driven execution, we turn complex challenges into streamlined growth opportunities.</p>
+              <p>Most agencies treat a manufacturer's website the same way they'd treat a coffee shop's: same templates, same stock photography, same 30-second attention span assumptions. That doesn't work when your buyer is an engineer doing due diligence, or a procurement lead comparing three vendors against a spec sheet.</p>
+              <p>After years on the agency side working with brands that had nothing to do with how industrial buyers actually think and decide, I started Monufact to close that gap. It's a shop built specifically around manufacturers and industrial suppliers, not a generalist agency that happens to take one on.</p>
             </div>
             <div className="intro-text">
-              <p>But our work extends beyond campaigns. We are committed to building meaningful partnerships, elevating the brands we serve, and creating marketing ecosystems that evolve alongside the businesses behind them.</p>
-              <p>The future belongs to brands that adapt, measure, and lead with intention. At Monufact, we help them do exactly that.</p>
+              <p>That also means no account managers relaying your notes to a junior team you'll never talk to. You work directly with the person doing the strategy and the design. Engagements are shaped around what your business actually needs, not a rigid retainer package built for agency convenience.</p>
             </div>
           </div>
         </section>
@@ -120,11 +118,11 @@ export default function Page() {
             <img loading="lazy" src="/images/about/monufact-laura.webp" alt="Laura Zuluaga, Founder of Monufact"/>
             <div className="founder-bio">
               <blockquote className="quote-block">
-                “I craft brands and websites for companies that are ready to grow, but need the right design support to get there.”
-                <cite>Laura Zuluaga — Founder, Monufact</cite>
+                “I spent years watching manufacturers get marketing built for someone else's business, then wonder why it didn't convert. Monufact exists to build it for yours instead.”
+                <cite>Laura Zuluaga, Founder, Monufact</cite>
               </blockquote>
-              <p>That's the idea behind Monufact. I work closely with manufacturing and industrial teams who are scaling quickly, or operating without in-house creative capacity, and integrate directly into how they already work, from brand systems to website design to the ongoing marketing assets that keep momentum going.</p>
-              <p>My approach combines strategy and execution. Every design decision is made to support a bigger objective, whether that's clarity, conversion, or consistency, not just to look good on its own.</p>
+              <p>Before Monufact, I worked agency-side building marketing for brands across industries. It's the kind of experience that teaches you fast which playbooks are universal and which ones fall apart the moment a buyer needs a spec sheet before a phone call. I'm also a Professor of design and web at Fanshawe College, which keeps me hands-on with the craft, not just managing it.</p>
+              <p>Manufacturers kept getting the universal playbook anyway. Monufact is the fix: senior-level work, direct access, no bloat.</p>
             </div>
           </div>
         </section>
