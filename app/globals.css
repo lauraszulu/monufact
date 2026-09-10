@@ -1353,7 +1353,7 @@ body.editor-active .hero-media-actions {
   padding: var(--space-2xl);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .split-cta-right .eyebrow {
