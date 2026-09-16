@@ -106,6 +106,7 @@ export default function Page() {
             </div>
             <div className="approach-panels print-finishes-panels">
               <div className="approach-panel is-active">
+                <p className="print-finishes-size">Standard size: 3.5" x 2" (89mm x 51mm).</p>
                 <p className="print-finishes-category">Standard Options</p>
                 <div className="print-finishes-grid divided">
                   <div>
@@ -155,10 +156,6 @@ export default function Page() {
                   <div>
                     <h4>Retractable & Step-and-Repeat</h4>
                     <p>Stand-mounted banners for booths and check-in tables, plus branded step-and-repeat backdrops for events and photo ops.</p>
-                  </div>
-                  <div>
-                    <h4>Indoor & Outdoor Signage</h4>
-                    <p>Rigid and flexible signage built for the environment it's going into, from a lobby wall to a job site fence.</p>
                   </div>
                   <div>
                     <h4>Custom Sizing</h4>
