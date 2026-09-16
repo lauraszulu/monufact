@@ -96,12 +96,7 @@ export default function Page() {
           <div className="container">
             <span className="eyebrow">/ Branded Print</span>
             <h2>What We Can Print for You</h2>
-          </div>
-          <div className="container">
-            <div className="industry-intro print-intro-plain">
-              <p>Business cards, letterhead, envelopes, and notepads carry your brand into every handshake and every piece of mail that leaves the building. We handle business card production fully in-house, so what you approve on screen is exactly what shows up printed.</p>
-              <img loading="lazy" src="/images/services/pachon-business-cards.webp" alt="Business card design for a client"/>
-            </div>
+            <p className="service-intro">Business cards, letterhead, envelopes, and notepads carry your brand into every handshake and every piece of mail that leaves the building. We handle business card production fully in-house, so what you approve on screen is exactly what shows up printed.</p>
           </div>
           <div className="container approach print-finishes-approach">
             <h3>Business Card Stock & Finishes</h3>
@@ -156,56 +151,63 @@ export default function Page() {
         </section>
 
         {/* Our Approach */}
-        <section className="section">
+        <section className="section dark-section">
           <div className="container">
-            <h2>Our Approach<br/>to Print Marketing</h2>
-          </div>
-          <div className="container approach-static-grid divided">
-            <div className="approach-static-item">
-              <h4>Collateral Strategy</h4>
-              <p>The wrong format wastes a print budget. We start by deciding what actually needs to be printed.</p>
-              <ul>
-                <li>Audience & Use-Case Mapping</li>
-                <li>Format Recommendations</li>
-                <li>Distribution Planning</li>
-                <li>Budget Planning</li>
-                <li>Brand Consistency Review</li>
-              </ul>
+            <div className="solutions-header">
+              <span className="eyebrow">/ Our Approach</span>
+              <h2>Our Approach to Print Marketing</h2>
             </div>
-            <div className="approach-static-item">
-              <h4>Copywriting & Content</h4>
-              <p>Technical buyers skim for the spec, not the story. We write for how they actually read.</p>
-              <ul>
-                <li>Product Copywriting</li>
-                <li>Technical Spec Writing</li>
-                <li>Headlines & Messaging</li>
-                <li>Proofing & Review</li>
-                <li>Multi-Language Support</li>
-              </ul>
-            </div>
-            <div className="approach-static-item">
-              <h4>Design & Layout</h4>
-              <p>A layout either guides the eye or fights it. We design for the fastest path to the information.</p>
-              <ul>
-                <li>Catalog Design</li>
-                <li>One-Pager Layouts</li>
-                <li>Technical Sheet Design</li>
-                <li>Color Swatch & Material Spec Sheets</li>
-                <li>Business Cards, Banners & Vehicle Wraps</li>
-                <li>Print-Ready Files</li>
-                <li>Brand Template Systems</li>
-              </ul>
-            </div>
-            <div className="approach-static-item">
-              <h4>Print Production & Delivery</h4>
-              <p>Good design falls apart with the wrong stock. We manage production so it doesn't.</p>
-              <ul>
-                <li>In-House Print Production</li>
-                <li>Proofing & Quality Control</li>
-                <li>Stock & Finish Selection</li>
-                <li>Fulfillment & Shipping</li>
-                <li>Reorder Management</li>
-              </ul>
+            <div className="solutions-grid approach-solutions-grid divided">
+              <div className="solutions-col">
+                <div className="solution-item approach-static-item">
+                  <h3>Collateral Strategy</h3>
+                  <p>The wrong format wastes a print budget. We start by deciding what actually needs to be printed.</p>
+                  <ul>
+                    <li>Audience & Use-Case Mapping</li>
+                    <li>Format Recommendations</li>
+                    <li>Distribution Planning</li>
+                    <li>Budget Planning</li>
+                    <li>Brand Consistency Review</li>
+                  </ul>
+                </div>
+                <div className="solution-item approach-static-item">
+                  <h3>Design & Layout</h3>
+                  <p>A layout either guides the eye or fights it. We design for the fastest path to the information.</p>
+                  <ul>
+                    <li>Catalog Design</li>
+                    <li>One-Pager Layouts</li>
+                    <li>Technical Sheet Design</li>
+                    <li>Color Swatch & Material Spec Sheets</li>
+                    <li>Business Cards, Banners & Vehicle Wraps</li>
+                    <li>Print-Ready Files</li>
+                    <li>Brand Template Systems</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="solutions-col">
+                <div className="solution-item approach-static-item">
+                  <h3>Copywriting & Content</h3>
+                  <p>Technical buyers skim for the spec, not the story. We write for how they actually read.</p>
+                  <ul>
+                    <li>Product Copywriting</li>
+                    <li>Technical Spec Writing</li>
+                    <li>Headlines & Messaging</li>
+                    <li>Proofing & Review</li>
+                    <li>Multi-Language Support</li>
+                  </ul>
+                </div>
+                <div className="solution-item approach-static-item">
+                  <h3>Print Production & Delivery</h3>
+                  <p>Good design falls apart with the wrong stock. We manage production so it doesn't.</p>
+                  <ul>
+                    <li>In-House Print Production</li>
+                    <li>Proofing & Quality Control</li>
+                    <li>Stock & Finish Selection</li>
+                    <li>Fulfillment & Shipping</li>
+                    <li>Reorder Management</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </section>
