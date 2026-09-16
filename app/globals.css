@@ -1856,6 +1856,47 @@ body.editor-active .hero-media-actions {
   font-size: 0.9rem;
 }
 
+.print-finishes-category {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--c-text-muted);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-m);
+}
+
+.print-finishes-category:first-of-type {
+  margin-top: var(--space-l);
+}
+
+.print-finishes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-2xl) var(--space-xl);
+  padding-bottom: var(--space-xl);
+}
+
+.print-finishes-grid h4 {
+  margin-bottom: var(--space-s);
+}
+
+.print-finishes-grid p {
+  font-size: 0.9rem;
+  color: var(--c-text-muted);
+}
+
+.print-finishes-note {
+  font-size: 0.9rem;
+  color: var(--c-text-muted);
+  margin-top: var(--space-l);
+}
+
+.print-finishes-note a {
+  color: var(--c-black);
+  text-decoration: underline;
+}
+
 .industry-details a {
   display: block;
   color: inherit;

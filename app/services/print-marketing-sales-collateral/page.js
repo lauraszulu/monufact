@@ -86,22 +86,64 @@ export default function Page() {
             </div>
             <div>
               <h3>Production Management</h3>
-              <p>Through our print shop partnership, we handle press checks, proofing, and delivery timelines in-house, so the finished piece matches the file and nothing gets lost between design and delivery.</p>
+              <p>We handle press checks, proofing, and delivery timelines in-house, so the finished piece matches the file and nothing gets lost between design and delivery.</p>
             </div>
           </div>
         </section>
 
-        {/* Business Cards, Banners & Vehicle Wraps */}
+        {/* Business Cards & Branded Stationery */}
         <section className="section">
           <div className="container">
-            <span className="eyebrow">/ Print Shop Partnership</span>
-            <h2>Business Cards, Banners & Vehicle Wraps</h2>
+            <span className="eyebrow">/ Branded Print</span>
+            <h2>Business Cards & Branded Stationery</h2>
           </div>
           <div className="container">
             <div className="industry-intro">
-              <p>Business cards, event banners, and vehicle wraps all carry your brand somewhere your website can't: a handshake, a booth, a truck door. Through our print shop partnership, we handle full production in-house for all three, so what you approve on screen is exactly what shows up printed.</p>
+              <p>Business cards, letterhead, envelopes, and notepads carry your brand into every handshake and every piece of mail that leaves the building. We handle business card production fully in-house, so what you approve on screen is exactly what shows up printed.</p>
               <img loading="lazy" src="/images/services/pachon-business-cards.webp" alt="Business card design for a client"/>
             </div>
+          </div>
+          <div className="container">
+            <h3>Business Card Stock & Finishes</h3>
+            <p className="print-finishes-category">Standard Options</p>
+            <div className="print-finishes-grid divided">
+              <div>
+                <h4>14PT Gloss or Matte, Double-Sided</h4>
+                <p>Our economical, standard option. Available in a gloss or matte finish, printed double-sided.</p>
+              </div>
+              <div>
+                <h4>16PT UV Gloss, Double-Sided</h4>
+                <p>A thicker stock with a high-gloss UV coating, a good option for a card that needs to feel more substantial.</p>
+              </div>
+              <div>
+                <h4>14PT Writeable</h4>
+                <p>Combines a semi-gloss coated side with an uncoated, writable side, so a contact can jot a note directly on the card.</p>
+              </div>
+              <div>
+                <h4>18PT Silk/Laminate, Double-Sided</h4>
+                <p>A silky lamination finish that adds durability along with a premium feel.</p>
+              </div>
+            </div>
+            <p className="print-finishes-category">Custom & Specialty Options</p>
+            <div className="print-finishes-grid divided">
+              <div>
+                <h4>Metallic Foil (Raised), 18PT</h4>
+                <p>Silver or gold foil printing, raised off the card, for a standout, tactile finish.</p>
+              </div>
+              <div>
+                <h4>Durable Cards, 16PT</h4>
+                <p>100% recyclable, tear-resistant, non-toxic, and fully waterproof stock, built to survive a job site or a jacket pocket.</p>
+              </div>
+              <div>
+                <h4>Die Cut Cards</h4>
+                <p>Available in 14PT and 16PT stock, cut into a rounded-corner, oval, or leaf shape instead of a standard rectangle.</p>
+              </div>
+              <div>
+                <h4>Soft Touch (Suede)</h4>
+                <p>A soft, matte, velvet-like surface at 19PT (16PT stock plus 3PT lamination), with lamination that protects against scratches and smudges.</p>
+              </div>
+            </div>
+            <p className="print-finishes-note">Pricing depends on stock, finish, and quantity. <a href="/company/contact">Contact us</a> with the option and quantity you're considering and we'll put together a quote.</p>
           </div>
         </section>
 
@@ -153,7 +195,7 @@ export default function Page() {
               <div className="approach-panel">
                 <p>Good design falls apart with the wrong stock. We manage production so it doesn't.</p>
                 <ul>
-                  <li>In-House Print Shop Partnership</li>
+                  <li>In-House Print Production</li>
                   <li>Proofing & Quality Control</li>
                   <li>Stock & Finish Selection</li>
                   <li>Fulfillment & Shipping</li>
@@ -201,7 +243,7 @@ export default function Page() {
                   <span className="plus"></span>
                 </button>
                 <div className="accordion-panel">
-                  <p>Both. Through our print shop partnership, we handle full production in-house for business cards, banners, and vehicle wraps. For catalogs and larger collateral sets, we manage production with trusted print partners, so either way you get a finished, ready-to-distribute piece, not just a file.</p>
+                  <p>Both. We handle full production in-house for business cards, banners, and vehicle wraps. For catalogs and larger collateral sets, we manage production with trusted print partners, so either way you get a finished, ready-to-distribute piece, not just a file.</p>
                 </div>
               </div>
               <div className="accordion-item">
