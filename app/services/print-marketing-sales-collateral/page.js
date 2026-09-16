@@ -86,7 +86,21 @@ export default function Page() {
             </div>
             <div>
               <h3>Production Management</h3>
-              <p>We manage press checks, proofing, and delivery timelines with our print partners, so the finished piece matches the file.</p>
+              <p>Through our print shop partnership, we handle press checks, proofing, and delivery timelines in-house, so the finished piece matches the file and nothing gets lost between design and delivery.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Business Cards, Banners & Vehicle Wraps */}
+        <section className="section">
+          <div className="container">
+            <span className="eyebrow">/ Print Shop Partnership</span>
+            <h2>Business Cards, Banners & Vehicle Wraps</h2>
+          </div>
+          <div className="container">
+            <div className="industry-intro">
+              <p>Business cards, event banners, and vehicle wraps all carry your brand somewhere your website can't: a handshake, a booth, a truck door. Through our print shop partnership, we handle full production in-house for all three, so what you approve on screen is exactly what shows up printed.</p>
+              <img loading="lazy" src="/images/services/pachon-business-cards.webp" alt="Business card design for a client"/>
             </div>
           </div>
         </section>
@@ -131,6 +145,7 @@ export default function Page() {
                   <li>One-Pager Layouts</li>
                   <li>Technical Sheet Design</li>
                   <li>Color Swatch & Material Spec Sheets</li>
+                  <li>Business Cards, Banners & Vehicle Wraps</li>
                   <li>Print-Ready Files</li>
                   <li>Brand Template Systems</li>
                 </ul>
@@ -138,7 +153,7 @@ export default function Page() {
               <div className="approach-panel">
                 <p>Good design falls apart with the wrong stock. We manage production so it doesn't.</p>
                 <ul>
-                  <li>Print Vendor Coordination</li>
+                  <li>In-House Print Shop Partnership</li>
                   <li>Proofing & Quality Control</li>
                   <li>Stock & Finish Selection</li>
                   <li>Fulfillment & Shipping</li>
@@ -160,7 +175,7 @@ export default function Page() {
               <div className="gallery-item"><img loading="lazy" src="/images/services/monufact-carterai.webp" alt="Client brand book cover"/></div>
               <div className="gallery-item"><img loading="lazy" src="/images/services/digital-sales-assets.webp" alt="One-pager layout"/></div>
               <div className="gallery-item gallery-item-tall"><img loading="lazy" src="/images/services/pachon-brandguide.webp" alt="Client brand guide cover"/></div>
-              <div className="gallery-item"><img loading="lazy" src="/images/services/pachon-business-cards.webp" alt="Brochure design"/></div>
+              <div className="gallery-item"><img loading="lazy" src="/images/services/pachon-business-cards.webp" alt="Business card design"/></div>
             </div>
           </div>
         </section>
@@ -178,7 +193,7 @@ export default function Page() {
                   <span className="plus"></span>
                 </button>
                 <div className="accordion-panel">
-                  <p>Spec sheets, catalogs, brochures, one-pagers, trade show handouts, and color swatch spec sheets for products with material or finish options. Anything a salesperson or distributor needs to hand a buyer that has to survive the field.</p>
+                  <p>Spec sheets, catalogs, brochures, one-pagers, trade show handouts, color swatch spec sheets for products with material or finish options, and business cards or other branded stationery. Anything a salesperson or distributor needs to hand a buyer that has to survive the field.</p>
                 </div>
               </div>
               <div className="accordion-item">
@@ -186,7 +201,7 @@ export default function Page() {
                   <span className="plus"></span>
                 </button>
                 <div className="accordion-panel">
-                  <p>Both. We design the piece and manage production with our print partners, so you get finished, ready-to-distribute materials, not just a file.</p>
+                  <p>Both. Through our print shop partnership, we handle full production in-house for business cards, banners, and vehicle wraps. For catalogs and larger collateral sets, we manage production with trusted print partners, so either way you get a finished, ready-to-distribute piece, not just a file.</p>
                 </div>
               </div>
               <div className="accordion-item">
