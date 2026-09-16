@@ -96,16 +96,17 @@ export default function Page() {
           <div className="container">
             <span className="eyebrow">/ Branded Print</span>
             <h2>What We Can Print for You</h2>
-            <p className="service-intro">Business cards, letterhead, envelopes, and notepads carry your brand into every handshake and every piece of mail that leaves the building. We handle business card production fully in-house, so what you approve on screen is exactly what shows up printed.</p>
+            <p className="service-intro">Business cards, banners, and vehicle wraps all carry your brand somewhere your website can't: a handshake, a booth, a truck door. We handle full production in-house for all three, so what you approve on screen is exactly what shows up printed.</p>
           </div>
           <div className="container approach print-finishes-approach">
-            <h3>Business Card Stock & Finishes</h3>
             <div className="approach-tabs print-finishes-tabs">
-              <button className="approach-tab is-active" type="button">Standard Options</button>
-              <button className="approach-tab" type="button">Custom & Specialty Options</button>
+              <button className="approach-tab is-active" type="button">Business Cards</button>
+              <button className="approach-tab" type="button">Banners</button>
+              <button className="approach-tab" type="button">Vehicle Wraps</button>
             </div>
             <div className="approach-panels print-finishes-panels">
               <div className="approach-panel is-active">
+                <p className="print-finishes-category">Standard Options</p>
                 <div className="print-finishes-grid divided">
                   <div>
                     <h4>14PT Gloss or Matte, Double-Sided</h4>
@@ -124,8 +125,7 @@ export default function Page() {
                     <p>A silky lamination finish that adds durability along with a premium feel.</p>
                   </div>
                 </div>
-              </div>
-              <div className="approach-panel">
+                <p className="print-finishes-category">Custom & Specialty Options</p>
                 <div className="print-finishes-grid divided">
                   <div>
                     <h4>Metallic Foil (Raised), 18PT</h4>
@@ -144,9 +144,51 @@ export default function Page() {
                     <p>A soft, matte, velvet-like surface at 19PT (16PT stock plus 3PT lamination), with lamination that protects against scratches and smudges.</p>
                   </div>
                 </div>
+                <p className="print-finishes-note">Pricing depends on stock, finish, and quantity. <a href="/company/contact">Contact us</a> with the option and quantity you're considering and we'll put together a quote.</p>
+              </div>
+              <div className="approach-panel">
+                <div className="print-finishes-grid divided">
+                  <div>
+                    <h4>Vinyl Banners</h4>
+                    <p>Durable, weather-resistant vinyl for storefronts, trade show booths, and events, finished with grommets or hemming for however it needs to hang.</p>
+                  </div>
+                  <div>
+                    <h4>Retractable & Step-and-Repeat</h4>
+                    <p>Stand-mounted banners for booths and check-in tables, plus branded step-and-repeat backdrops for events and photo ops.</p>
+                  </div>
+                  <div>
+                    <h4>Indoor & Outdoor Signage</h4>
+                    <p>Rigid and flexible signage built for the environment it's going into, from a lobby wall to a job site fence.</p>
+                  </div>
+                  <div>
+                    <h4>Custom Sizing</h4>
+                    <p>Banners scaled to the space, not a template. Tell us where it's going up and we'll size it to fit.</p>
+                  </div>
+                </div>
+                <p className="print-finishes-note">Pricing depends on size, material, and finishing. <a href="/company/contact">Contact us</a> with your dimensions and we'll put together a quote.</p>
+              </div>
+              <div className="approach-panel">
+                <div className="print-finishes-grid divided">
+                  <div>
+                    <h4>Full Vehicle Wraps</h4>
+                    <p>Complete coverage that turns a company vehicle into a moving billboard, with a UV-resistant laminate that holds up to weather and daily driving.</p>
+                  </div>
+                  <div>
+                    <h4>Partial Wraps & Decals</h4>
+                    <p>Logo panels, door decals, and partial coverage for fleets that want brand visibility without a full wrap.</p>
+                  </div>
+                  <div>
+                    <h4>Fleet Consistency</h4>
+                    <p>The same wrap design applied consistently across a multi-vehicle fleet, so every truck reads as the same company.</p>
+                  </div>
+                  <div>
+                    <h4>Design & Install</h4>
+                    <p>We design to your vehicle's exact dimensions and coordinate professional installation, not just a print file.</p>
+                  </div>
+                </div>
+                <p className="print-finishes-note">Pricing depends on vehicle size and coverage. <a href="/company/contact">Contact us</a> with your fleet details and we'll put together a quote.</p>
               </div>
             </div>
-            <p className="print-finishes-note">Pricing depends on stock, finish, and quantity. <a href="/company/contact">Contact us</a> with the option and quantity you're considering and we'll put together a quote.</p>
           </div>
         </section>
 

@@ -1860,8 +1860,17 @@ body.editor-active .hero-media-actions {
   margin-top: var(--space-xl);
 }
 
-.print-finishes-approach h3 {
-  margin-bottom: var(--space-l);
+.print-finishes-category {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--c-text-muted);
+  margin-bottom: var(--space-m);
+}
+
+.print-finishes-category:not(:first-child) {
+  margin-top: var(--space-xl);
 }
 
 .approach-tabs.print-finishes-tabs {
