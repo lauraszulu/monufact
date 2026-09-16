@@ -95,52 +95,60 @@ export default function Page() {
         <section className="section">
           <div className="container">
             <span className="eyebrow">/ Branded Print</span>
-            <h2>Business Cards & Branded Stationery</h2>
+            <h2>What We Can Print for You</h2>
           </div>
           <div className="container">
-            <div className="industry-intro">
+            <div className="industry-intro print-intro-plain">
               <p>Business cards, letterhead, envelopes, and notepads carry your brand into every handshake and every piece of mail that leaves the building. We handle business card production fully in-house, so what you approve on screen is exactly what shows up printed.</p>
               <img loading="lazy" src="/images/services/pachon-business-cards.webp" alt="Business card design for a client"/>
             </div>
           </div>
-          <div className="container">
+          <div className="container approach print-finishes-approach">
             <h3>Business Card Stock & Finishes</h3>
-            <p className="print-finishes-category">Standard Options</p>
-            <div className="print-finishes-grid divided">
-              <div>
-                <h4>14PT Gloss or Matte, Double-Sided</h4>
-                <p>Our economical, standard option. Available in a gloss or matte finish, printed double-sided.</p>
-              </div>
-              <div>
-                <h4>16PT UV Gloss, Double-Sided</h4>
-                <p>A thicker stock with a high-gloss UV coating, a good option for a card that needs to feel more substantial.</p>
-              </div>
-              <div>
-                <h4>14PT Writeable</h4>
-                <p>Combines a semi-gloss coated side with an uncoated, writable side, so a contact can jot a note directly on the card.</p>
-              </div>
-              <div>
-                <h4>18PT Silk/Laminate, Double-Sided</h4>
-                <p>A silky lamination finish that adds durability along with a premium feel.</p>
-              </div>
+            <div className="approach-tabs print-finishes-tabs">
+              <button className="approach-tab is-active" type="button">Standard Options</button>
+              <button className="approach-tab" type="button">Custom & Specialty Options</button>
             </div>
-            <p className="print-finishes-category">Custom & Specialty Options</p>
-            <div className="print-finishes-grid divided">
-              <div>
-                <h4>Metallic Foil (Raised), 18PT</h4>
-                <p>Silver or gold foil printing, raised off the card, for a standout, tactile finish.</p>
+            <div className="approach-panels print-finishes-panels">
+              <div className="approach-panel is-active">
+                <div className="print-finishes-grid divided">
+                  <div>
+                    <h4>14PT Gloss or Matte, Double-Sided</h4>
+                    <p>Our economical, standard option. Available in a gloss or matte finish, printed double-sided.</p>
+                  </div>
+                  <div>
+                    <h4>16PT UV Gloss, Double-Sided</h4>
+                    <p>A thicker stock with a high-gloss UV coating, a good option for a card that needs to feel more substantial.</p>
+                  </div>
+                  <div>
+                    <h4>14PT Writeable</h4>
+                    <p>Combines a semi-gloss coated side with an uncoated, writable side, so a contact can jot a note directly on the card.</p>
+                  </div>
+                  <div>
+                    <h4>18PT Silk/Laminate, Double-Sided</h4>
+                    <p>A silky lamination finish that adds durability along with a premium feel.</p>
+                  </div>
+                </div>
               </div>
-              <div>
-                <h4>Durable Cards, 16PT</h4>
-                <p>100% recyclable, tear-resistant, non-toxic, and fully waterproof stock, built to survive a job site or a jacket pocket.</p>
-              </div>
-              <div>
-                <h4>Die Cut Cards</h4>
-                <p>Available in 14PT and 16PT stock, cut into a rounded-corner, oval, or leaf shape instead of a standard rectangle.</p>
-              </div>
-              <div>
-                <h4>Soft Touch (Suede)</h4>
-                <p>A soft, matte, velvet-like surface at 19PT (16PT stock plus 3PT lamination), with lamination that protects against scratches and smudges.</p>
+              <div className="approach-panel">
+                <div className="print-finishes-grid divided">
+                  <div>
+                    <h4>Metallic Foil (Raised), 18PT</h4>
+                    <p>Silver or gold foil printing, raised off the card, for a standout, tactile finish.</p>
+                  </div>
+                  <div>
+                    <h4>Durable Cards, 16PT</h4>
+                    <p>100% recyclable, tear-resistant, non-toxic, and fully waterproof stock, built to survive a job site or a jacket pocket.</p>
+                  </div>
+                  <div>
+                    <h4>Die Cut Cards</h4>
+                    <p>Available in 14PT and 16PT stock, cut into a rounded-corner, oval, or leaf shape instead of a standard rectangle.</p>
+                  </div>
+                  <div>
+                    <h4>Soft Touch (Suede)</h4>
+                    <p>A soft, matte, velvet-like surface at 19PT (16PT stock plus 3PT lamination), with lamination that protects against scratches and smudges.</p>
+                  </div>
+                </div>
               </div>
             </div>
             <p className="print-finishes-note">Pricing depends on stock, finish, and quantity. <a href="/company/contact">Contact us</a> with the option and quantity you're considering and we'll put together a quote.</p>
@@ -148,60 +156,56 @@ export default function Page() {
         </section>
 
         {/* Our Approach */}
-        <section className="approach section">
-          <div className="container approach-grid">
-            <div className="approach-intro">
-              <h2>Our Approach<br/>to Print Marketing</h2>
-              <div className="approach-tabs">
-                <button className="approach-tab is-active" type="button">Collateral Strategy</button>
-                <button className="approach-tab" type="button">Copywriting & Content</button>
-                <button className="approach-tab" type="button">Design & Layout</button>
-                <button className="approach-tab" type="button">Print Production & Delivery</button>
-              </div>
+        <section className="section">
+          <div className="container">
+            <h2>Our Approach<br/>to Print Marketing</h2>
+          </div>
+          <div className="container approach-static-grid divided">
+            <div className="approach-static-item">
+              <h4>Collateral Strategy</h4>
+              <p>The wrong format wastes a print budget. We start by deciding what actually needs to be printed.</p>
+              <ul>
+                <li>Audience & Use-Case Mapping</li>
+                <li>Format Recommendations</li>
+                <li>Distribution Planning</li>
+                <li>Budget Planning</li>
+                <li>Brand Consistency Review</li>
+              </ul>
             </div>
-            <div className="approach-panels">
-              <div className="approach-panel is-active">
-                <p>The wrong format wastes a print budget. We start by deciding what actually needs to be printed.</p>
-                <ul>
-                  <li>Audience & Use-Case Mapping</li>
-                  <li>Format Recommendations</li>
-                  <li>Distribution Planning</li>
-                  <li>Budget Planning</li>
-                  <li>Brand Consistency Review</li>
-                </ul>
-              </div>
-              <div className="approach-panel">
-                <p>Technical buyers skim for the spec, not the story. We write for how they actually read.</p>
-                <ul>
-                  <li>Product Copywriting</li>
-                  <li>Technical Spec Writing</li>
-                  <li>Headlines & Messaging</li>
-                  <li>Proofing & Review</li>
-                  <li>Multi-Language Support</li>
-                </ul>
-              </div>
-              <div className="approach-panel">
-                <p>A layout either guides the eye or fights it. We design for the fastest path to the information.</p>
-                <ul>
-                  <li>Catalog Design</li>
-                  <li>One-Pager Layouts</li>
-                  <li>Technical Sheet Design</li>
-                  <li>Color Swatch & Material Spec Sheets</li>
-                  <li>Business Cards, Banners & Vehicle Wraps</li>
-                  <li>Print-Ready Files</li>
-                  <li>Brand Template Systems</li>
-                </ul>
-              </div>
-              <div className="approach-panel">
-                <p>Good design falls apart with the wrong stock. We manage production so it doesn't.</p>
-                <ul>
-                  <li>In-House Print Production</li>
-                  <li>Proofing & Quality Control</li>
-                  <li>Stock & Finish Selection</li>
-                  <li>Fulfillment & Shipping</li>
-                  <li>Reorder Management</li>
-                </ul>
-              </div>
+            <div className="approach-static-item">
+              <h4>Copywriting & Content</h4>
+              <p>Technical buyers skim for the spec, not the story. We write for how they actually read.</p>
+              <ul>
+                <li>Product Copywriting</li>
+                <li>Technical Spec Writing</li>
+                <li>Headlines & Messaging</li>
+                <li>Proofing & Review</li>
+                <li>Multi-Language Support</li>
+              </ul>
+            </div>
+            <div className="approach-static-item">
+              <h4>Design & Layout</h4>
+              <p>A layout either guides the eye or fights it. We design for the fastest path to the information.</p>
+              <ul>
+                <li>Catalog Design</li>
+                <li>One-Pager Layouts</li>
+                <li>Technical Sheet Design</li>
+                <li>Color Swatch & Material Spec Sheets</li>
+                <li>Business Cards, Banners & Vehicle Wraps</li>
+                <li>Print-Ready Files</li>
+                <li>Brand Template Systems</li>
+              </ul>
+            </div>
+            <div className="approach-static-item">
+              <h4>Print Production & Delivery</h4>
+              <p>Good design falls apart with the wrong stock. We manage production so it doesn't.</p>
+              <ul>
+                <li>In-House Print Production</li>
+                <li>Proofing & Quality Control</li>
+                <li>Stock & Finish Selection</li>
+                <li>Fulfillment & Shipping</li>
+                <li>Reorder Management</li>
+              </ul>
             </div>
           </div>
         </section>
