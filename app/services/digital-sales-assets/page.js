@@ -33,7 +33,7 @@ export default function Page() {
 
         {/* Image banner */}
         <section className="image-banner">
-          <img loading="lazy" className="parallax-img" src="/images/services/digital-sales-assets.webp" alt="Digital Sales Assets"/>
+          <img loading="lazy" className="img-contain" src="/images/services/digital-sales-assets.webp" alt="Digital Sales Assets"/>
           <span className="eyebrow overlay-label">/ Digital Sales Assets</span>
           <div className="overlay-cta-group">
             <a href="/company/contact" className="btn btn-dark overlay-cta">Contact us
@@ -64,7 +64,7 @@ export default function Page() {
             <h2>Dedicated to Selling, Not Just Looking Good</h2>
             <p>A sales deck that doesn't move a deal forward is just decoration. We build digital sales assets around the questions your buyers actually ask before they sign.</p>
           </div>
-          <img loading="lazy" src="/images/services/digital-sales-assets.webp" alt="Digital sales assets"/>
+          <img loading="lazy" src="/images/services/monufact-coommunications.webp" alt="Printed capabilities brochure for a Monufact client"/>
         </section>
 
         {/* Spec columns */}

@@ -871,6 +871,15 @@ body.editor-active .hero-media-actions {
   object-fit: cover;
 }
 
+.image-banner img.img-contain {
+  /* For a photo whose subject (e.g. a portrait-oriented product shot)
+     doesn't survive a full-bleed 600px-tall crop without losing its
+     context entirely. Shows the whole photo letterboxed on black
+     instead of cropping in tight. */
+  object-fit: contain;
+  background: var(--c-black);
+}
+
 .image-banner img.parallax-img,
 .image-banner video.parallax-img {
   /* Just enough headroom for the ±40px scroll parallax (see main.js) to
