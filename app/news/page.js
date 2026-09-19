@@ -40,6 +40,23 @@ export default function Page() {
         <section className="section">
           <div className="container news-list">
             <article className="news-list-item">
+              <a href="/news/new-print-production-services" className="news-list-media">
+                <img loading="lazy" src="/images/services/pachon-business-cards.webp" alt="Business card design and printing for a Monufact client"/>
+              </a>
+              <div>
+                <div className="news-list-tags">
+                  <span className="tag">Product Innovation</span>
+                </div>
+                <a href="/news/new-print-production-services" className="news-list-title">
+                  <h3>New In-House Print Services: Business Cards, Vehicle Wraps, and Trade Show Banners</h3>
+                </a>
+                <p>Business cards, vehicle wraps, and trade show display banners are now designed and printed fully in-house, from concept to finished piece.</p>
+                <a href="/news/new-print-production-services" className="news-list-readmore">Read more
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="14" height="14"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </article>
+            <article className="news-list-item">
               <a href="/news/trade-show-lead-generation-tips" className="news-list-media">
                 <img loading="lazy" src="/images/services/monufact-tradeshow-displays.webp" alt="Trade show booth conversation"/>
               </a>

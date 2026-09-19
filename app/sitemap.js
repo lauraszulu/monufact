@@ -30,6 +30,7 @@ const ROUTES = [
   '/industries/sustainable-steel',
   '/news',
   '/news/manufacturing-matters-2026',
+  '/news/new-print-production-services',
   '/news/category-news',
   '/news/category-press-release',
   '/news/category-product-innovation',
