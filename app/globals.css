@@ -1351,9 +1351,10 @@ body.editor-active .hero-media-actions {
   background: var(--c-orange);
   color: var(--c-white);
   padding: var(--space-2xl);
+  padding-right: max(var(--space-2xl), calc((100vw - var(--max-width)) / 2 + var(--space-l)));
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .split-cta-right .eyebrow {

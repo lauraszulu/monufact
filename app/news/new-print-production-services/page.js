@@ -50,7 +50,7 @@ export default function Page() {
         {/* Article body */}
         <section className="section">
           <div className="container article-body">
-            <p>We've expanded what we produce in-house. Business cards, vehicle wraps, and trade show display banners are now designed and printed fully in-house, from the first concept to the finished piece. If you've worked with us on a website or a catalog before, this is the same team handling the materials that get handed across a table, driven around town, and set up at your next show.</p>
+            <p>We've expanded what we produce in-house. Business cards, vehicle wraps, and trade show display banners are now designed and printed fully in-house, from the first concept to the finished piece. If you've worked with us on a website or a catalog before, this is the same team handling the materials that get handed across a table, driven around town, and set up at your next show. We're based in London, Ontario, and this is available to businesses here and across the surrounding area.</p>
 
             <h3>Why We Brought This In-House</h3>
             <p>We were already designing print collateral for manufacturers: spec sheets, catalogs, trade show handouts, brand guides. The gap was everything that has to be produced physically and shows up in the real world, not just as a file. Handling business cards, vehicle wraps, and banners ourselves means one team is responsible for the design and the finished product, so nothing gets lost in a handoff between a designer and a separate print vendor.</p>
@@ -63,6 +63,15 @@ export default function Page() {
 
             <h3>Trade Show Display Banners</h3>
             <p>This one pairs directly with the booth and event work we already do. We produce durable, weather-resistant vinyl banners for storefronts, booths, and events, retractable stand-mounted banners, and branded step-and-repeat backdrops for photo ops. Every banner is sized to the actual space it's going into rather than a standard template, so tell us your dimensions and we'll build to fit.</p>
+
+            <h3>Who This Is a Good Fit For</h3>
+            <p>This kind of production tends to matter most to businesses that live outside a laptop: crews on job sites, trucks on the road, and reps handing out cards at a counter or a trade show floor. A few examples of who we see using it around London, Ontario and the surrounding area:</p>
+            <ul>
+              <li>Manufacturers and fabricators branding a fleet of trucks and vans consistently</li>
+              <li>HVAC, electrical, plumbing, and other trade contractors who need vehicle wraps and business cards for techs on the job</li>
+              <li>Construction companies and industrial suppliers exhibiting at trade shows who need banners sized to their booth</li>
+              <li>Distributors and sales reps who go through business cards quickly and want a stock and finish that holds up</li>
+            </ul>
 
             <h3>What This Means If You're Already Working With Us</h3>
             <p>If we've already built your brand identity or your print collateral, we can now take business cards, wraps, and banners through the same process, using the same files and brand standards, without bringing in a separate print shop. If you haven't worked with us yet, this is a good entry point: a business card reorder or a banner for an upcoming show is a small, low-risk way to see how we handle production.</p>
