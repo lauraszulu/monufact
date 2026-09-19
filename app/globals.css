@@ -2292,7 +2292,43 @@ body.lightbox-open {
    ========================================================================== */
 
 .faq-layout {
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  gap: var(--space-3xl);
+  align-items: start;
+}
+
+.faq-content {
   max-width: 800px;
+}
+
+.faq-nav {
+  position: sticky;
+  top: calc(84px + var(--space-xl));
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-s);
+  padding-left: var(--space-l);
+  border-left: 1px solid var(--c-border);
+}
+
+.faq-nav-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--c-text-muted);
+  margin-bottom: var(--space-s);
+}
+
+.faq-nav a {
+  font-size: 0.85rem;
+  color: var(--c-text-muted);
+  transition: color 0.15s ease;
+}
+
+.faq-nav a:hover {
+  color: var(--c-orange);
 }
 
 .faq-category {
@@ -2990,6 +3026,27 @@ body.lightbox-open {
    ========================================================================== */
 
 @media (max-width: 900px) {
+  .faq-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .faq-nav {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-left: none;
+    border-top: 1px solid var(--c-border);
+    padding-left: 0;
+    padding-top: var(--space-l);
+    margin-top: var(--space-l);
+    gap: var(--space-m) var(--space-l);
+  }
+
+  .faq-nav-label {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
   .main-nav {
     position: fixed;
     top: 84px;

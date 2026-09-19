@@ -33,8 +33,9 @@ export default function Page() {
         {/* FAQ categories */}
         <section className="section faq-section">
           <div className="container faq-layout">
+          <div className="faq-content">
 
-            <div className="faq-category">
+            <div className="faq-category" id="process">
               <h3>Our Process & Getting Started</h3>
               <div className="accordion faq-accordion">
                 <div className="accordion-item">
@@ -72,7 +73,7 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="faq-category">
+            <div className="faq-category" id="payment">
               <h3>Payment & Billing</h3>
               <div className="accordion faq-accordion">
                 <div className="accordion-item">
@@ -118,7 +119,7 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="faq-category">
+            <div className="faq-category" id="services">
               <h3>Service Breakdown</h3>
               <div className="accordion faq-accordion">
                 <div className="accordion-item">
@@ -156,7 +157,53 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="faq-category">
+            <div className="faq-category" id="print-services">
+              <h3>Print Production Services</h3>
+              <div className="accordion faq-accordion">
+                <div className="accordion-item">
+                  <button className="accordion-trigger" type="button">Do you design and print business cards, banners, and vehicle wraps in-house?
+                    <span className="plus"></span>
+                  </button>
+                  <div className="accordion-panel">
+                    <p>Yes. All three are designed and produced fully in-house, from the first concept to the finished piece, so nothing gets handed off to a separate print vendor.</p>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <button className="accordion-trigger" type="button">What's the standard business card size, and what stock options do you offer?
+                    <span className="plus"></span>
+                  </button>
+                  <div className="accordion-panel">
+                    <p>Standard size is 3.5" x 2" (89mm x 51mm). Standard stock options include 14PT gloss or matte, 16PT UV gloss, a writeable stock, and 18PT silk laminate, plus specialty finishes like raised metallic foil, durable waterproof stock, die cut shapes, and soft-touch suede.</p>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <button className="accordion-trigger" type="button">Do you install vehicle wraps, or just design and print them?
+                    <span className="plus"></span>
+                  </button>
+                  <div className="accordion-panel">
+                    <p>Both. We design to your vehicle's exact dimensions and coordinate professional installation, so you're not left sourcing an installer separately.</p>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <button className="accordion-trigger" type="button">How much do business cards, banners, or vehicle wraps cost?
+                    <span className="plus"></span>
+                  </button>
+                  <div className="accordion-panel">
+                    <p>Pricing depends on stock, finish, size, and quantity, so we don't publish flat rates. Contact us with what you're considering and we'll put together a quote.</p>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <button className="accordion-trigger" type="button">Can you match our existing brand guidelines on these print materials?
+                    <span className="plus"></span>
+                  </button>
+                  <div className="accordion-panel">
+                    <p>Yes. If you already have brand standards, we design within them, so your business cards, wraps, and banners stay consistent with everything else we've built for you.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="faq-category" id="working-with-us">
               <h3>Working With Us</h3>
               <div className="accordion faq-accordion">
                 <div className="accordion-item">
@@ -194,7 +241,7 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="faq-category">
+            <div className="faq-category" id="referral">
               <h3>Referral Program</h3>
               <div className="accordion faq-accordion">
                 <div className="accordion-item">
@@ -235,7 +282,7 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="faq-category">
+            <div className="faq-category" id="general">
               <h3>General</h3>
               <div className="accordion faq-accordion">
                 <div className="accordion-item">
@@ -265,6 +312,17 @@ export default function Page() {
               </div>
             </div>
 
+          </div>
+          <nav className="faq-nav" aria-label="FAQ categories">
+            <span className="faq-nav-label">Categories</span>
+            <a href="#process">Our Process & Getting Started</a>
+            <a href="#payment">Payment & Billing</a>
+            <a href="#services">Service Breakdown</a>
+            <a href="#print-services">Print Production Services</a>
+            <a href="#working-with-us">Working With Us</a>
+            <a href="#referral">Referral Program</a>
+            <a href="#general">General</a>
+          </nav>
           </div>
         </section>
 
