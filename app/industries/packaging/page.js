@@ -36,7 +36,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Building products and materials manufacturers sell into a chain of specifiers, distributors, and installers, each with different information needs. We build marketing that speaks clearly to every link in that chain.</p>
-              <img loading="lazy" src="/images/industries/packaging-1.webp?v=2" alt="Building materials warehouse"/>
+              <img loading="lazy" src="/images/industries/packaging-3.webp" alt="Construction materials stacked"/>
             </div>
           </div>
         </section>
@@ -54,7 +54,7 @@ export default function Page() {
               <img loading="lazy" src="/images/industries/packaging-2.webp" alt="Lumber stored in a warehouse"/>
             </div>
             <div className="industry-sector-col industry-sector-col-2">
-              <img loading="lazy" src="/images/industries/packaging-3.webp" alt="Construction materials stacked"/>
+              <img loading="lazy" src="/images/industries/packaging-1.webp?v=2" alt="Building materials warehouse"/>
             </div>
           </div>
         </section>

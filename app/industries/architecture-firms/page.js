@@ -36,7 +36,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Architecture and engineering firms win work through reputation and portfolio as much as pitch decks. We build the digital presence that lets your best projects do the talking, and makes it easy for the right clients to find you.</p>
-              <img loading="lazy" src="/images/industries/architecture-1.webp" alt="Architectural floor plan blueprints"/>
+              <img loading="lazy" src="/images/industries/architecture-2.webp" alt="Architect reviewing a layout plan"/>
             </div>
           </div>
         </section>
@@ -54,7 +54,7 @@ export default function Page() {
               <img loading="lazy" src="/images/industries/architecture-3.webp" alt="Modern glass office building exterior"/>
             </div>
             <div className="industry-sector-col industry-sector-col-2">
-              <img loading="lazy" src="/images/industries/architecture-2.webp" alt="Architect reviewing a layout plan"/>
+              <img loading="lazy" src="/images/industries/architecture-1.webp" alt="Architectural floor plan blueprints"/>
             </div>
           </div>
         </section>

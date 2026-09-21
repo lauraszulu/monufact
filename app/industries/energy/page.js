@@ -36,7 +36,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Energy and infrastructure projects move on long timelines and bigger budgets, which means trust, credibility, and technical clarity matter more than ever. We build marketing that holds up under that kind of scrutiny.</p>
-              <img loading="lazy" src="/images/industries/energy-1.webp?v=2" alt="Energy infrastructure facility"/>
+              <img loading="lazy" src="/images/industries/energy-3.webp" alt="Wind turbines and solar panels"/>
             </div>
           </div>
         </section>
@@ -54,7 +54,7 @@ export default function Page() {
               <img loading="lazy" src="/images/industries/energy-2.webp" alt="Energy infrastructure project"/>
             </div>
             <div className="industry-sector-col industry-sector-col-2">
-              <img loading="lazy" src="/images/industries/energy-3.webp" alt="Wind turbines and solar panels"/>
+              <img loading="lazy" src="/images/industries/energy-1.webp?v=2" alt="Energy infrastructure facility"/>
             </div>
           </div>
         </section>

@@ -1704,8 +1704,34 @@ body.editor-active .hero-media-actions {
 .industry-intro img {
   width: 100%;
   height: 300px;
-  object-fit: contain;
+  object-fit: cover;
   background: var(--c-light);
+}
+
+/* Blurred-backdrop fallback (see .industry-innovation .img-frame below)
+   sized for the intro slot, for industries whose only source photos
+   are portrait-shot. */
+.industry-intro .img-frame {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.industry-intro .img-frame-bg {
+  position: absolute;
+  inset: -20px;
+  width: calc(100% + 40px);
+  height: calc(100% + 40px);
+  object-fit: cover;
+  filter: blur(24px) brightness(0.55);
+}
+
+.industry-intro .img-frame-fg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .industry-sector {

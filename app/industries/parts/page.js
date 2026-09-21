@@ -36,7 +36,7 @@ export default function Page() {
           <div className="container">
             <div className="industry-intro">
               <p>Industrial suppliers and distributors compete on availability, reliability, and how easy they are to do business with. We build the marketing and digital tools that make that easier to prove and easier to find.</p>
-              <img loading="lazy" src="/images/industries/parts-1.webp" alt="Industrial supply warehouse loading dock"/>
+              <img loading="lazy" src="/images/industries/parts-3.webp" alt="Industrial parts inventory"/>
             </div>
           </div>
         </section>
@@ -51,7 +51,7 @@ export default function Page() {
             </div>
             </div>
             <div className="industry-sector-col industry-sector-col-1">
-              <img loading="lazy" src="/images/industries/parts-3.webp" alt="Industrial parts inventory"/>
+              <img loading="lazy" src="/images/industries/parts-1.webp" alt="Industrial supply warehouse loading dock"/>
             </div>
             <div className="industry-sector-col industry-sector-col-2">
               <img loading="lazy" src="/images/industries/parts-2.webp" alt="Distribution warehouse shelving"/>
