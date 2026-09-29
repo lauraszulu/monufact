@@ -397,6 +397,17 @@ p {
   gap: var(--space-l);
 }
 
+.client-login-link {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--c-black);
+  white-space: nowrap;
+}
+
+.client-login-link:hover {
+  color: var(--c-orange);
+}
+
 .nav-toggle {
   display: none;
   flex-direction: column;

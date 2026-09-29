@@ -97,6 +97,7 @@ export default function Header() {
           <a href="/company/faq">FAQ</a>
         </nav>
         <div className="header-actions">
+          <a href="https://portal.monufact.com/portal/login" className="client-login-link">Client Login</a>
           <a href="/company/become-a-customer" className="btn btn-dark">Become a Customer</a>
           <button className="nav-toggle" id="navToggle" aria-label="Toggle menu">
             <span></span><span></span><span></span>
