@@ -1,8 +1,8 @@
 export const metadata = {
-  title: "Monufact - Digital Marketing for Manufacturers & Industrial Companies",
+  title: "Monufact - Digital Marketing for Manufacturers & Industrial Companies in Canada",
   description: "Monufact is a digital marketing agency based in London, Ontario, helping manufacturers and industrial companies modernize how they market, sell, and communicate.",
   openGraph: {
-    title: "Monufact - Digital Marketing for Manufacturers & Industrial Companies",
+    title: "Monufact - Digital Marketing for Manufacturers & Industrial Companies in Canada",
     description: "Monufact is a digital marketing agency based in London, Ontario, helping manufacturers and industrial companies modernize how they market, sell, and communicate.",
     url: "/",
     siteName: "Monufact",
@@ -12,7 +12,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Monufact - Digital Marketing for Manufacturers & Industrial Companies",
+    title: "Monufact - Digital Marketing for Manufacturers & Industrial Companies in Canada",
     description: "Monufact is a digital marketing agency based in London, Ontario, helping manufacturers and industrial companies modernize how they market, sell, and communicate.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
