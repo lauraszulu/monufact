@@ -25,7 +25,7 @@ export default function Page() {
         <section className="hero">
           <div className="container hero-grid">
             <div className="hero-eyebrow">
-              <span className="eyebrow">/ Industrial & Manufacturing Marketing</span>
+              <span className="eyebrow">/ Industrial & Manufacturing Marketing in London, Ontario</span>
             </div>
             <div className="hero-title">
               <h1>Marketing Built for Manufacturers & Industrial Suppliers.</h1>
