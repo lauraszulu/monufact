@@ -55,7 +55,10 @@ const ORGANIZATION_SCHEMA = {
     addressCountry: 'CA',
   },
   areaServed: 'CA',
-  sameAs: ['https://www.instagram.com/monufact.marketing/'],
+  sameAs: [
+    'https://www.instagram.com/monufact.marketing/',
+    'https://www.youtube.com/@monufactmarketing',
+  ],
 };
 
 export default function RootLayout({ children }) {
