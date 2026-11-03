@@ -1,8 +1,8 @@
 export const metadata = {
-  title: "Website Design & Development for Manufacturers - Monufact",
+  title: "Website Design for Manufacturers in London, Ontario - Monufact",
   description: "Modern, fast, conversion-focused websites built for industrial manufacturers, from UX strategy and design through development and ongoing support.",
   openGraph: {
-    title: "Website Design & Development for Manufacturers - Monufact",
+    title: "Website Design for Manufacturers in London, Ontario - Monufact",
     description: "Modern, fast, conversion-focused websites built for industrial manufacturers, from UX strategy and design through development and ongoing support.",
     url: "/services/website-design-development",
     siteName: "Monufact",
@@ -12,7 +12,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Website Design & Development for Manufacturers - Monufact",
+    title: "Website Design for Manufacturers in London, Ontario - Monufact",
     description: "Modern, fast, conversion-focused websites built for industrial manufacturers, from UX strategy and design through development and ongoing support.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
@@ -21,7 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Website Design & Development\", \"description\": \"Modern, fast, conversion-focused websites built for industrial manufacturers, from UX strategy and design through development and ongoing support.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://monufact.com/services/website-design-development\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Website Design & Development\", \"description\": \"Modern, fast, conversion-focused websites built for industrial manufacturers, from UX strategy and design through development and ongoing support.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://www.monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://www.monufact.com/services/website-design-development\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">

@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Architecture & Engineering Marketing - Monufact",
-  description: "Marketing support for architecture and engineering firms in Canada and the United States, translating technical expertise into content that wins clients and projects.",
+  description: "Marketing for architecture and engineering firms in Canada and the U.S., turning technical expertise into content that wins clients and projects.",
   openGraph: {
     title: "Architecture & Engineering Marketing - Monufact",
-    description: "Marketing support for architecture and engineering firms in Canada and the United States, translating technical expertise into content that wins clients and projects.",
+    description: "Marketing for architecture and engineering firms in Canada and the U.S., turning technical expertise into content that wins clients and projects.",
     url: "/industries/architecture-firms",
     siteName: "Monufact",
     images: ["/images/services/monufact-about-hero.webp"],
@@ -13,7 +13,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Architecture & Engineering Marketing - Monufact",
-    description: "Marketing support for architecture and engineering firms in Canada and the United States, translating technical expertise into content that wins clients and projects.",
+    description: "Marketing for architecture and engineering firms in Canada and the U.S., turning technical expertise into content that wins clients and projects.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
 };
@@ -21,7 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Architecture & Engineering Marketing\", \"description\": \"Marketing support for architecture and engineering firms in Canada and the United States, translating technical expertise into content that wins clients and projects.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://monufact.com/industries/architecture-firms\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Architecture & Engineering Marketing\", \"description\": \"Marketing for architecture and engineering firms in Canada and the U.S., turning technical expertise into content that wins clients and projects.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://www.monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://www.monufact.com/industries/architecture-firms\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">

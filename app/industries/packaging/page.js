@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Building Products & Materials Marketing - Monufact",
-  description: "Marketing for building products and materials manufacturers across Canada and the United States, built to reach specifiers, distributors, and buyers across the supply chain.",
+  description: "Marketing for building products and materials manufacturers in Canada and the U.S., built to reach specifiers, distributors, and buyers.",
   openGraph: {
     title: "Building Products & Materials Marketing - Monufact",
-    description: "Marketing for building products and materials manufacturers across Canada and the United States, built to reach specifiers, distributors, and buyers across the supply chain.",
+    description: "Marketing for building products and materials manufacturers in Canada and the U.S., built to reach specifiers, distributors, and buyers.",
     url: "/industries/packaging",
     siteName: "Monufact",
     images: ["/images/services/monufact-about-hero.webp"],
@@ -13,7 +13,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Building Products & Materials Marketing - Monufact",
-    description: "Marketing for building products and materials manufacturers across Canada and the United States, built to reach specifiers, distributors, and buyers across the supply chain.",
+    description: "Marketing for building products and materials manufacturers in Canada and the U.S., built to reach specifiers, distributors, and buyers.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
 };
@@ -21,7 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Building Products & Materials Marketing\", \"description\": \"Marketing for building products and materials manufacturers across Canada and the United States, built to reach specifiers, distributors, and buyers across the supply chain.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://monufact.com/industries/packaging\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Building Products & Materials Marketing\", \"description\": \"Marketing for building products and materials manufacturers in Canada and the U.S., built to reach specifiers, distributors, and buyers.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://www.monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://www.monufact.com/industries/packaging\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">

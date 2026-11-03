@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Industrial Supply & Distribution Marketing - Monufact",
-  description: "Digital marketing for industrial suppliers and distributors across Canada and the United States, built to support sales teams and reach buyers across every channel.",
+  description: "Digital marketing for industrial suppliers and distributors in Canada and the U.S., built to support sales teams and reach buyers in every channel.",
   openGraph: {
     title: "Industrial Supply & Distribution Marketing - Monufact",
-    description: "Digital marketing for industrial suppliers and distributors across Canada and the United States, built to support sales teams and reach buyers across every channel.",
+    description: "Digital marketing for industrial suppliers and distributors in Canada and the U.S., built to support sales teams and reach buyers in every channel.",
     url: "/industries/parts",
     siteName: "Monufact",
     images: ["/images/services/monufact-about-hero.webp"],
@@ -13,7 +13,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Industrial Supply & Distribution Marketing - Monufact",
-    description: "Digital marketing for industrial suppliers and distributors across Canada and the United States, built to support sales teams and reach buyers across every channel.",
+    description: "Digital marketing for industrial suppliers and distributors in Canada and the U.S., built to support sales teams and reach buyers in every channel.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
 };
@@ -21,7 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Industrial Supply & Distribution Marketing\", \"description\": \"Digital marketing for industrial suppliers and distributors across Canada and the United States, built to support sales teams and reach buyers across every channel.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://monufact.com/industries/parts\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Industrial Supply & Distribution Marketing\", \"description\": \"Digital marketing for industrial suppliers and distributors in Canada and the U.S., built to support sales teams and reach buyers in every channel.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://www.monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://www.monufact.com/industries/parts\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">

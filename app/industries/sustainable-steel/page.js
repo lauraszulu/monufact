@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Steel & Metal Fabrication Marketing - Monufact",
-  description: "Marketing and sales content for steel and metal fabrication companies across Canada and the United States, built to communicate technical capability and win industrial buyers.",
+  description: "Marketing and sales content for steel and metal fabrication companies in Canada and the U.S., built to show technical capability and win buyers.",
   openGraph: {
     title: "Steel & Metal Fabrication Marketing - Monufact",
-    description: "Marketing and sales content for steel and metal fabrication companies across Canada and the United States, built to communicate technical capability and win industrial buyers.",
+    description: "Marketing and sales content for steel and metal fabrication companies in Canada and the U.S., built to show technical capability and win buyers.",
     url: "/industries/sustainable-steel",
     siteName: "Monufact",
     images: ["/images/services/monufact-about-hero.webp"],
@@ -13,7 +13,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Steel & Metal Fabrication Marketing - Monufact",
-    description: "Marketing and sales content for steel and metal fabrication companies across Canada and the United States, built to communicate technical capability and win industrial buyers.",
+    description: "Marketing and sales content for steel and metal fabrication companies in Canada and the U.S., built to show technical capability and win buyers.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
 };
@@ -21,7 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Steel & Metal Fabrication Marketing\", \"description\": \"Marketing and sales content for steel and metal fabrication companies across Canada and the United States, built to communicate technical capability and win industrial buyers.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://monufact.com/industries/sustainable-steel\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Steel & Metal Fabrication Marketing\", \"description\": \"Marketing and sales content for steel and metal fabrication companies in Canada and the U.S., built to show technical capability and win buyers.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://www.monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://www.monufact.com/industries/sustainable-steel\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">

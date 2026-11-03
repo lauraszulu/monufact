@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "New Service: Business Cards, Vehicle Wraps & Trade Show Banners - Monufact",
-  description: "Monufact now designs and prints business cards, vehicle wraps, and trade show display banners fully in-house. Here's what that means for manufacturers who need branded print materials fast.",
+  title: "In-House Business Cards, Vehicle Wraps & Banners - Monufact",
+  description: "Monufact now designs and prints business cards, vehicle wraps, and trade show banners in-house. Here's what that means for manufacturers.",
   openGraph: {
-    title: "New Service: Business Cards, Vehicle Wraps & Trade Show Banners - Monufact",
-    description: "Monufact now designs and prints business cards, vehicle wraps, and trade show display banners fully in-house. Here's what that means for manufacturers who need branded print materials fast.",
+    title: "In-House Business Cards, Vehicle Wraps & Banners - Monufact",
+    description: "Monufact now designs and prints business cards, vehicle wraps, and trade show banners in-house. Here's what that means for manufacturers.",
     url: "/news/new-print-production-services",
     siteName: "Monufact",
     images: ["/images/services/pachon-business-cards.webp"],
@@ -12,8 +12,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "New Service: Business Cards, Vehicle Wraps & Trade Show Banners - Monufact",
-    description: "Monufact now designs and prints business cards, vehicle wraps, and trade show display banners fully in-house. Here's what that means for manufacturers who need branded print materials fast.",
+    title: "In-House Business Cards, Vehicle Wraps & Banners - Monufact",
+    description: "Monufact now designs and prints business cards, vehicle wraps, and trade show banners in-house. Here's what that means for manufacturers.",
     images: ["/images/services/pachon-business-cards.webp"],
   },
 };
@@ -24,16 +24,18 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',
+        datePublished: '2026-09-19',
+        dateModified: '2026-09-19',
         headline: 'New In-House Print Services: Business Cards, Vehicle Wraps, and Trade Show Banners',
-        description: "Monufact now designs and prints business cards, vehicle wraps, and trade show display banners fully in-house. Here's what that means for manufacturers who need branded print materials fast.",
-        image: 'https://monufact.com/images/services/pachon-business-cards.webp',
-        author: { '@type': 'Organization', name: 'Monufact', url: 'https://monufact.com' },
+        description: "Monufact now designs and prints business cards, vehicle wraps, and trade show banners in-house. Here's what that means for manufacturers.",
+        image: 'https://www.monufact.com/images/services/pachon-business-cards.webp',
+        author: { '@type': 'Organization', name: 'Monufact', url: 'https://www.monufact.com' },
         publisher: {
           '@type': 'Organization',
           name: 'Monufact',
-          logo: { '@type': 'ImageObject', url: 'https://monufact.com/images/monufact-logo.svg' },
+          logo: { '@type': 'ImageObject', url: 'https://www.monufact.com/images/monufact-logo.svg' },
         },
-        mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://monufact.com/news/new-print-production-services' },
+        mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.monufact.com/news/new-print-production-services' },
       }) }} />
       {/* Article hero */}
         <section className="service-hero article-hero">
@@ -65,7 +67,7 @@ export default function Page() {
             <p>This one pairs directly with the booth and event work we already do. We produce durable, weather-resistant vinyl banners for storefronts, booths, and events, retractable stand-mounted banners, and branded step-and-repeat backdrops for photo ops. Every banner is sized to the actual space it's going into rather than a standard template, so tell us your dimensions and we'll build to fit.</p>
 
             <h3>Who This Is a Good Fit For</h3>
-            <p>This kind of production tends to matter most to businesses that live outside a laptop: crews on job sites, trucks on the road, and reps handing out cards at a counter or a trade show floor. A few examples of who we see using it around London, Ontario and the surrounding area:</p>
+            <p>This kind of production tends to matter most to businesses that live outside a laptop: crews on job sites, trucks on the road, and reps handing out cards at a counter or a trade show floor. A few examples of who this is a good fit for around London, Ontario and the surrounding area:</p>
             <ul>
               <li>Manufacturers and fabricators branding a fleet of trucks and vans consistently</li>
               <li>HVAC, electrical, plumbing, and other trade contractors who need vehicle wraps and business cards for techs on the job</li>

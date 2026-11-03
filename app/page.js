@@ -201,11 +201,11 @@ export default function Page() {
                 <img loading="lazy" className="logo-item-img" src="/images/clients/Crossman-Group-Primary-Field-Poppy-Accent.webp" alt="Crossman Group"/>
               </div>
               <div className="logo-carousel-track" aria-hidden="true">
-                <img loading="lazy" className="logo-item-img" src="/images/clients/kao.svg" alt=""/>
-                <img loading="lazy" className="logo-item-img" src="/images/clients/pachon.svg" alt=""/>
-                <img loading="lazy" className="logo-item-img" src="/images/clients/carter-ai.svg" alt=""/>
-                <img loading="lazy" className="logo-item-img" src="/images/clients/mgb.svg" alt=""/>
-                <img loading="lazy" className="logo-item-img" src="/images/clients/Crossman-Group-Primary-Field-Poppy-Accent.webp" alt=""/>
+                <img loading="lazy" className="logo-item-img" src="/images/clients/kao.svg" alt="Kao logo"/>
+                <img loading="lazy" className="logo-item-img" src="/images/clients/pachon.svg" alt="Pachon logo"/>
+                <img loading="lazy" className="logo-item-img" src="/images/clients/carter-ai.svg" alt="CarterAI logo"/>
+                <img loading="lazy" className="logo-item-img" src="/images/clients/mgb.svg" alt="MGB logo"/>
+                <img loading="lazy" className="logo-item-img" src="/images/clients/Crossman-Group-Primary-Field-Poppy-Accent.webp" alt="Crossman Group logo"/>
               </div>
             </div>
           </div>

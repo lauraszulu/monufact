@@ -4,7 +4,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  metadataBase: new URL('https://monufact.com'),
+  metadataBase: new URL('https://www.monufact.com'),
+  alternates: { canonical: './' },
   title: 'Monufact - Digital Marketing for Manufacturers & Industrial Companies in Canada',
   description:
     'Monufact is a digital marketing agency based in London, Ontario, helping manufacturers and industrial companies modernize how they market, sell, and communicate.',
@@ -40,9 +41,9 @@ const ORGANIZATION_SCHEMA = {
   '@context': 'https://schema.org',
   '@type': 'ProfessionalService',
   name: 'Monufact',
-  url: 'https://monufact.com',
-  logo: 'https://monufact.com/images/monufact-logo.svg',
-  image: 'https://monufact.com/images/services/monufact-about-hero.webp',
+  url: 'https://www.monufact.com',
+  logo: 'https://www.monufact.com/images/monufact-logo.svg',
+  image: 'https://www.monufact.com/images/services/monufact-about-hero.webp',
   description:
     'Monufact is a digital marketing agency based in London, Ontario, helping manufacturers and industrial companies modernize how they market, sell, and communicate.',
   telephone: '+1-226-977-2064',
