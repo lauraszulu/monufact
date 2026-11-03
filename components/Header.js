@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <a href="/" className="logo"><img src="/images/monufact-logo-on-dark.svg" alt="Monufact" className="logo-img" /></a>
+        <a href="/" className="logo"><img src="/images/monufact-logo.svg" alt="Monufact" className="logo-img" /></a>
         <nav className="main-nav" id="mainNav">
           <div className="nav-item">
             <a href="/">Company</a>
