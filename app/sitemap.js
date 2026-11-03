@@ -1,4 +1,4 @@
-const BASE_URL = 'https://monufact.com';
+const BASE_URL = 'https://www.monufact.com';
 
 // Static list matching the site's actual routes. Kept as a plain array
 // rather than walking the filesystem at build time — simpler, and this

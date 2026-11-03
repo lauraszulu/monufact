@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Energy & Infrastructure Marketing - Monufact",
-  description: "Marketing and communications for energy and infrastructure companies in Canada and the United States, built to support complex sales cycles and technical audiences.",
+  description: "Marketing for energy and infrastructure companies in Canada and the U.S., built to support complex sales cycles and technical audiences.",
   openGraph: {
     title: "Energy & Infrastructure Marketing - Monufact",
-    description: "Marketing and communications for energy and infrastructure companies in Canada and the United States, built to support complex sales cycles and technical audiences.",
+    description: "Marketing for energy and infrastructure companies in Canada and the U.S., built to support complex sales cycles and technical audiences.",
     url: "/industries/energy",
     siteName: "Monufact",
     images: ["/images/services/monufact-about-hero.webp"],
@@ -13,7 +13,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Energy & Infrastructure Marketing - Monufact",
-    description: "Marketing and communications for energy and infrastructure companies in Canada and the United States, built to support complex sales cycles and technical audiences.",
+    description: "Marketing for energy and infrastructure companies in Canada and the U.S., built to support complex sales cycles and technical audiences.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
 };
@@ -21,7 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Energy & Infrastructure Marketing\", \"description\": \"Marketing and communications for energy and infrastructure companies in Canada and the United States, built to support complex sales cycles and technical audiences.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://monufact.com/industries/energy\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Energy & Infrastructure Marketing\", \"description\": \"Marketing for energy and infrastructure companies in Canada and the U.S., built to support complex sales cycles and technical audiences.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://www.monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://www.monufact.com/industries/energy\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">

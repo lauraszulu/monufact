@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://monufact.com/sitemap.xml',
+    sitemap: 'https://www.monufact.com/sitemap.xml',
   };
 }

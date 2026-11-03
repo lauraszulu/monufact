@@ -1,8 +1,8 @@
 export const metadata = {
-  title: "Print Marketing & Sales Collateral - Monufact",
+  title: "Print Marketing & Business Cards in London, Ontario - Monufact",
   description: "High-quality printed catalogs, one-pagers, and technical sheets that support reps, distributors, and engineering decision-makers.",
   openGraph: {
-    title: "Print Marketing & Sales Collateral - Monufact",
+    title: "Print Marketing & Business Cards in London, Ontario - Monufact",
     description: "High-quality printed catalogs, one-pagers, and technical sheets that support reps, distributors, and engineering decision-makers.",
     url: "/services/print-marketing-sales-collateral",
     siteName: "Monufact",
@@ -12,7 +12,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Print Marketing & Sales Collateral - Monufact",
+    title: "Print Marketing & Business Cards in London, Ontario - Monufact",
     description: "High-quality printed catalogs, one-pagers, and technical sheets that support reps, distributors, and engineering decision-makers.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
@@ -21,7 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Print Marketing & Sales Collateral\", \"description\": \"High-quality printed catalogs, one-pagers, and technical sheets that support reps, distributors, and engineering decision-makers.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://monufact.com/services/print-marketing-sales-collateral\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Print Marketing & Sales Collateral\", \"description\": \"High-quality printed catalogs, one-pagers, and technical sheets that support reps, distributors, and engineering decision-makers.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://www.monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://www.monufact.com/services/print-marketing-sales-collateral\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">

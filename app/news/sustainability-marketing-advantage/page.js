@@ -1,8 +1,8 @@
 export const metadata = {
-  title: "Why Sustainability Is Becoming a Marketing Advantage in Manufacturing - Monufact",
+  title: "Sustainability Is a Marketing Edge in Manufacturing - Monufact",
   description: "How sustainability is becoming a genuine competitive advantage for manufacturers, not just an operational goal.",
   openGraph: {
-    title: "Why Sustainability Is Becoming a Marketing Advantage in Manufacturing - Monufact",
+    title: "Sustainability Is a Marketing Edge in Manufacturing - Monufact",
     description: "How sustainability is becoming a genuine competitive advantage for manufacturers, not just an operational goal.",
     url: "/news/sustainability-marketing-advantage",
     siteName: "Monufact",
@@ -12,7 +12,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Why Sustainability Is Becoming a Marketing Advantage in Manufacturing - Monufact",
+    title: "Sustainability Is a Marketing Edge in Manufacturing - Monufact",
     description: "How sustainability is becoming a genuine competitive advantage for manufacturers, not just an operational goal.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
@@ -21,7 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"Why Sustainability Is Becoming a Marketing Advantage in Manufacturing\", \"description\": \"How sustainability is becoming a genuine competitive advantage for manufacturers, not just an operational goal.\", \"image\": \"https://monufact.com/images/blog/marketing-sustainability.webp\", \"author\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"logo\": {\"@type\": \"ImageObject\", \"url\": \"https://monufact.com/images/monufact-logo.svg\"}}, \"mainEntityOfPage\": {\"@type\": \"WebPage\", \"@id\": \"https://monufact.com/news/sustainability-marketing-advantage\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"datePublished\": \"2023-07-05\", \"dateModified\": \"2023-07-05\", \"headline\": \"Why Sustainability Is Becoming a Marketing Advantage in Manufacturing\", \"description\": \"How sustainability is becoming a genuine competitive advantage for manufacturers, not just an operational goal.\", \"image\": \"https://www.monufact.com/images/blog/marketing-sustainability.webp\", \"author\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"url\": \"https://www.monufact.com\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"logo\": {\"@type\": \"ImageObject\", \"url\": \"https://www.monufact.com/images/monufact-logo.svg\"}}, \"mainEntityOfPage\": {\"@type\": \"WebPage\", \"@id\": \"https://www.monufact.com/news/sustainability-marketing-advantage\"}}" }} />
       {/* Article hero */}
         <section className="service-hero article-hero">
           <div className="container">
@@ -76,7 +76,7 @@ export default function Page() {
                   <a href="/news/trade-show-success">
                     <img loading="lazy" src="/images/services/monufact-ecofoot-tradeshow.webp" alt="Trade Show Success for Canadian Manufacturers"/>
                   </a>
-                  <a href="/news/trade-show-success" className="news-arrow">
+                  <a href="/news/trade-show-success" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>
@@ -88,7 +88,7 @@ export default function Page() {
                   <a href="/news/on-grid-solar-energy">
                     <img loading="lazy" src="/images/blog/on-grid-solar.webp" alt="On-Grid System: The New Face of Solar Energy"/>
                   </a>
-                  <a href="/news/on-grid-solar-energy" className="news-arrow">
+                  <a href="/news/on-grid-solar-energy" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>

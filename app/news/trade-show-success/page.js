@@ -21,7 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"Trade Show Success for Canadian Manufacturers\", \"description\": \"How Canadian manufacturers can turn trade show events into real, lasting business.\", \"image\": \"https://monufact.com/images/services/monufact-ecofoot-tradeshow.webp\", \"author\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"logo\": {\"@type\": \"ImageObject\", \"url\": \"https://monufact.com/images/monufact-logo.svg\"}}, \"mainEntityOfPage\": {\"@type\": \"WebPage\", \"@id\": \"https://monufact.com/news/trade-show-success\"}}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"datePublished\": \"2026-03-22\", \"dateModified\": \"2026-03-22\", \"headline\": \"Trade Show Success for Canadian Manufacturers\", \"description\": \"How Canadian manufacturers can turn trade show events into real, lasting business.\", \"image\": \"https://www.monufact.com/images/services/monufact-ecofoot-tradeshow.webp\", \"author\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"url\": \"https://www.monufact.com\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"Monufact\", \"logo\": {\"@type\": \"ImageObject\", \"url\": \"https://www.monufact.com/images/monufact-logo.svg\"}}, \"mainEntityOfPage\": {\"@type\": \"WebPage\", \"@id\": \"https://www.monufact.com/news/trade-show-success\"}}" }} />
       {/* Article hero */}
         <section className="service-hero article-hero">
           <div className="container">
@@ -171,7 +171,7 @@ export default function Page() {
                   <a href="/news/sustainability-marketing-advantage">
                     <img loading="lazy" src="/images/blog/marketing-sustainability.webp" alt="Why Sustainability Is Becoming a Marketing Advantage in Manufacturing"/>
                   </a>
-                  <a href="/news/sustainability-marketing-advantage" className="news-arrow">
+                  <a href="/news/sustainability-marketing-advantage" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>
@@ -183,7 +183,7 @@ export default function Page() {
                   <a href="/news/trade-show-lead-generation-tips">
                     <img loading="lazy" src="/images/services/monufact-tradeshow-displays.webp" alt="Trade show booth conversation"/>
                   </a>
-                  <a href="/news/trade-show-lead-generation-tips" className="news-arrow">
+                  <a href="/news/trade-show-lead-generation-tips" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>

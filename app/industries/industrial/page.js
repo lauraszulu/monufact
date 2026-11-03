@@ -1,9 +1,9 @@
 export const metadata = {
-  title: "Manufacturing & Industrial Production Marketing - Monufact",
-  description: "Digital marketing built for OEMs, capital equipment manufacturers, and industrial producers across Canada and the United States: brand strategy, sales enablement, and SEO that speaks to engineers, buyers, and distributors.",
+  title: "Manufacturing Marketing Agency in London, Ontario - Monufact",
+  description: "Digital marketing for OEMs, capital equipment makers, and industrial producers in Canada and the U.S.: brand, sales enablement, and SEO for technical buyers.",
   openGraph: {
-    title: "Manufacturing & Industrial Production Marketing - Monufact",
-    description: "Digital marketing built for OEMs, capital equipment manufacturers, and industrial producers across Canada and the United States: brand strategy, sales enablement, and SEO that speaks to engineers, buyers, and distributors.",
+    title: "Manufacturing Marketing Agency in London, Ontario - Monufact",
+    description: "Digital marketing for OEMs, capital equipment makers, and industrial producers in Canada and the U.S.: brand, sales enablement, and SEO for technical buyers.",
     url: "/industries/industrial",
     siteName: "Monufact",
     images: ["/images/services/monufact-about-hero.webp"],
@@ -12,8 +12,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Manufacturing & Industrial Production Marketing - Monufact",
-    description: "Digital marketing built for OEMs, capital equipment manufacturers, and industrial producers across Canada and the United States: brand strategy, sales enablement, and SEO that speaks to engineers, buyers, and distributors.",
+    title: "Manufacturing Marketing Agency in London, Ontario - Monufact",
+    description: "Digital marketing for OEMs, capital equipment makers, and industrial producers in Canada and the U.S.: brand, sales enablement, and SEO for technical buyers.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
 };
@@ -21,7 +21,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Manufacturing & Industrial Production Marketing\", \"description\": \"Digital marketing built for OEMs, capital equipment manufacturers, and industrial producers across Canada and the United States: brand strategy, sales enablement, and SEO that speaks to engineers, buyers, and distributors.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://monufact.com/industries/industrial\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Manufacturing & Industrial Production Marketing\", \"description\": \"Digital marketing for OEMs, capital equipment makers, and industrial producers in Canada and the U.S.: brand, sales enablement, and SEO for technical buyers.\", \"provider\": {\"@type\": \"ProfessionalService\", \"name\": \"Monufact\", \"url\": \"https://www.monufact.com\"}, \"areaServed\": [\"CA\", \"US\"], \"url\": \"https://www.monufact.com/industries/industrial\"}" }} />
       {/* Service hero */}
         <section className="service-hero">
           <div className="container">

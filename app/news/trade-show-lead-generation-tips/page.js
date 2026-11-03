@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Trade Show Lead Generation Tips From the Booth - Monufact",
-  description: "Real trade show lead generation tips from the show floor: the one question that opens conversations, how to warm up a lead, and the small booth fixes that made the biggest difference.",
+  description: "Real trade show lead generation tips from the show floor: the one question that opens conversations and the booth fixes that made the biggest difference.",
   openGraph: {
     title: "Trade Show Lead Generation Tips From the Booth - Monufact",
-    description: "Real trade show lead generation tips from the show floor: the one question that opens conversations, how to warm up a lead, and the small booth fixes that made the biggest difference.",
+    description: "Real trade show lead generation tips from the show floor: the one question that opens conversations and the booth fixes that made the biggest difference.",
     url: "/news/trade-show-lead-generation-tips",
     siteName: "Monufact",
     images: ["/images/services/monufact-tradeshow-displays.webp"],
@@ -13,7 +13,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Trade Show Lead Generation Tips From the Booth - Monufact",
-    description: "Real trade show lead generation tips from the show floor: the one question that opens conversations, how to warm up a lead, and the small booth fixes that made the biggest difference.",
+    description: "Real trade show lead generation tips from the show floor: the one question that opens conversations and the booth fixes that made the biggest difference.",
     images: ["/images/services/monufact-tradeshow-displays.webp"],
   },
 };
@@ -24,16 +24,18 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',
+        datePublished: '2026-08-25',
+        dateModified: '2026-08-25',
         headline: 'What Actually Gets You Leads at Trade Shows (It’s Not the Pitch)',
-        description: 'Real trade show lead generation tips from the show floor: the one question that opens conversations, how to warm up a lead, and the small booth fixes that made the biggest difference.',
-        image: 'https://monufact.com/images/services/monufact-tradeshow-displays.webp',
-        author: { '@type': 'Organization', name: 'Monufact', url: 'https://monufact.com' },
+        description: 'Real trade show lead generation tips from the show floor: the one question that opens conversations and the booth fixes that made the biggest difference.',
+        image: 'https://www.monufact.com/images/services/monufact-tradeshow-displays.webp',
+        author: { '@type': 'Organization', name: 'Monufact', url: 'https://www.monufact.com' },
         publisher: {
           '@type': 'Organization',
           name: 'Monufact',
-          logo: { '@type': 'ImageObject', url: 'https://monufact.com/images/monufact-logo.svg' },
+          logo: { '@type': 'ImageObject', url: 'https://www.monufact.com/images/monufact-logo.svg' },
         },
-        mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://monufact.com/news/trade-show-lead-generation-tips' },
+        mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.monufact.com/news/trade-show-lead-generation-tips' },
       }) }} />
       {/* Article hero */}
         <section className="service-hero article-hero">
@@ -93,7 +95,7 @@ export default function Page() {
                   <a href="/news/trade-show-success">
                     <img loading="lazy" src="/images/services/monufact-ecofoot-tradeshow.webp" alt="Trade Show Success for Canadian Manufacturers"/>
                   </a>
-                  <a href="/news/trade-show-success" className="news-arrow">
+                  <a href="/news/trade-show-success" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>
@@ -105,7 +107,7 @@ export default function Page() {
                   <a href="/news/manufacturing-matters-2026">
                     <img loading="lazy" src="/images/services/monufact-about-hero.webp" alt="Manufacturing Matters 2026"/>
                   </a>
-                  <a href="/news/manufacturing-matters-2026" className="news-arrow">
+                  <a href="/news/manufacturing-matters-2026" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>

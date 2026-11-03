@@ -1,8 +1,8 @@
 export const metadata = {
-  title: "Monufact - Digital Marketing for Manufacturers & Industrial Companies in Canada",
+  title: "Monufact - Digital Marketing for Manufacturers in Canada",
   description: "Monufact is a digital marketing agency based in London, Ontario, helping manufacturers and industrial companies modernize how they market, sell, and communicate.",
   openGraph: {
-    title: "Monufact - Digital Marketing for Manufacturers & Industrial Companies in Canada",
+    title: "Monufact - Digital Marketing for Manufacturers in Canada",
     description: "Monufact is a digital marketing agency based in London, Ontario, helping manufacturers and industrial companies modernize how they market, sell, and communicate.",
     url: "/",
     siteName: "Monufact",
@@ -12,7 +12,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Monufact - Digital Marketing for Manufacturers & Industrial Companies in Canada",
+    title: "Monufact - Digital Marketing for Manufacturers in Canada",
     description: "Monufact is a digital marketing agency based in London, Ontario, helping manufacturers and industrial companies modernize how they market, sell, and communicate.",
     images: ["/images/services/monufact-about-hero.webp"],
   },
@@ -25,7 +25,7 @@ export default function Page() {
         <section className="hero">
           <div className="container hero-grid">
             <div className="hero-eyebrow">
-              <span className="eyebrow">/ Industrial & Manufacturing Marketing</span>
+              <span className="eyebrow">/ Industrial & Manufacturing Marketing in London, Ontario</span>
             </div>
             <div className="hero-title">
               <h1>Marketing Built for Manufacturers & Industrial Suppliers.</h1>
@@ -151,9 +151,7 @@ export default function Page() {
 
         {/* Image banner */}
         <section className="image-banner">
-          <video autoPlay muted loop playsInline aria-label="Monufact company intro">
-            <source src="/videos/monufact-intro.mp4" type="video/mp4"/>
-          </video>
+          <video autoPlay muted loop playsInline preload="none" data-lazy-src="/videos/monufact-intro.mp4" aria-label="Monufact company intro"></video>
           <span className="eyebrow overlay-label">/ Who We Are</span>
           <div className="overlay-cta-group">
             <a href="/company/contact" className="btn btn-dark overlay-cta">Contact us
@@ -201,11 +199,11 @@ export default function Page() {
                 <img loading="lazy" className="logo-item-img" src="/images/clients/Crossman-Group-Primary-Field-Poppy-Accent.webp" alt="Crossman Group"/>
               </div>
               <div className="logo-carousel-track" aria-hidden="true">
-                <img loading="lazy" className="logo-item-img" src="/images/clients/kao.svg" alt=""/>
-                <img loading="lazy" className="logo-item-img" src="/images/clients/pachon.svg" alt=""/>
-                <img loading="lazy" className="logo-item-img" src="/images/clients/carter-ai.svg" alt=""/>
-                <img loading="lazy" className="logo-item-img" src="/images/clients/mgb.svg" alt=""/>
-                <img loading="lazy" className="logo-item-img" src="/images/clients/Crossman-Group-Primary-Field-Poppy-Accent.webp" alt=""/>
+                <img loading="lazy" className="logo-item-img" src="/images/clients/kao.svg" alt="Kao logo"/>
+                <img loading="lazy" className="logo-item-img" src="/images/clients/pachon.svg" alt="Pachon logo"/>
+                <img loading="lazy" className="logo-item-img" src="/images/clients/carter-ai.svg" alt="CarterAI logo"/>
+                <img loading="lazy" className="logo-item-img" src="/images/clients/mgb.svg" alt="MGB logo"/>
+                <img loading="lazy" className="logo-item-img" src="/images/clients/Crossman-Group-Primary-Field-Poppy-Accent.webp" alt="Crossman Group logo"/>
               </div>
             </div>
           </div>
@@ -355,7 +353,7 @@ export default function Page() {
                   <a href="/news/trade-show-success">
                     <img loading="lazy" src="/images/services/monufact-ecofoot-tradeshow.webp" alt="Trade Show Success for Canadian Manufacturers"/>
                   </a>
-                  <a href="/news/trade-show-success" className="news-arrow">
+                  <a href="/news/trade-show-success" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>
@@ -368,7 +366,7 @@ export default function Page() {
                   <a href="/news/trade-show-lead-generation-tips">
                     <img loading="lazy" src="/images/services/monufact-tradeshow-displays.webp" alt="Trade show booth conversation"/>
                   </a>
-                  <a href="/news/trade-show-lead-generation-tips" className="news-arrow">
+                  <a href="/news/trade-show-lead-generation-tips" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>
@@ -381,7 +379,7 @@ export default function Page() {
                   <a href="/news/manufacturing-matters-2026">
                     <img loading="lazy" src="/images/services/monufact-about-hero.webp" alt="Manufacturing Matters 2026"/>
                   </a>
-                  <a href="/news/manufacturing-matters-2026" className="news-arrow">
+                  <a href="/news/manufacturing-matters-2026" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>

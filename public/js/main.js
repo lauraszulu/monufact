@@ -1069,3 +1069,25 @@ if (backToTop) {
     });
   });
 }
+
+// Below-the-fold videos load only when they get close to the viewport,
+// so they don't compete with the page's first paint.
+document.querySelectorAll('video[data-lazy-src]').forEach((video) => {
+  const load = () => {
+    const source = document.createElement('source');
+    source.src = video.dataset.lazySrc;
+    source.type = 'video/mp4';
+    video.appendChild(source);
+    video.load();
+    const played = video.play();
+    if (played && played.catch) played.catch(() => {});
+  };
+  if (!('IntersectionObserver' in window)) { load(); return; }
+  const observer = new IntersectionObserver((entries) => {
+    if (entries.some((entry) => entry.isIntersecting)) {
+      observer.disconnect();
+      load();
+    }
+  }, { rootMargin: '300px' });
+  observer.observe(video);
+});
