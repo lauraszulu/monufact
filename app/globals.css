@@ -1609,7 +1609,7 @@ body.editor-active .hero-media-actions {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--space-l) 0;
+  padding-block: var(--space-l);
   font-size: 0.75rem;
   flex-wrap: wrap;
   gap: var(--space-m);
