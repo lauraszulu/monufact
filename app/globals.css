@@ -1483,16 +1483,27 @@ body.editor-active .hero-media-actions {
 }
 
 .news-dot {
-  width: 8px;
-  height: 8px;
-  background: var(--c-border);
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: transparent;
   border: none;
   padding: 0;
   cursor: pointer;
+}
+
+.news-dot::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 8px;
+  height: 8px;
+  background: var(--c-border);
   transition: background 0.2s ease;
 }
 
-.news-dot.is-active {
+.news-dot.is-active::before {
   background: var(--c-orange);
 }
 

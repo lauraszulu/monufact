@@ -79,7 +79,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         {/* Google Tag Manager */}
-        <Script id="gtm" strategy="afterInteractive">
+        <Script id="gtm" strategy="lazyOnload">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -89,28 +89,16 @@ export default function RootLayout({ children }) {
         {/* End Google Tag Manager */}
 
         {/* Google tag (gtag.js) */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-K063VKZPNC" strategy="afterInteractive" />
-        <Script id="gtag-init" strategy="afterInteractive">
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-K063VKZPNC" strategy="lazyOnload" />
+        <Script id="gtag-init" strategy="lazyOnload">
           {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-K063VKZPNC');`}
         </Script>
 
-        {/* Google reCAPTCHA Enterprise — invisible, score-based. This site
-            key was created via Google Cloud Console, so it needs the
-            enterprise.js client (grecaptcha.enterprise.execute), not the
-            classic api.js (grecaptcha.execute) — using the wrong one
-            throws cryptic internal errors and every execute() call fails
-            silently. Used by the 3 site forms (Contact, Become a
-            Customer, Refer a Client). */}
-        <Script
-          src="https://www.google.com/recaptcha/enterprise.js?render=6Le6bpUtAAAAAA82pA0bTFhQerL3qJGivcREa1_8"
-          strategy="afterInteractive"
-        />
-
         {/* Microsoft Clarity */}
-        <Script id="clarity" strategy="afterInteractive">
+        <Script id="clarity" strategy="lazyOnload">
           {`(function(c,l,a,r,i,t,y){
               c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
               t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
@@ -130,7 +118,7 @@ export default function RootLayout({ children }) {
         {/* End Google Tag Manager (noscript) */}
 
         <Header />
-        {children}
+        <main id="main-content">{children}</main>
         <Footer />
 
         {/* Site-wide, non-form interactivity (mobile nav, accordions, scroll

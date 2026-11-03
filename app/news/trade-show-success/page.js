@@ -171,7 +171,7 @@ export default function Page() {
                   <a href="/news/sustainability-marketing-advantage">
                     <img loading="lazy" src="/images/blog/marketing-sustainability.webp" alt="Why Sustainability Is Becoming a Marketing Advantage in Manufacturing"/>
                   </a>
-                  <a href="/news/sustainability-marketing-advantage" className="news-arrow">
+                  <a href="/news/sustainability-marketing-advantage" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>
@@ -183,7 +183,7 @@ export default function Page() {
                   <a href="/news/trade-show-lead-generation-tips">
                     <img loading="lazy" src="/images/services/monufact-tradeshow-displays.webp" alt="Trade show booth conversation"/>
                   </a>
-                  <a href="/news/trade-show-lead-generation-tips" className="news-arrow">
+                  <a href="/news/trade-show-lead-generation-tips" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>

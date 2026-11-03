@@ -95,7 +95,7 @@ export default function Page() {
                   <a href="/news/trade-show-success">
                     <img loading="lazy" src="/images/services/monufact-ecofoot-tradeshow.webp" alt="Trade Show Success for Canadian Manufacturers"/>
                   </a>
-                  <a href="/news/trade-show-success" className="news-arrow">
+                  <a href="/news/trade-show-success" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>
@@ -107,7 +107,7 @@ export default function Page() {
                   <a href="/news/manufacturing-matters-2026">
                     <img loading="lazy" src="/images/services/monufact-about-hero.webp" alt="Manufacturing Matters 2026"/>
                   </a>
-                  <a href="/news/manufacturing-matters-2026" className="news-arrow">
+                  <a href="/news/manufacturing-matters-2026" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>

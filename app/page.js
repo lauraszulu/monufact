@@ -151,9 +151,7 @@ export default function Page() {
 
         {/* Image banner */}
         <section className="image-banner">
-          <video autoPlay muted loop playsInline aria-label="Monufact company intro">
-            <source src="/videos/monufact-intro.mp4" type="video/mp4"/>
-          </video>
+          <video autoPlay muted loop playsInline preload="none" data-lazy-src="/videos/monufact-intro.mp4" aria-label="Monufact company intro"></video>
           <span className="eyebrow overlay-label">/ Who We Are</span>
           <div className="overlay-cta-group">
             <a href="/company/contact" className="btn btn-dark overlay-cta">Contact us
@@ -355,7 +353,7 @@ export default function Page() {
                   <a href="/news/trade-show-success">
                     <img loading="lazy" src="/images/services/monufact-ecofoot-tradeshow.webp" alt="Trade Show Success for Canadian Manufacturers"/>
                   </a>
-                  <a href="/news/trade-show-success" className="news-arrow">
+                  <a href="/news/trade-show-success" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>
@@ -368,7 +366,7 @@ export default function Page() {
                   <a href="/news/trade-show-lead-generation-tips">
                     <img loading="lazy" src="/images/services/monufact-tradeshow-displays.webp" alt="Trade show booth conversation"/>
                   </a>
-                  <a href="/news/trade-show-lead-generation-tips" className="news-arrow">
+                  <a href="/news/trade-show-lead-generation-tips" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>
@@ -381,7 +379,7 @@ export default function Page() {
                   <a href="/news/manufacturing-matters-2026">
                     <img loading="lazy" src="/images/services/monufact-about-hero.webp" alt="Manufacturing Matters 2026"/>
                   </a>
-                  <a href="/news/manufacturing-matters-2026" className="news-arrow">
+                  <a href="/news/manufacturing-matters-2026" className="news-arrow" aria-hidden="true" tabIndex={-1}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                   </a>
                 </div>
